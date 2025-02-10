@@ -4,8 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-return new class extends Migration
-{
+return new class extends Migration {
     /**
      * Run the migrations.
      */
@@ -13,6 +12,14 @@ return new class extends Migration
     {
         Schema::create('teams', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('stadium');
+            $table->integer('team_value');
+            $table->year('foundation_year');
+            $table->string('president');
+            $table->integer('palmares');
+            $table->string('city');
+            $table->string('main_sponsor');
             $table->timestamps();
         });
     }
