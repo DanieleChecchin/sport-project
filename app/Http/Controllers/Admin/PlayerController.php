@@ -57,7 +57,12 @@ class PlayerController extends Controller
      */
     public function update(Request $request, string $id)
     {
-        //
+        $data = $request->all();
+        $player = Player::findOrFail($id);
+
+        $player->update($data);
+
+        return redirect()->route("admin.players.show", [$player->id]);
     }
 
     /**
