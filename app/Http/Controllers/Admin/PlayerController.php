@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Player;
 
 class PlayerController extends Controller
 {
@@ -20,7 +21,8 @@ class PlayerController extends Controller
      */
     public function create()
     {
-        //
+        $player = new Player();
+        return view("admin.players.create", compact("player"));
     }
 
     /**
@@ -28,7 +30,9 @@ class PlayerController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $data = $request->all();
+        $player = Player::create($data);
+        return redirect()->route("admin.players.index", [$player->id]);
     }
 
     /**
