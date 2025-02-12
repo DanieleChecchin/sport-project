@@ -48,7 +48,8 @@ class PlayerController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $player = Player::findOrFail($id);
+        return view("admin.players.edit", compact("player"));
     }
 
     /**
