@@ -20,6 +20,7 @@ return new class extends Migration {
             $table->integer('palmares');
             $table->string('city');
             $table->string('main_sponsor');
+            $table->text('team_logo')->nullable();
             $table->timestamps();
         });
     }

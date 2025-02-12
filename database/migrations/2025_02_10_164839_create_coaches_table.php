@@ -18,6 +18,7 @@ return new class extends Migration {
             $table->integer('trophies');
             $table->date('date_of_birth');
             $table->text('description');
+            $table->text('img')->nullable();
             $table->timestamps();
         });
     }
