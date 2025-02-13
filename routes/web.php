@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\Admin\ProjectController as AdminProjectController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -24,7 +23,10 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::middleware('auth')->prefix('/admin')->name('admin.')->group(function () {
 
+    Route::resource('/admin/teams', App\Http\Controllers\Admin\TeamController::class);
 
+    Route::resource('/admin/coaches', App\Http\Controllers\Admin\CoachController::class);
 
+    Route::resource('/admin/players', App\Http\Controllers\Admin\PlayerController::class);
 });
 
