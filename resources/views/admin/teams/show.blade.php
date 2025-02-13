@@ -6,7 +6,7 @@
         <div class="card shadow-lg p-4">
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <img src="{{ $team->logo }}" class="img-fluid" alt="{{ $team->name }}">
+                    <img src="{{ $team->team_logo }}" class="img-fluid" alt="{{ $team->name }}">
                 </div>
                 <div class="col-md-8">
                     <h2 class="text-primary">{{ $team->name }}</h2>
