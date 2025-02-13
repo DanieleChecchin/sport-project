@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container mt-5">    
+    <div class="container mt-5">
     @elseif(isset($coach))
         <!-- Dettagli Allenatore -->
         <div class="card shadow-lg p-4">
@@ -10,11 +10,11 @@
             <p class="text-center"><strong>🏆 Trofei vinti:</strong> {{ $coach->trophies }}</p>
             <p class="text-center"><strong>📜 Descrizione:</strong> {{ $coach->description }}</p>
             <div class="text-center">
-                <a href="{{ route('coaches.index') }}" class="btn btn-outline-warning">🔙 Torna agli allenatori</a>
+                <a href="{{ route('admin.coaches.index') }}" class="btn btn-outline-warning">🔙 Torna agli allenatori</a>
             </div>
         </div>
     @else
         <div class="alert alert-danger">Dati non trovati.</div>
-    @endif
-</div>
+        @endif
+    </div>
 @endsection
