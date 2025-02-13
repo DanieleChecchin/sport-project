@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Coach;
 
 class CoachController extends Controller
 {
@@ -12,7 +13,9 @@ class CoachController extends Controller
      */
     public function index()
     {
-        //
+        $coaches = Coach::all();
+
+        return view('admin.coaches.index', compact('coaches'));
     }
 
     /**
@@ -36,7 +39,9 @@ class CoachController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $coach = Coach::findOrFail($id);
+
+        return view('admin.coaches.show', compact('coach'));
     }
 
     /**
