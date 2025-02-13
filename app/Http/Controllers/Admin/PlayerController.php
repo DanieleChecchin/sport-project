@@ -13,7 +13,9 @@ class PlayerController extends Controller
      */
     public function index()
     {
-        //
+        $players = Player::all();
+
+        return view('admin.players.index', compact('players'));
     }
 
     /**
@@ -40,7 +42,9 @@ class PlayerController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $player = Player::findOrFail($id);
+
+        return view('admin.players.show', compact('player'));
     }
 
     /**
