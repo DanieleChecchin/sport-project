@@ -12,9 +12,12 @@
                 <div class="col-md-3">
                     <div class="card mb-3 shadow-lg border-success">
                         <div class="card-body text-center">
-                            <h5 class="card-title fw-bold">{{ $player->name }} {{ $player->surname }}</h5>
+                            <h5 class="card-title fw-bold">{{ $player->first_name }} {{ $player->last_name }}</h5>
                             <p class="card-text text-muted">🏅 Ruolo: {{ $player->role }}</p>
                             <p class="card-text">🛡 Squadra: <strong>{{ $player->team->name }}</strong></p>
+                            <p class="card-text">⚽ Piede preferito: {{ $player->fav_foot }}</p>
+                            <p class="card-text">📏 Altezza: {{ $player->height }} cm</p>
+                            <p class="card-text">💰 Valore di mercato: €{{ number_format($player->market_value, 2, ',', '.') }}</p>
                             <a href="{{ route('players.show', $player->id) }}" class="btn btn-outline-success">👤 Profilo</a>
                         </div>
                     </div>
