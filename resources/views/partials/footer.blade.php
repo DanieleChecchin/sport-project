@@ -31,13 +31,17 @@
         </div>
 
         
-        <div class="text-center py-3 small">
+        <div class="text-center  py-3 small">
             &copy; <span id="year"></span> {{ config('app.name', 'Laravel') }}. Tutti i diritti riservati.
         </div>
     </div>
 </footer>
 
 <style>
+
+    .mt-5 {
+        margin-top: 7rem !important;
+    }
     
     .custom-footer {
         background: #1a1a2e;
