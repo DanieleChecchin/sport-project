@@ -20,6 +20,9 @@
                         <li class="nav-item">
                             <a class="nav-link nav-animated" href="{{ route('admin.players.index') }}">PLAYERS</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('admin.coaches.index') }}">COACHES</a>
+                        </li>
                     @endauth
                 </ul>
 
