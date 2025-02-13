@@ -22,7 +22,8 @@ class PlayerSeeder extends Seeder
                 "nazionalità" => "Italia",
                 "valore_di_mercato" => "€20.00m",
                 "piede_preferito" => "Destro",
-                "altezza" => "1.91m"
+                "altezza" => "1.91m",
+                "img" => "https://img.legaseriea.it/vimages/66cf2fc8/CRNMR1.png?webp&q=100&ch=840&size=609x-"
 
             ],
             [
@@ -33,7 +34,8 @@ class PlayerSeeder extends Seeder
                 "nazionalità" => "Italia",
                 "valore_di_mercato" => "€100k",
                 "piede_preferito" => "Destro",
-                "altezza" => "1.85m"
+                "altezza" => "1.85m",
+                "img" => "https://img.legaseriea.it/vimages/66cf2fbd/RSSFN.png?webp&q=100&ch=840&size=-x444"
             ],
         ];
         foreach ($players as $player) {
