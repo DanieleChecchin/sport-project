@@ -23,10 +23,13 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::middleware('auth')->prefix('/admin')->name('admin.')->group(function () {
 
+    // Routes for Teams
     Route::resource('/admin/teams', App\Http\Controllers\Admin\TeamController::class);
 
+    // Routes for Coaches
     Route::resource('/admin/coaches', App\Http\Controllers\Admin\CoachController::class);
 
+    // Routes for Players
     Route::resource('/admin/players', App\Http\Controllers\Admin\PlayerController::class);
 });
 
