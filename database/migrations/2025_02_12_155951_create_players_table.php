@@ -20,6 +20,7 @@ return new class extends Migration {
             $table->integer('market_value');
             $table->string('fav_foot');
             $table->integer('height');
+            $table->text('img')->nullable();
             $table->foreignId('team_id')->constrained();
             $table->foreignId('coach_id')->constrained();
             $table->timestamps();
