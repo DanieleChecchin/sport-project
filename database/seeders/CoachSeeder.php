@@ -169,7 +169,7 @@ class CoachSeeder extends Seeder
             ],
             [
                 'first_name' => 'Kosta',
-                'last_name' => 'Runjaic\'',
+                'last_name' => 'RunjaiĆ',
                 'nationality' => 'Austriaco',
                 'trophies' => 3,
                 'date_of_birth' => '1971-06-04',
