@@ -14,7 +14,6 @@
                                 <h5 class="card-title fw-bold">{{ $coach->first_name }} {{ $coach->last_name }}</h5>
                                 <p class="card-text text-muted">🌍 Nazionalità: {{ $coach->nationality }}</p>
                                 <p class="card-text">🏆 Trofei vinti: {{ $coach->trophies }}</p>
-                                <p class="card-text">📜 Descrizione: {{ Str::limit($coach->description, 100, '...') }}</p>
                                 <a href="{{ route('admin.coaches.show', $coach->id) }}" class="btn btn-outline-warning">📖
                                     Scopri di più</a>
                             </div>

@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container mt-5">
-    @elseif(isset($coach))
+
         <!-- Dettagli Allenatore -->
         <div class="card shadow-lg p-4">
             <h2 class="text-warning text-center">{{ $coach->first_name }} {{ $coach->last_name }}</h2>
@@ -13,8 +13,5 @@
                 <a href="{{ route('admin.coaches.index') }}" class="btn btn-outline-warning">🔙 Torna agli allenatori</a>
             </div>
         </div>
-    @else
-        <div class="alert alert-danger">Dati non trovati.</div>
-        @endif
     </div>
 @endsection
