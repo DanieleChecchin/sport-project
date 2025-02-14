@@ -1,54 +1,100 @@
-<footer class="bg-dark text-light py-4">
+<footer class="custom-footer mt-5">
     <div class="container">
-        <div class="row">
-            <!-- Colonna informazioni -->
-            <div class="col-md-4">
-                <h5 class="text-uppercase fw-bold">Chi Siamo</h5>
-                <p>
-                    Siamo appassionati di birra e ci impegniamo a offrirti le migliori selezioni artigianali. 
-                    Scopri la nostra gamma e unisciti alla nostra comunità.
-                </p>
+        <div class="row py-4">
+            <!-- Logo e descrizione -->
+            <div class="col-md-4 text-center text-md-start">
+                <h4 class="text-light fw-bold">{{ config('app.name', 'Laravel') }}</h4>
+                <p class=" small">Tutto sulla Serie A: squadre, giocatori, allenatori.</p>
             </div>
 
-            <!-- Colonna link utili -->
-            <div class="col-md-4">
-                <h5 class="text-uppercase fw-bold">Link Utili</h5>
+           
+            <div class="col-md-4 text-center">
+                <h5 class="text-light">Navigazione</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#" class="text-light text-decoration-none">Home</a></li>
-                    <li><a href="#" class="text-light text-decoration-none">Le Nostre Birre</a></li>
-                    <li><a href="#" class="text-light text-decoration-none">Contattaci</a></li>
-                    <li><a href="#" class="text-light text-decoration-none">FAQ</a></li>
+                    <li><a href="{{ url('/') }}" class="footer-link">🏠 Home</a></li>
+                    <li><a href="{{ route('admin.teams.index') }}" class="footer-link">⚽ Squadre</a></li>
+                    <li><a href="{{ route('admin.players.index') }}" class="footer-link">👕 Giocatori</a></li>
+                    <li><a href="{{ route('admin.coaches.index') }}" class="footer-link">🎩 Allenatori</a></li>
                 </ul>
             </div>
 
-            <!-- Colonna contatti -->
-            <div class="col-md-4">
-                <h5 class="text-uppercase fw-bold">Contatti</h5>
-                <ul class="list-unstyled">
-                    <li><i class="bi bi-telephone"></i> +39 123 456 789</li>
-                    <li><i class="bi bi-envelope"></i> info@.....</li>
-                    <li><i class="bi bi-geo-alt"></i> Via delle Birre, 42 - .....</li>
-                </ul>
-                <div class="mt-3">
-                    <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
-                    <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i></a>
-                    <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+           
+            <div class="col-md-4 text-center text-md-end">
+                <h5 class="text-light">Seguici su</h5>
+                <div class="social-icons">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
-        <div class="text-center mt-4">
-            <small>&copy; 2025 BeerLab. Tutti i diritti riservati.</small>
+
+        
+        <div class="text-center  py-3 small">
+            &copy; <span id="year"></span> {{ config('app.name', 'Laravel') }}. Tutti i diritti riservati.
         </div>
     </div>
 </footer>
 
 <style>
-footer {
-    background-color: #000; /* Sfondo nero */
-    color: #aaa; /* Testo grigio chiaro */
-}
 
-footer a:hover {
-    color: #f8c146; /* Colore hover dei link */
-}
+    .mt-5 {
+        margin-top: 7rem !important;
+    }
+    
+    .custom-footer {
+        background: #1a1a2e;
+        color: #ffffff;
+        padding-top: 20px;
+    }
+
+    .custom-footer h5 {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+        color: #f8f9fa;
+    }
+
+    .footer-link {
+        color: #d1d1d1;
+        text-decoration: none;
+        display: block;
+        transition: color 0.3s ease;
+        padding: 3px 0;
+    }
+
+    .footer-link:hover {
+        color: #007bff;
+        transform: translateX(5px);
+    }
+
+    
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .social-link {
+        color: #f8f9fa;
+        font-size: 20px;
+        transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .social-link:hover {
+        color: #007bff;
+        transform: scale(1.2);
+    }
+
+    
+    @media (max-width: 768px) {
+        .custom-footer .text-center {
+            text-align: center !important;
+        }
+    }
 </style>
+
+<script>
+    
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>

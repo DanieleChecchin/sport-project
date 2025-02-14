@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('/home');
 });
 
 Auth::routes();
@@ -23,10 +23,13 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::middleware('auth')->prefix('/admin')->name('admin.')->group(function () {
 
-    Route::resource('/admin/teams', App\Http\Controllers\Admin\TeamController::class);
+    // Routes for Teams
+    Route::resource('/teams', App\Http\Controllers\Admin\TeamController::class);
 
-    Route::resource('/admin/coaches', App\Http\Controllers\Admin\CoachController::class);
+    // Routes for Coaches
+    Route::resource('/coaches', App\Http\Controllers\Admin\CoachController::class);
 
-    Route::resource('/admin/players', App\Http\Controllers\Admin\PlayerController::class);
+    // Routes for Players
+    Route::resource('/players', App\Http\Controllers\Admin\PlayerController::class);
 });
 

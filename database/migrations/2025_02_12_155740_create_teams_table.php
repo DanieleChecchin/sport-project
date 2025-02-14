@@ -15,7 +15,7 @@ return new class extends Migration {
             $table->string('name');
             $table->string('stadium');
             $table->integer('team_value');
-            $table->year('foundation_year');
+            $table->date('foundation_year');
             $table->string('president');
             $table->integer('palmares');
             $table->string('city');
