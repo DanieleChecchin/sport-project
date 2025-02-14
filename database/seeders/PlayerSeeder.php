@@ -37,6 +37,28 @@ class PlayerSeeder extends Seeder
                 "altezza" => "1.85m",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fbd/RSSFN.png?webp&q=100&ch=840&size=-x444"
             ],
+            [
+                "nome" => "Rafael",
+                "cognome" => "Toloi",
+                "data_di_nascita" => "1990-10-10",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€1.50m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.85m",
+                "img" => "https://img.legaseriea.it/vimages/66cf2fca/BLLZX.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Raoul",
+                "cognome" => "Bellanova",
+                "data_di_nascita" => "2000-05-17",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€22.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.85m",
+                "img" => "https://img.legaseriea.it/vimages/66cf2fb4/BLLVRL.png?webp&q=100&ch=840&size=483x-+"
+            ],
         ];
         foreach ($players as $player) {
             Player::create($player);
