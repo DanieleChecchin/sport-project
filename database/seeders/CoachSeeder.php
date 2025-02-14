@@ -48,7 +48,7 @@ class CoachSeeder extends Seeder
                 'trophies' => 0,
                 'date_of_birth' => '1975-08-12',
                 'description' => 'aaaaaaaaaaaaaa',
-                'img' => 'https://media.gettyimages.com/id/959907348/it/foto/la-spezia-italy-roberto-daversa-head-coach-of-parma-calcio-looks-on-before-the-serie-b-match.jpg?s=612x612&w=0&k=20&c=ruzyk5oPjYI2jOzAAMjHo2dtGv2jMWj86I-vCqtxvCU='
+                'img' => 'https://media.gettyimages.com/id/953344600/it/foto/parma-italy-roberto-daversa-head-coach-of-parma-calcio-looks-on-before-the-serie-b-match.jpg?s=612x612&w=0&k=20&c=YpZETOBFoC2Qf592pnA5ybiJ2qpr6Ymjhi6ZfDmVt1s='
             ],
             [
                 'first_name' => 'Raffaele',
