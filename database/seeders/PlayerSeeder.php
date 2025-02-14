@@ -26,7 +26,6 @@ class PlayerSeeder extends Seeder
                 "img" => "https://img.legaseriea.it/vimages/66cf2fc8/CRNMR1.png?webp&q=100&ch=840&size=609x-",
                 "team_id" => 5,
                 "coach_id" => 20,
-
             ],
             [
                 "first_name" => "Rafael",
@@ -259,6 +258,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66db1bcc/SKRLZ.png?webp&q=100&ch=840&size=468x-",
+                "team_id" => 7,
+                "coach_id" => 1,
             ],
             [
                 "first_name" => "Emil",
@@ -270,6 +271,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/66cf4bd5/HOLMEM.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 7,
+                "coach_id" => 1,
             ],
             [
                 "first_name" => "Charalampos",
@@ -281,6 +284,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/66cf4c0a/HMHNL.png?webp&q=100&ch=840&size=540x-",
+                "team_id" => 7,
+                "coach_id" => 1,
             ],
             [
                 "first_name" => "Tommaso",
@@ -292,6 +297,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66db1bdd/PBGMMS.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 7,
+                "coach_id" => 1,
             ],
             [
                 "first_name" => "Riccardo",
@@ -303,6 +310,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66cf4bdf/P-557.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 7,
+                "coach_id" => 1,
             ],
             [
                 "first_name" => "Santiago",
@@ -314,6 +323,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.79",
                 "img" => "https://img.legaseriea.it/vimages/66cf4be9/CSTNTG.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 7,
+                "coach_id" => 1,
             ],
             [
                 "first_name" => "Elia",
@@ -325,6 +336,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.91",
                 "img" => "https://img.legaseriea.it/frontend/hwmsg-eb5732a25af49d052753f182cef4a38f50f171c0/public/images/placeholder/player_placeholder.png",
+                "team_id" => 11,
+                "coach_id" => 2,
             ],
             [
                 "first_name" => "Nadir",
@@ -336,6 +349,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a4d/ZRTNDR.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 11,
+                "coach_id" => 2,
             ],
             [
                 "first_name" => "Razvan",
@@ -347,6 +362,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.78",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a39/PWPZH.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 11,
+                "coach_id" => 2,
             ],
             [
                 "first_name" => "Roberto",
@@ -358,6 +375,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.90",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a2e/PCCBRT.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 11,
+                "coach_id" => 2,
             ],
             [
                 "first_name" => "Pepe",
@@ -369,6 +388,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 9,
+                "coach_id" => 3,
             ],
             [
                 "first_name" => "Alberto",
@@ -380,6 +401,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.95",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 9,
+                "coach_id" => 3,
             ],
             [
                 "first_name" => "Nico",
@@ -391,6 +414,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.86",
                 "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 9,
+                "coach_id" => 3,
             ],
             [
                 "first_name" => "Patrick",
@@ -402,6 +427,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 9,
+                "coach_id" => 3,
             ],
             // ----------
             [
@@ -414,6 +441,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.95",
                 "img" => "https://img.legaseriea.it/vimages/66cf59ea/VSQDVS.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 17,
+                "coach_id" => 4,
             ],
             [
                 "first_name" => "Mattia",
@@ -425,6 +454,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66def3c6/DSCMT.png?webp&q=100&ch=840&size=457.5x-",
+                "team_id" => 17,
+                "coach_id" => 4,
             ],
             [
                 "first_name" => "Jacopo",
@@ -436,6 +467,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.78",
                 "img" => "https://img.legaseriea.it/vimages/66cf59e9/FZZJCP.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 17,
+                "coach_id" => 4,
             ],
             [
                 "first_name" => "Lorenzo",
@@ -447,6 +480,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a14/CLMRN1.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 17,
+                "coach_id" => 4,
             ],
             // ----------
             [
@@ -459,6 +494,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.92",
                 "img" => "https://img.legaseriea.it/vimages/671915c9/DGDVD.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 8,
+                "coach_id" => 5,
             ],
             [
                 "first_name" => "Robin",
@@ -470,6 +507,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/671915dc/GSNRBN.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 8,
+                "coach_id" => 5,
             ],
             [
                 "first_name" => "Edoardo",
@@ -481,6 +520,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.81",
                 "img" => "https://img.legaseriea.it/vimages/66e2a1f7/BOVEED.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 8,
+                "coach_id" => 5,
             ],
             [
                 "first_name" => "Moise",
@@ -492,6 +533,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66d05901/GQQMS.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 8,
+                "coach_id" => 5,
             ],
             // ----------
             [
@@ -504,6 +547,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66db1c55/LLNCL.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 19,
+                "coach_id" => 6,
             ],
             [
                 "first_name" => "Aaron",
@@ -515,6 +560,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.78",
                 "img" => "https://img.legaseriea.it/vimages/66d05941/MRTNRN.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 19,
+                "coach_id" => 6,
             ],
             [
                 "first_name" => "Ruslan",
@@ -526,6 +573,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.81",
                 "img" => "https://img.legaseriea.it/vimages/66d05922/XKPXG.png?webp&q=100&ch=840&size=552x-",
+                "team_id" => 19,
+                "coach_id" => 6,
             ],
             [
                 "first_name" => "Andrea",
@@ -537,6 +586,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66d05952/QVBNF.png?webp&q=100&ch=840&size=453x-",
+                "team_id" => 19,
+                "coach_id" => 6,
             ],
             // ----------
             [
@@ -549,6 +600,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/6749cabd/c7fky0h6gi7wmibnv2tzf6mz9.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 12,
+                "coach_id" => 19,
             ],
             [
                 "first_name" => "Davide",
@@ -560,6 +613,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/6749da90/68etig279gs3btjb7fv6rvfth.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 12,
+                "coach_id" => 19,
             ],
             [
                 "first_name" => "Abdou",
@@ -571,6 +626,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Entrambi",
                 "height" => "1.82",
                 "img" => "https://img.legaseriea.it/vimages/6749dc54/74o97lnqpku6m9svks66qbend.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 12,
+                "coach_id" => 19,
             ],
             [
                 "first_name" => "Amin",
@@ -582,6 +639,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/6749e749/amvonu36at4dg7ksi1ioczi3u.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 12,
+                "coach_id" => 19,
             ],
             // ----------
             [
@@ -594,6 +653,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66db1c6c/SMMYN.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 3,
+                "coach_id" => 7,
             ],
             [
                 "first_name" => "Federico",
@@ -605,6 +666,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.75",
                 "img" => "https://img.legaseriea.it/vimages/66cf305e/NWFZS.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 3,
+                "coach_id" => 7,
             ],
             [
                 "first_name" => "Nicolò",
@@ -616,6 +679,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.75",
                 "img" => "https://img.legaseriea.it/vimages/66cf3057/BRLNC.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 3,
+                "coach_id" => 7,
             ],
             [
                 "first_name" => "Lautaro",
@@ -627,6 +692,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.74",
                 "img" => "https://img.legaseriea.it/vimages/66cf3058/MRTLTR.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 3,
+                "coach_id" => 7,
             ],
             // ----------
             [
@@ -639,6 +706,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66d05730/ZMPGT.png?webp&q=100&ch=840&size=528x-",
+                "team_id" => 1,
+                "coach_id" => 8,
             ],
             [
                 "first_name" => "Gleison",
@@ -650,6 +719,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66d05708/BRMRX.png?webp&q=100&ch=840&size=-x396",
+                "team_id" => 1,
+                "coach_id" => 8,
             ],
             [
                 "first_name" => "Khephren",
@@ -661,6 +732,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.92",
                 "img" => "https://img.legaseriea.it/vimages/66d05721/THRHRN.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 1,
+                "coach_id" => 8,
             ],
             [
                 "first_name" => "Kenan",
@@ -672,6 +745,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Entrambi",
                 "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66d0571b/YLDKNN.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 1,
+                "coach_id" => 8,
             ],
             // ----------
             [
@@ -684,6 +759,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.94",
                 "img" => "https://img.legaseriea.it/vimages/66d057db/PRDVN.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 15,
+                "coach_id" => 9,
             ],
             [
                 "first_name" => "Nuno",
@@ -695,6 +772,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66d05805/NNTVRS.png?webp&q=100&ch=840&size=628.5x-",
+                "team_id" => 15,
+                "coach_id" => 9,
             ],
             [
                 "first_name" => "Mattia",
@@ -706,6 +785,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.77",
                 "img" => "https://img.legaseriea.it/vimages/66d057cc/BTMNG.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 15,
+                "coach_id" => 9,
             ],
             [
                 "first_name" => "Taty",
@@ -717,6 +798,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.78",
                 "img" => "https://img.legaseriea.it/vimages/66d057ef/CSTTTY.png?webp&q=100&ch=840&size=591x-",
+                "team_id" => 15,
+                "coach_id" => 9,
             ],
             // ----------
             [
@@ -729,6 +812,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.95",
                 "img" => "https://img.legaseriea.it/vimages/66d0589b/FLCWL.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 14,
+                "coach_id" => 13,
             ],
             [
                 "first_name" => "Federico",
@@ -740,6 +825,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66d0587c/BSCDRC.png?webp&q=100&ch=840&size=574.5x-",
+                "team_id" => 14,
+                "coach_id" => 13,
             ],
             [
                 "first_name" => "Lassana",
@@ -751,6 +838,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66d0586f/WXPLR.png?webp&q=100&ch=840&size=453x-",
+                "team_id" => 14,
+                "coach_id" => 13,
             ],
             [
                 "first_name" => "Nikola",
@@ -762,6 +851,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66d05884/KRSNKL.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 14,
+                "coach_id" => 13,
             ],
             // ----------
             [
@@ -774,6 +865,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/66cf21da/MGNMK.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 2,
+                "coach_id" => 10,
             ],
             [
                 "first_name" => "Theo",
@@ -785,6 +878,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.84",
                 "img" => "https://img.legaseriea.it/vimages/67191596/HRNZTH.png?webp&q=100&ch=840&size=306x-",
+                "team_id" => 2,
+                "coach_id" => 10,
             ],
             [
                 "first_name" => "Tijjani",
@@ -796,6 +891,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66cf21cb/RJNJJN.png?webp&q=100&ch=840&size=271.5x-",
+                "team_id" => 2,
+                "coach_id" => 10,
             ],
             [
                 "first_name" => "Rafael",
@@ -807,6 +904,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66cf21b3/LEAORA.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 2,
+                "coach_id" => 10,
             ],
             // ----------
             [
@@ -819,6 +918,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66cf300b/TRTTFN.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 13,
+                "coach_id" => 14,
             ],
             [
                 "first_name" => "Luca",
@@ -830,6 +931,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.86",
                 "img" => "https://img.legaseriea.it/vimages/66cf3005/CLDLC.png?webp&q=100&ch=840&size=294x-",
+                "team_id" => 13,
+                "coach_id" => 14,
             ],
             [
                 "first_name" => "Matteo",
@@ -841,6 +944,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fed/CVGHT.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 13,
+                "coach_id" => 14,
             ],
             [
                 "first_name" => "Dany",
@@ -852,6 +957,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.80",
                 "img" => "https://img.legaseriea.it/vimages/66cf3013/P-860.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 13,
+                "coach_id" => 14,
             ],
             // ----------
             [
@@ -864,6 +971,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.90",
                 "img" => "https://img.legaseriea.it/vimages/66db1c0b/XXNLW.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 4,
+                "coach_id" => 11,
             ],
             [
                 "first_name" => "Giovanni",
@@ -875,6 +984,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66d058a9/DLRG9.png?webp&q=100&ch=840&size=306x-",
+                "team_id" => 4,
+                "coach_id" => 11,
             ],
             [
                 "first_name" => "Stanislav",
@@ -886,6 +997,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.68",
                 "img" => "https://img.legaseriea.it/vimages/66d058c5/LBTST.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 4,
+                "coach_id" => 11,
             ],
             [
                 "first_name" => "Romelu",
@@ -897,6 +1010,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/66db1c03/LKKRM.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 4,
+                "coach_id" => 11,
             ],
             // ----------
             [
@@ -909,6 +1024,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66d0578d/CRVDRD.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 18,
+                "coach_id" => 15,
             ],
             [
                 "first_name" => "Enrico",
@@ -920,6 +1037,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66d057ca/DLPNRC.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 18,
+                "coach_id" => 15,
             ],
             [
                 "first_name" => "Mateusz",
@@ -931,6 +1050,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.97",
                 "img" => "https://img.legaseriea.it/vimages/66d491da/KWLTSZ.png?webp&q=100&ch=840&size=267x-",
+                "team_id" => 18,
+                "coach_id" => 15,
             ],
             [
                 "first_name" => "Ange-Yoan",
@@ -942,6 +1063,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.89",
                 "img" => "https://img.legaseriea.it/vimages/66d0578b/BNN-YN.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 18,
+                "coach_id" => 15,
             ],
             // ----------
             [
@@ -954,6 +1077,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.89",
                 "img" => "https://img.legaseriea.it/vimages/66cf21e4/SVLRML.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 6,
+                "coach_id" => 16,
             ],
             [
                 "first_name" => "Gianluca",
@@ -965,6 +1090,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.90",
                 "img" => "https://img.legaseriea.it/vimages/66cf21e2/MNCGW.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 6,
+                "coach_id" => 16,
             ],
             [
                 "first_name" => "Lorenzo",
@@ -976,6 +1103,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.86",
                 "img" => "https://img.legaseriea.it/vimages/66cf21f6/PGWCM.png?webp&q=100&ch=840&size=301.5x-",
+                "team_id" => 6,
+                "coach_id" => 16,
             ],
             [
                 "first_name" => "Paulo",
@@ -987,6 +1116,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Sinistro",
                 "height" => "1.77",
                 "img" => "https://img.legaseriea.it/vimages/66cf2202/DBLPL.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 6,
+                "coach_id" => 16,
             ],
             // ----------
             [
@@ -999,6 +1130,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "2.02",
                 "img" => "https://img.legaseriea.it/vimages/66db1c87/MLNVNJ.png?webp&q=100&ch=840&size=471x-",
+                "team_id" => 10,
+                "coach_id" => 17,
             ],
             [
                 "first_name" => "Guillermo",
@@ -1010,6 +1143,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.93",
                 "img" => "https://img.legaseriea.it/vimages/66db1c78/MRPLRM.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 10,
+                "coach_id" => 17,
             ],
             [
                 "first_name" => "Samuele",
@@ -1021,6 +1156,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.81",
                 "img" => "https://img.legaseriea.it/vimages/66d059c0/RCCSML.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 10,
+                "coach_id" => 17,
             ],
             [
                 "first_name" => "Ché",
@@ -1032,6 +1169,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.79",
                 "img" => "https://img.legaseriea.it/vimages/66d059d9/ADMCX.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 10,
+                "coach_id" => 17,
             ],
             // ----------
             [
@@ -1044,6 +1183,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.98",
                 "img" => "https://img.legaseriea.it/vimages/66d05974/OKOYEM.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 16,
+                "coach_id" => 18,
             ],
             [
                 "first_name" => "Kingsley",
@@ -1055,6 +1196,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.89",
                 "img" => "https://img.legaseriea.it/vimages/66d0597a/HZBSLY.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 16,
+                "coach_id" => 18,
             ],
             [
                 "first_name" => "Sandi",
@@ -1066,6 +1209,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.80",
                 "img" => "https://img.legaseriea.it/vimages/66d059a7/LVRSND.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 16,
+                "coach_id" => 18,
             ],
             [
                 "first_name" => "Lorenzo",
@@ -1077,6 +1222,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "2.01",
                 "img" => "https://img.legaseriea.it/vimages/66d059a0/LCCRN1.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 16,
+                "coach_id" => 18,
             ],
             // ----------
             [
@@ -1089,6 +1236,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.97",
                 "img" => "https://img.legaseriea.it/vimages/66d0577e/JRNJSS.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 20,
+                "coach_id" => 12,
             ],
             [
                 "first_name" => "Jay",
@@ -1100,6 +1249,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.90",
                 "img" => "https://img.legaseriea.it/vimages/66d05786/IDZESJ.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 20,
+                "coach_id" => 12,
             ],
             [
                 "first_name" => "Hans",
@@ -1111,6 +1262,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.84",
                 "img" => "https://img.legaseriea.it/vimages/67191580/NCLHNS.png?webp&q=100&ch=840&size=885x-",
+                "team_id" => 20,
+                "coach_id" => 12,
             ],
             [
                 "first_name" => "Christian",
@@ -1122,6 +1275,8 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66d05766/GYTSTN.png?webp&q=100&ch=840&size=459x-",
+                "team_id" => 20,
+                "coach_id" => 12,
             ],
         ];
         foreach ($players as $player) {
