@@ -10,6 +10,8 @@
                 @foreach ($coaches as $coach)
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-lg border-warning">
+                            <img src="{{ $coach->img }}" class="card-img-top img-fluid coach-logo"
+                                alt="{{ $coach->first_name }}">
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">{{ $coach->first_name }} {{ $coach->last_name }}</h5>
                                 <p class="card-text text-muted">🌍 Nazionalità: {{ $coach->nationality }}</p>
