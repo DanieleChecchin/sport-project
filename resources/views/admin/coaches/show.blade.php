@@ -5,6 +5,7 @@
 
         <!-- Dettagli Allenatore -->
         <div class="card shadow-lg p-4">
+            <img class="img-fluid team-logo" src="{{ $coach->img }}" alt="{{ $coach->first_name }}">
             <h2 class="text-warning text-center">{{ $coach->first_name }} {{ $coach->last_name }}</h2>
             <p class="text-center"><strong>🌍 Nazionalità:</strong> {{ $coach->nationality }}</p>
             <p class="text-center"><strong>🏆 Trofei vinti:</strong> {{ $coach->trophies }}</p>
