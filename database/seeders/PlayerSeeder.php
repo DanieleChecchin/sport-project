@@ -20,22 +20,11 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2000-07-01",
                 "role" => "Portiere",
                 "nationality" => "Italia",
-                "market_value" => "€20.00m",
+                "market_value" => "20.00",
                 "fav_foot" => "Destro",
-                "height" => "1.91m",
+                "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fc8/CRNMR1.png?webp&q=100&ch=840&size=609x-"
 
-            ],
-            [
-                "first_name" => "Francesco",
-                "last_name" => "Rossi",
-                "date_of_birth" => "1991-04-27",
-                "role" => "Portiere",
-                "nationality" => "Italia",
-                "market_value" => "€100k",
-                "fav_foot" => "Destro",
-                "height" => "1.85m",
-                "img" => "https://img.legaseriea.it/vimages/66cf2fbd/RSSFN.png?webp&q=100&ch=840&size=-x444"
             ],
             [
                 "first_name" => "Rafael",
@@ -43,9 +32,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1990-10-10",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€1.50m",
+                "market_value" => "1.50",
                 "fav_foot" => "Destro",
-                "height" => "1.85m",
+                "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fca/BLLZX.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -54,9 +43,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2000-05-17",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€22.00m",
+                "market_value" => "22.00",
                 "fav_foot" => "Destro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fb4/BLLVRL.png?webp&q=100&ch=840&size=483x-+"
             ],
             [
@@ -65,9 +54,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1999-01-13",
                 "role" => "Difensore",
                 "nationality" => "Svezia",
-                "market_value" => "€30.00m",
+                "market_value" => "30.00",
                 "fav_foot" => "Destro",
-                "height" => "1.91m",
+                "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fae/HIENIS.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -76,9 +65,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1993-02-19",
                 "role" => "Difensore",
                 "nationality" => "Albania",
-                "market_value" => "€8.00m",
+                "market_value" => "8.00",
                 "fav_foot" => "Destro",
-                "height" => "1.90m",
+                "height" => "1.90",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fe7/DJMBR.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -87,9 +76,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1993-06-20",
                 "role" => "Difensore",
                 "nationality" => "Bosnia-Erzegovina",
-                "market_value" => "€10.00m",
+                "market_value" => "10.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fb1/HQZLT.png?webp&q=100&ch=840&size=499.5x-"
             ],
             [
@@ -98,9 +87,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2003-12-11",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€45.00m",
+                "market_value" => "45.00",
                 "fav_foot" => "Destro",
-                "height" => "1.94m",
+                "height" => "1.94",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fc2/SCLGRG.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -109,9 +98,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1988-05-26",
                 "role" => "Centrocampista",
                 "nationality" => "Colombia",
-                "market_value" => "€1.00m",
+                "market_value" => "1.00",
                 "fav_foot" => "Destro",
-                "height" => "1.76m",
+                "height" => "1.76",
                 "img" => "https://img.legaseriea.it/vimages/66db1bf7/CDRJN.png?webp&q=100&ch=840&size=481.5x-"
             ],
             [
@@ -120,9 +109,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1995-02-09",
                 "role" => "Centrocampista",
                 "nationality" => "Croazia",
-                "market_value" => "€13.00m",
+                "market_value" => "13.00",
                 "fav_foot" => "Destro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fda/PSLMR.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -131,9 +120,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1999-07-07",
                 "role" => "Centrocampista",
                 "nationality" => "Brasile",
-                "market_value" => "€50.00m",
+                "market_value" => "50.00",
                 "fav_foot" => "Destro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fdf/EDERSO.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -142,9 +131,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1991-03-29",
                 "role" => "Centrocampista",
                 "nationality" => "Olanda",
-                "market_value" => "€7.00m",
+                "market_value" => "7.00",
                 "fav_foot" => "Destro",
-                "height" => "1.85m",
+                "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fcc/DRNMR.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -153,9 +142,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2002-07-11",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€20.00m",
+                "market_value" => "20.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.87m",
+                "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fe1/RGGMTT.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -164,9 +153,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2002-02-24",
                 "role" => "Centrocampista",
                 "nationality" => "Serbia",
-                "market_value" => "€20.00m",
+                "market_value" => "20.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.84m",
+                "height" => "1.84",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fb1/SMRLZR.png?webp&q=100&ch=840&size=508.5x-"
             ],
             [
@@ -175,9 +164,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2000-01-20",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€8.00m",
+                "market_value" => "8.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fc3/BRSMR1.png?webp&q=100&ch=840&size=520.5x-"
             ],
             [
@@ -186,9 +175,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1992-06-11",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€6.00m",
+                "market_value" => "6.00",
                 "fav_foot" => "Destro",
-                "height" => "1.82m",
+                "height" => "1.82",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fd6/ZPPDV.png?webp&q=100&ch=840&size=529.5x-"
             ],
             [
@@ -197,9 +186,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-10-20",
                 "role" => "Attaccante",
                 "nationality" => "Nigeria",
-                "market_value" => "€55.00m",
+                "market_value" => "55.00",
                 "fav_foot" => "Destro",
-                "height" => "1.74m",
+                "height" => "1.74",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fd4/LKMDML.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -208,9 +197,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2001-03-10",
                 "role" => "Attaccante",
                 "nationality" => "Belgio",
-                "market_value" => "€38.00m",
+                "market_value" => "38.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.92m",
+                "height" => "1.92",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fd4/DKTRLS.png?webp&q=100&ch=840&size=606x-"
             ],
             [
@@ -219,9 +208,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1999-04-29",
                 "role" => "Attaccante",
                 "nationality" => "Italia",
-                "market_value" => "€35.00m",
+                "market_value" => "35.00",
                 "fav_foot" => "Destro",
-                "height" => "1.86m",
+                "height" => "1.86",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fe0/RETEGU.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -230,20 +219,20 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1991-05-05",
                 "role" => "Portiere",
                 "nationality" => "Polonia",
-                "market_value" => "€2.50m",
+                "market_value" => "2.50",
                 "fav_foot" => "Destro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66db1bcc/SKRLZ.png?webp&q=100&ch=840&size=468x-"
             ],
             [
                 "first_name" => "Emil",
-                "last_name" => "Holm",
+                "last_name" => "Hol",
                 "date_of_birth" => "2000-05-13",
                 "role" => "Difensore",
                 "nationality" => "Svezia",
-                "market_value" => "€7.00m",
+                "market_value" => "7.00",
                 "fav_foot" => "Destro",
-                "height" => "1.91m",
+                "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/66cf4bd5/HOLMEM.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -252,9 +241,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1993-10-22",
                 "role" => "Difensore",
                 "nationality" => "Grecia",
-                "market_value" => "€1.00m",
+                "market_value" => "1.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.91m",
+                "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/66cf4c0a/HMHNL.png?webp&q=100&ch=840&size=540x-"
             ],
             [
@@ -263,9 +252,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1999-07-15",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€10.00m",
+                "market_value" => "10.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66db1bdd/PBGMMS.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -274,9 +263,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-01-24",
                 "role" => "Attaccante",
                 "nationality" => "Italia",
-                "market_value" => "€16.00m",
+                "market_value" => "16.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66cf4bdf/P-557.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -285,9 +274,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2004-09-18",
                 "role" => "Attaccante",
                 "nationality" => "Argentina",
-                "market_value" => "€25.00m",
+                "market_value" => "25.00",
                 "fav_foot" => "Destro",
-                "height" => "1.79m",
+                "height" => "1.79",
                 "img" => "https://img.legaseriea.it/vimages/66cf4be9/CSTNTG.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -296,9 +285,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2001-08-25",
                 "role" => "Portiere",
                 "nationality" => "Italia",
-                "market_value" => "€6.00m",
+                "market_value" => "6.00",
                 "fav_foot" => "Destro",
-                "height" => "1.91m",
+                "height" => "1.91",
                 "img" => "https://img.legaseriea.it/frontend/hwmsg-eb5732a25af49d052753f182cef4a38f50f171c0/public/images/placeholder/player_placeholder.png"
             ],
             [
@@ -307,9 +296,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1999-06-19",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€3.00m",
+                "market_value" => "3.00",
                 "fav_foot" => "Destro",
-                "height" => "1.87m",
+                "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a4d/ZRTNDR.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -318,9 +307,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1996-05-23",
                 "role" => "Centrocampista",
                 "nationality" => "Romania",
-                "market_value" => "€4.00m",
+                "market_value" => "4.00",
                 "fav_foot" => "Destro",
-                "height" => "1.78m",
+                "height" => "1.78",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a39/PWPZH.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -329,9 +318,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2001-01-27",
                 "role" => "Attaccante",
                 "nationality" => "Italia",
-                "market_value" => "€6.00m",
+                "market_value" => "6.00",
                 "fav_foot" => "Destro",
-                "height" => "1.90m",
+                "height" => "1.90",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a2e/PCCBRT.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -340,9 +329,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1982-09-31",
                 "role" => "Portiere",
                 "nationality" => "Spagna",
-                "market_value" => "€600mila",
+                "market_value" => "600mila",
                 "fav_foot" => "Destro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -351,9 +340,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1998-10-13",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€7.00m",
+                "market_value" => "7.00",
                 "fav_foot" => "Destro",
-                "height" => "1.95m",
+                "height" => "1.95",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -362,9 +351,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2004-09-08",
                 "role" => "Centrocampista",
                 "nationality" => "Argentina",
-                "market_value" => "€20.00m",
+                "market_value" => "20.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.86m",
+                "height" => "1.86",
                 "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -373,9 +362,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1998-01-03",
                 "role" => "Attaccante",
                 "nationality" => "Italia",
-                "market_value" => "€7.00m",
+                "market_value" => "7.00",
                 "fav_foot" => "Destro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
             ],
             // ----------
@@ -385,9 +374,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1998-05-12",
                 "role" => "Portiere",
                 "nationality" => "Colombia",
-                "market_value" => "€4.00m",
+                "market_value" => "4.00",
                 "fav_foot" => "Destro",
-                "height" => "1.95m",
+                "height" => "1.95",
                 "img" => "https://img.legaseriea.it/vimages/66cf59ea/VSQDVS.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -396,9 +385,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1992-10-28",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€1.00m",
+                "market_value" => "1.00",
                 "fav_foot" => "Destro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66def3c6/DSCMT.png?webp&q=100&ch=840&size=457.5x-"
             ],
             [
@@ -407,9 +396,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2003-03-16",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€8.00m",
+                "market_value" => "8.00",
                 "fav_foot" => "Destro",
-                "height" => "1.78m",
+                "height" => "1.78",
                 "img" => "https://img.legaseriea.it/vimages/66cf59e9/FZZJCP.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -418,9 +407,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2002-03-08",
                 "role" => "Attaccante",
                 "nationality" => "Italia",
-                "market_value" => "€6.00m",
+                "market_value" => "6.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a14/CLMRN1.png?webp&q=100&ch=840&size=-x444"
             ],
             // ----------
@@ -430,9 +419,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1990-11-7",
                 "role" => "Portiere",
                 "nationality" => "Spagna",
-                "market_value" => "€5.00m",
+                "market_value" => "5.00",
                 "fav_foot" => "Destro",
-                "height" => "1.92m",
+                "height" => "1.92",
                 "img" => "https://img.legaseriea.it/vimages/671915c9/DGDVD.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -441,9 +430,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1994-07-05",
                 "role" => "Difensore",
                 "nationality" => "Germania",
-                "market_value" => "€8.00m",
+                "market_value" => "8.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/671915dc/GSNRBN.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -452,9 +441,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2002-05-16",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€14.00m",
+                "market_value" => "14.00",
                 "fav_foot" => "Destro",
-                "height" => "1.81m",
+                "height" => "1.81",
                 "img" => "https://img.legaseriea.it/vimages/66e2a1f7/BOVEED.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -463,9 +452,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2000-02-28",
                 "role" => "Attaccante",
                 "nationality" => "Italia",
-                "market_value" => "€30.00m",
+                "market_value" => "30.00",
                 "fav_foot" => "Destro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66d05901/GQQMS.png?webp&q=100&ch=840&size=-x444"
             ],
             // ----------
@@ -475,9 +464,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1993-02-17",
                 "role" => "Portiere",
                 "nationality" => "Italia",
-                "market_value" => "€800mila",
+                "market_value" => "800mila",
                 "fav_foot" => "Destro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66db1c55/LLNCL.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -486,9 +475,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-04-22",
                 "role" => "Difensore",
                 "nationality" => "Spagna",
-                "market_value" => "€5.00m",
+                "market_value" => "5.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.78m",
+                "height" => "1.78",
                 "img" => "https://img.legaseriea.it/vimages/66d05941/MRTNRN.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -497,9 +486,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1993-05-04",
                 "role" => "Centrocampista",
                 "nationality" => "Ucraina",
-                "market_value" => "€3.50m",
+                "market_value" => "3.50",
                 "fav_foot" => "Sinistro",
-                "height" => "1.81m",
+                "height" => "1.81",
                 "img" => "https://img.legaseriea.it/vimages/66d05922/XKPXG.png?webp&q=100&ch=840&size=552x-"
             ],
             [
@@ -508,9 +497,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1999-05-19",
                 "role" => "Attaccante",
                 "nationality" => "Italia",
-                "market_value" => "€16.00m",
+                "market_value" => "16.00",
                 "fav_foot" => "Destro",
-                "height" => "1.85m",
+                "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66d05952/QVBNF.png?webp&q=100&ch=840&size=453x-"
             ],
             // ----------
@@ -520,9 +509,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1996-02-20",
                 "role" => "Portiere",
                 "nationality" => "Italia",
-                "market_value" => "€3.00m",
+                "market_value" => "3.00",
                 "fav_foot" => "Destro",
-                "height" => "1.91m",
+                "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/6749cabd/c7fky0h6gi7wmibnv2tzf6mz9.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -531,9 +520,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1991-10-25",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€3.00m",
+                "market_value" => "3.00",
                 "fav_foot" => "Destro",
-                "height" => "1.91m",
+                "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/6749da90/68etig279gs3btjb7fv6rvfth.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -542,9 +531,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1998-01-13",
                 "role" => "Centrocampista",
                 "nationality" => "Marocco",
-                "market_value" => "€2.50m",
+                "market_value" => "2.50",
                 "fav_foot" => "Entrambi",
-                "height" => "1.82m",
+                "height" => "1.82",
                 "img" => "https://img.legaseriea.it/vimages/6749dc54/74o97lnqpku6m9svks66qbend.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -553,9 +542,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2001-03-11",
                 "role" => "Attaccante",
                 "nationality" => "Svezia",
-                "market_value" => "€4.00m",
+                "market_value" => "4.00",
                 "fav_foot" => "Destro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/6749e749/amvonu36at4dg7ksi1ioczi3u.png?webp&q=100&ch=840&size=-x444"
             ],
             // ----------
@@ -565,9 +554,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1988-12-17",
                 "role" => "Portiere",
                 "nationality" => "Svizzera",
-                "market_value" => "€4.00m",
+                "market_value" => "4.00",
                 "fav_foot" => "Destro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66db1c6c/SMMYN.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -576,9 +565,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-11-10",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€60.00m",
+                "market_value" => "60.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.75m",
+                "height" => "1.75",
                 "img" => "https://img.legaseriea.it/vimages/66cf305e/NWFZS.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -587,9 +576,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-02-07",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€80.00m",
+                "market_value" => "80.00",
                 "fav_foot" => "Destro",
-                "height" => "1.75m",
+                "height" => "1.75",
                 "img" => "https://img.legaseriea.it/vimages/66cf3057/BRLNC.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -598,9 +587,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-08-22",
                 "role" => "Attaccante",
                 "nationality" => "Argentina",
-                "market_value" => "€100.00m",
+                "market_value" => "100.00",
                 "fav_foot" => "Destro",
-                "height" => "1.74m",
+                "height" => "1.74",
                 "img" => "https://img.legaseriea.it/vimages/66cf3058/MRTLTR.png?webp&q=100&ch=840&size=-x444"
             ],
             // ----------
@@ -610,9 +599,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-07-27",
                 "role" => "Portiere",
                 "nationality" => "Italia",
-                "market_value" => "€18.00m",
+                "market_value" => "18.00",
                 "fav_foot" => "Destro",
-                "height" => "1.87m",
+                "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66d05730/ZMPGT.png?webp&q=100&ch=840&size=528x-"
             ],
             [
@@ -621,20 +610,20 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-03-18",
                 "role" => "Difensore",
                 "nationality" => "Brasile",
-                "market_value" => "€60.00m",
+                "market_value" => "60.00",
                 "fav_foot" => "Destro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66d05708/BRMRX.png?webp&q=100&ch=840&size=-x396"
             ],
             [
                 "first_name" => "Khephren",
-                "last_name" => "Thuram",
+                "last_name" => "Thura",
                 "date_of_birth" => "2001-03-26",
                 "role" => "Centrocampista",
                 "nationality" => "Francia",
-                "market_value" => "€35.00m",
+                "market_value" => "35.00",
                 "fav_foot" => "Destro",
-                "height" => "1.92m",
+                "height" => "1.92",
                 "img" => "https://img.legaseriea.it/vimages/66d05721/THRHRN.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -643,9 +632,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2005-05-04",
                 "role" => "Attaccante",
                 "nationality" => "Turchia",
-                "market_value" => "€45.00m",
+                "market_value" => "45.00",
                 "fav_foot" => "Entrambi",
-                "height" => "1.87m",
+                "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66d0571b/YLDKNN.png?webp&q=100&ch=840&size=-x444"
             ],
             // ----------
@@ -655,9 +644,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1994-03-17",
                 "role" => "Portiere",
                 "nationality" => "Italia",
-                "market_value" => "€14.00m",
+                "market_value" => "14.00",
                 "fav_foot" => "Destro",
-                "height" => "1.94m",
+                "height" => "1.94",
                 "img" => "https://img.legaseriea.it/vimages/66d057db/PRDVN.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -666,9 +655,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2000-01-26",
                 "role" => "Difensore",
                 "nationality" => "Portogallo",
-                "market_value" => "€25.00m",
+                "market_value" => "25.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66d05805/NNTVRS.png?webp&q=100&ch=840&size=628.5x-"
             ],
             [
@@ -677,9 +666,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1995-06-16",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€20.00m",
+                "market_value" => "20.00",
                 "fav_foot" => "Destro",
-                "height" => "1.77m",
+                "height" => "1.77",
                 "img" => "https://img.legaseriea.it/vimages/66d057cc/BTMNG.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -688,9 +677,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1998-10-03",
                 "role" => "Attaccante",
                 "nationality" => "Argentina",
-                "market_value" => "€20.00m",
+                "market_value" => "20.00",
                 "fav_foot" => "Destro",
-                "height" => "1.78m",
+                "height" => "1.78",
                 "img" => "https://img.legaseriea.it/vimages/66d057ef/CSTTTY.png?webp&q=100&ch=840&size=591x-"
             ],
             // ----------
@@ -700,9 +689,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1995-04-12",
                 "role" => "Portiere",
                 "nationality" => "Italia",
-                "market_value" => "€4.00m",
+                "market_value" => "4.00",
                 "fav_foot" => "Destro",
-                "height" => "1.95m",
+                "height" => "1.95",
                 "img" => "https://img.legaseriea.it/vimages/66d0589b/FLCWL.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -711,9 +700,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1996-09-20",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€5.00m",
+                "market_value" => "5.00",
                 "fav_foot" => "Destro",
-                "height" => "1.87m",
+                "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66d0587c/BSCDRC.png?webp&q=100&ch=840&size=574.5x-"
             ],
             [
@@ -722,9 +711,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1996-04-10",
                 "role" => "Centrocampista",
                 "nationality" => "Mali",
-                "market_value" => "€2.50m",
+                "market_value" => "2.50",
                 "fav_foot" => "Destro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66d0586f/WXPLR.png?webp&q=100&ch=840&size=453x-"
             ],
             [
@@ -733,9 +722,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2000-04-05",
                 "role" => "Attaccante",
                 "nationality" => "Montenegro",
-                "market_value" => "€6.00m",
+                "market_value" => "6.00",
                 "fav_foot" => "Destro",
-                "height" => "1.85m",
+                "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66d05884/KRSNKL.png?webp&q=100&ch=840&size=-x444"
             ],
             // ----------
@@ -745,9 +734,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1995-07-03",
                 "role" => "Portiere",
                 "nationality" => "Francia",
-                "market_value" => "€35.00m",
+                "market_value" => "35.00",
                 "fav_foot" => "Destro",
-                "height" => "1.91m",
+                "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/66cf21da/MGNMK.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -756,9 +745,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-10-06",
                 "role" => "Difensore",
                 "nationality" => "Francia",
-                "market_value" => "€50.00m",
+                "market_value" => "50.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.84m",
+                "height" => "1.84",
                 "img" => "https://img.legaseriea.it/vimages/67191596/HRNZTH.png?webp&q=100&ch=840&size=306x-"
             ],
             [
@@ -767,9 +756,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1998-07-29",
                 "role" => "Centrocampista",
                 "nationality" => "Olanda",
-                "market_value" => "€50.00m",
+                "market_value" => "50.00",
                 "fav_foot" => "Destro",
-                "height" => "1.85m",
+                "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66cf21cb/RJNJJN.png?webp&q=100&ch=840&size=271.5x-"
             ],
             [
@@ -778,9 +767,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1999-06-10",
                 "role" => "Attaccante",
                 "nationality" => "Portogallo",
-                "market_value" => "€75.00m",
+                "market_value" => "75.00",
                 "fav_foot" => "Destro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66cf21b3/LEAORA.png?webp&q=100&ch=840&size=-x265.5"
             ],
             // ----------
@@ -790,9 +779,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2001-09-05",
                 "role" => "Portiere",
                 "nationality" => "Italia",
-                "market_value" => "€7.50m",
+                "market_value" => "7.50",
                 "fav_foot" => "Destro",
-                "height" => "1.88m",
+                "height" => "1.88",
                 "img" => "https://img.legaseriea.it/vimages/66cf300b/TRTTFN.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -801,9 +790,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1991-02-01",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€1.00m",
+                "market_value" => "1.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.86m",
+                "height" => "1.86",
                 "img" => "https://img.legaseriea.it/vimages/66cf3005/CLDLC.png?webp&q=100&ch=840&size=294x-"
             ],
             [
@@ -812,9 +801,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-04-21",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€12.00m",
+                "market_value" => "12.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.87m",
+                "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66cf2fed/CVGHT.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -823,9 +812,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1998-08-02",
                 "role" => "Attaccante",
                 "nationality" => "Portogallo",
-                "market_value" => "€5.00m",
+                "market_value" => "5.00",
                 "fav_foot" => "Destro",
-                "height" => "1.80m",
+                "height" => "1.80",
                 "img" => "https://img.legaseriea.it/vimages/66cf3013/P-860.png?webp&q=100&ch=840&size=-x265.5"
             ],
             // ----------
@@ -835,9 +824,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-03-22",
                 "role" => "Portiere",
                 "nationality" => "Italia",
-                "market_value" => "€12.00m",
+                "market_value" => "12.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.90m",
+                "height" => "1.90",
                 "img" => "https://img.legaseriea.it/vimages/66db1c0b/XXNLW.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -846,9 +835,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1993-08-04",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€15.00m",
+                "market_value" => "15.00",
                 "fav_foot" => "Destro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66d058a9/DLRG9.png?webp&q=100&ch=840&size=306x-"
             ],
             [
@@ -857,9 +846,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1994-11-25",
                 "role" => "Centrocampista",
                 "nationality" => "Slovacchia",
-                "market_value" => "€28.00m",
+                "market_value" => "28.00",
                 "fav_foot" => "Destro",
-                "height" => "1.68m",
+                "height" => "1.68",
                 "img" => "https://img.legaseriea.it/vimages/66d058c5/LBTST.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -868,9 +857,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1993-05-13",
                 "role" => "Attaccante",
                 "nationality" => "Belgio",
-                "market_value" => "€25.00m",
+                "market_value" => "25.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.91m",
+                "height" => "1.91",
                 "img" => "https://img.legaseriea.it/vimages/66db1c03/LKKRM.png?webp&q=100&ch=840&size=-x265.5"
             ],
             // ----------
@@ -880,9 +869,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2001-03-23",
                 "role" => "Portiere",
                 "nationality" => "Italia",
-                "market_value" => "€350mila",
+                "market_value" => "350mila",
                 "fav_foot" => "Destro",
-                "height" => "1.87m",
+                "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66d0578d/CRVDRD.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -891,9 +880,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1999-11-10",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€6.00m",
+                "market_value" => "6.00",
                 "fav_foot" => "Destro",
-                "height" => "1.83m",
+                "height" => "1.83",
                 "img" => "https://img.legaseriea.it/vimages/66d057ca/DLPNRC.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -902,9 +891,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2005-07-21",
                 "role" => "Centrocampista",
                 "nationality" => "Polonia",
-                "market_value" => "€300mila",
+                "market_value" => "300mila",
                 "fav_foot" => "Destro",
-                "height" => "1.97m",
+                "height" => "1.97",
                 "img" => "https://img.legaseriea.it/vimages/66d491da/KWLTSZ.png?webp&q=100&ch=840&size=267x-"
             ],
             [
@@ -913,9 +902,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2003-10-25",
                 "role" => "Attaccante",
                 "nationality" => "Francia",
-                "market_value" => "€20.00m",
+                "market_value" => "20.00",
                 "fav_foot" => "Destro",
-                "height" => "1.89m",
+                "height" => "1.89",
                 "img" => "https://img.legaseriea.it/vimages/66d0578b/BNN-YN.png?webp&q=100&ch=840&size=-x265.5"
             ],
             // ----------
@@ -925,9 +914,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1999-08-27",
                 "role" => "Portiere",
                 "nationality" => "Serbia",
-                "market_value" => "€14.00m",
+                "market_value" => "14.00",
                 "fav_foot" => "Destro",
-                "height" => "1.89m",
+                "height" => "1.89",
                 "img" => "https://img.legaseriea.it/vimages/66cf21e4/SVLRML.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -936,9 +925,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1996-04-17",
                 "role" => "Difensore",
                 "nationality" => "Italia",
-                "market_value" => "€18.00m",
+                "market_value" => "18.00",
                 "fav_foot" => "Destro",
-                "height" => "1.90m",
+                "height" => "1.90",
                 "img" => "https://img.legaseriea.it/vimages/66cf21e2/MNCGW.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -947,9 +936,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1996-06-19",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€14.00m",
+                "market_value" => "14.00",
                 "fav_foot" => "Destro",
-                "height" => "1.86m",
+                "height" => "1.86",
                 "img" => "https://img.legaseriea.it/vimages/66cf21f6/PGWCM.png?webp&q=100&ch=840&size=301.5x-"
             ],
             [
@@ -958,9 +947,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1993-11-15",
                 "role" => "Attaccante",
                 "nationality" => "Argentina",
-                "market_value" => "€8.00m",
+                "market_value" => "8.00",
                 "fav_foot" => "Sinistro",
-                "height" => "1.77m",
+                "height" => "1.77",
                 "img" => "https://img.legaseriea.it/vimages/66cf2202/DBLPL.png?webp&q=100&ch=840&size=-x265.5"
             ],
             // ----------
@@ -970,9 +959,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1997-02-20",
                 "role" => "Portiere",
                 "nationality" => "Serbia",
-                "market_value" => "€8.00m",
+                "market_value" => "8.00",
                 "fav_foot" => "Destro",
-                "height" => "2.02m",
+                "height" => "2.02",
                 "img" => "https://img.legaseriea.it/vimages/66db1c87/MLNVNJ.png?webp&q=100&ch=840&size=471x-"
             ],
             [
@@ -981,9 +970,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1994-05-06",
                 "role" => "Difensore",
                 "nationality" => "Cile",
-                "market_value" => "€4.00m",
+                "market_value" => "4.00",
                 "fav_foot" => "Destro",
-                "height" => "1.93m",
+                "height" => "1.93",
                 "img" => "https://img.legaseriea.it/vimages/66db1c78/MRPLRM.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -992,9 +981,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2001-08-21",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€28.00m",
+                "market_value" => "28.00",
                 "fav_foot" => "Destro",
-                "height" => "1.81m",
+                "height" => "1.81",
                 "img" => "https://img.legaseriea.it/vimages/66d059c0/RCCSML.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -1003,9 +992,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1996-07-13",
                 "role" => "Attaccante",
                 "nationality" => "Scozia",
-                "market_value" => "€15.00m",
+                "market_value" => "15.00",
                 "fav_foot" => "Destro",
-                "height" => "1.79m",
+                "height" => "1.79",
                 "img" => "https://img.legaseriea.it/vimages/66d059d9/ADMCX.png?webp&q=100&ch=840&size=-x265.5"
             ],
             // ----------
@@ -1015,9 +1004,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1999-08-28",
                 "role" => "Portiere",
                 "nationality" => "Nigeria",
-                "market_value" => "€7.50m",
+                "market_value" => "7.50",
                 "fav_foot" => "Destro",
-                "height" => "1.98m",
+                "height" => "1.98",
                 "img" => "https://img.legaseriea.it/vimages/66d05974/OKOYEM.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -1026,9 +1015,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1995-05-25",
                 "role" => "Difensore",
                 "nationality" => "Olanda",
-                "market_value" => "€3.00m",
+                "market_value" => "3.00",
                 "fav_foot" => "Destro",
-                "height" => "1.89m",
+                "height" => "1.89",
                 "img" => "https://img.legaseriea.it/vimages/66d0597a/HZBSLY.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -1037,9 +1026,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1998-03-28",
                 "role" => "Centrocampista",
                 "nationality" => "Slovenia",
-                "market_value" => "€8.00m",
+                "market_value" => "8.00",
                 "fav_foot" => "Destro",
-                "height" => "1.80m",
+                "height" => "1.80",
                 "img" => "https://img.legaseriea.it/vimages/66d059a7/LVRSND.png?webp&q=100&ch=840&size=-x265.5"
             ],
             [
@@ -1048,9 +1037,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2000-09-10",
                 "role" => "Attaccante",
                 "nationality" => "Italia",
-                "market_value" => "€18.00m",
+                "market_value" => "18.00",
                 "fav_foot" => "Destro",
-                "height" => "2.01m",
+                "height" => "2.01",
                 "img" => "https://img.legaseriea.it/vimages/66d059a0/LCCRN1.png?webp&q=100&ch=840&size=-x265.5"
             ],
             // ----------
@@ -1060,9 +1049,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1993-03-21",
                 "role" => "Portiere",
                 "nationality" => "Finlandia",
-                "market_value" => "€1.00m",
+                "market_value" => "1.00",
                 "fav_foot" => "Destro",
-                "height" => "1.97m",
+                "height" => "1.97",
                 "img" => "https://img.legaseriea.it/vimages/66d0577e/JRNJSS.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -1071,9 +1060,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2000-06-02",
                 "role" => "Difensore",
                 "nationality" => "Indonesia",
-                "market_value" => "€3.00m",
+                "market_value" => "3.00",
                 "fav_foot" => "Destro",
-                "height" => "1.90m",
+                "height" => "1.90",
                 "img" => "https://img.legaseriea.it/vimages/66d05786/IDZESJ.png?webp&q=100&ch=840&size=-x444"
             ],
             [
@@ -1082,9 +1071,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "2000-06-18",
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
-                "market_value" => "€6.00m",
+                "market_value" => "6.00",
                 "fav_foot" => "Destro",
-                "height" => "1.84m",
+                "height" => "1.84",
                 "img" => "https://img.legaseriea.it/vimages/67191580/NCLHNS.png?webp&q=100&ch=840&size=885x-"
             ],
             [
@@ -1093,9 +1082,9 @@ class PlayerSeeder extends Seeder
                 "date_of_birth" => "1990-05-06",
                 "role" => "Attaccante",
                 "nationality" => "Danimarca",
-                "market_value" => "€700mila",
+                "market_value" => "700mila",
                 "fav_foot" => "Destro",
-                "height" => "1.85m",
+                "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66d05766/GYTSTN.png?webp&q=100&ch=840&size=459x-"
             ],
         ];
