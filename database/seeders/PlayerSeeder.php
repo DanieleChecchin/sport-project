@@ -378,6 +378,726 @@ class PlayerSeeder extends Seeder
                 "altezza" => "1.83m",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
             ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
+            // ----------
+            [
+                "nome" => "Pepe",
+                "cognome" => "Reina",
+                "data_di_nascita" => "1982-09-31",
+                "ruolo" => "Portiere",
+                "nazionalità" => "Spagna",
+                "valore_di_mercato" => "€600mila",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.88m",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca7/RNAJS.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Alberto",
+                "cognome" => "Dossena",
+                "data_di_nascita" => "1998-10-13",
+                "ruolo" => "Difensore",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.95m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a83/P-527.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Nico",
+                "cognome" => "Paz",
+                "data_di_nascita" => "2004-09-08",
+                "ruolo" => "Centrocampista",
+                "nazionalità" => "Argentina",
+                "valore_di_mercato" => "€20.00m",
+                "piede_preferito" => "Sinistro",
+                "altezza" => "1.86m",
+                "img" => "https://img.legaseriea.it/vimages/671915f1/PAZNIC.png?webp&q=100&ch=840&size=-x444"
+            ],
+            [
+                "nome" => "Patrick",
+                "cognome" => "Cutrone",
+                "data_di_nascita" => "1998-01-03",
+                "ruolo" => "Attaccante",
+                "nazionalità" => "Italia",
+                "valore_di_mercato" => "€7.00m",
+                "piede_preferito" => "Destro",
+                "altezza" => "1.83m",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a9b/QBNBW.png?webp&q=100&ch=840&size=-x444"
+            ],
         ];
         foreach ($players as $player) {
             Player::create($player);
