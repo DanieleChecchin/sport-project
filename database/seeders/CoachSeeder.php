@@ -117,7 +117,7 @@ class CoachSeeder extends Seeder
                 'first_name' => 'Eusebio',
                 'last_name' => 'Di Francesco',
                 'nationality' => 'Italiano',
-                'trophies' => '',
+                'trophies' => 1,
                 'date_of_birth' => '1969-09-08',
                 'description' => 'aaaaaaaa',
                 'img' => ''
@@ -126,7 +126,7 @@ class CoachSeeder extends Seeder
                 'first_name' => 'Marco',
                 'last_name' => 'Giampaolo',
                 'nationality' => 'Italiano',
-                'trophies' => '',
+                'trophies' => 0,
                 'date_of_birth' => '1967-08-02',
                 'description' => 'aaaaaaaaaaaaaa',
                 'img' => ''
@@ -135,7 +135,7 @@ class CoachSeeder extends Seeder
                 'first_name' => 'Alessandro',
                 'last_name' => 'Nesta',
                 'nationality' => 'Italiano',
-                'trophies' => '',
+                'trophies' => 0,
                 'date_of_birth' => '1976-03-19',
                 'description' => 'aaaaaaaa',
                 'img' => ''
@@ -144,7 +144,7 @@ class CoachSeeder extends Seeder
                 'first_name' => 'Fabio',
                 'last_name' => 'Pecchia',
                 'nationality' => 'Italiano',
-                'trophies' => '',
+                'trophies' => 2,
                 'date_of_birth' => '1973-08-24',
                 'description' => 'aaaaaaaaa',
                 'img' => ''
@@ -153,7 +153,7 @@ class CoachSeeder extends Seeder
                 'first_name' => 'Claudio',
                 'last_name' => 'Ranieri',
                 'nationality' => 'Italiano',
-                'trophies' => '',
+                'trophies' => 10,
                 'date_of_birth' => '1951-10-20',
                 'description' => 'aaaaaaaaaaaaaa',
                 'img' => ''
@@ -162,7 +162,7 @@ class CoachSeeder extends Seeder
                 'first_name' => 'Paolo',
                 'last_name' => 'Vanoli',
                 'nationality' => 'Italiano',
-                'trophies' => '',
+                'trophies' => 2,
                 'date_of_birth' => '1972-08-12',
                 'description' => 'aaaaaaaaaa',
                 'img' => ''
@@ -171,7 +171,7 @@ class CoachSeeder extends Seeder
                 'first_name' => 'Kosta',
                 'last_name' => 'Runjaic\'',
                 'nationality' => 'Austriaco',
-                'trophies' => '',
+                'trophies' => 3,
                 'date_of_birth' => '1971-06-04',
                 'description' => 'aaaaaaaaaaaaaa',
                 'img' => ''
@@ -180,7 +180,7 @@ class CoachSeeder extends Seeder
                 'first_name' => 'Paolo',
                 'last_name' => 'Zanetti',
                 'nationality' => 'Italiano',
-                'trophies' => '',
+                'trophies' => 0,
                 'date_of_birth' => '1982-12-16',
                 'description' => 'aaaaaaaaaaaaaa',
                 'img' => ''
@@ -189,7 +189,7 @@ class CoachSeeder extends Seeder
                 'first_name' => 'Gian Piero',
                 'last_name' => 'Gasperini',
                 'nationality' => 'Italiano',
-                'trophies' => 1,
+                'trophies' => 2,
                 'date_of_birth' => '1958-01-26',
                 'description' => 'aaaaaaaaaaaaaa',
                 'img' => ''
