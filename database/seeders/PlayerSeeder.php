@@ -17,7 +17,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Marco",
                 "last_name" => "Carnesecchi",
-                "date_of_birth" => "2000-07-01",
+                "date_of_birth" => '2000-07-01',
                 "role" => "Portiere",
                 "nationality" => "Italia",
                 "market_value" => 20.00,
@@ -30,7 +30,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Rafael",
                 "last_name" => "Toloi",
-                "date_of_birth" => "1990-10-10",
+                "date_of_birth" => '1990-10-10',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 1.50,
@@ -43,7 +43,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Raoul",
                 "last_name" => "Bellanova",
-                "date_of_birth" => "2000-05-17",
+                "date_of_birth" => '2000-05-17',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 22.00,
@@ -56,7 +56,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Isak",
                 "last_name" => "Hien",
-                "date_of_birth" => "1999-01-13",
+                "date_of_birth" => '1999-01-13',
                 "role" => "Difensore",
                 "nationality" => "Svezia",
                 "market_value" => 30.00,
@@ -69,7 +69,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Berat",
                 "last_name" => "Djimsiti",
-                "date_of_birth" => "1993-02-19",
+                "date_of_birth" => '1993-02-19',
                 "role" => "Difensore",
                 "nationality" => "Albania",
                 "market_value" => 8.00,
@@ -82,7 +82,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Sead",
                 "last_name" => "Kolasinac",
-                "date_of_birth" => "1993-06-20",
+                "date_of_birth" => '1993-06-20',
                 "role" => "Difensore",
                 "nationality" => "Bosnia-Erzegovina",
                 "market_value" => 10.00,
@@ -95,7 +95,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Giorgio",
                 "last_name" => "Scalvini",
-                "date_of_birth" => "2003-12-11",
+                "date_of_birth" => '2003-12-11',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 45.00,
@@ -108,7 +108,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Juan",
                 "last_name" => "Cuadrado",
-                "date_of_birth" => "1988-05-26",
+                "date_of_birth" => '1988-05-26',
                 "role" => "Centrocampista",
                 "nationality" => "Colombia",
                 "market_value" => 1.00,
@@ -121,7 +121,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Mario",
                 "last_name" => "Pašalić",
-                "date_of_birth" => "1995-02-09",
+                "date_of_birth" => '1995-02-09',
                 "role" => "Centrocampista",
                 "nationality" => "Croazia",
                 "market_value" => 13.00,
@@ -134,7 +134,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "José",
                 "last_name" => "Ederson",
-                "date_of_birth" => "1999-07-07",
+                "date_of_birth" => '1999-07-07',
                 "role" => "Centrocampista",
                 "nationality" => "Brasile",
                 "market_value" => 50.00,
@@ -147,7 +147,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Marten",
                 "last_name" => "De Roon",
-                "date_of_birth" => "1991-03-29",
+                "date_of_birth" => '1991-03-29',
                 "role" => "Centrocampista",
                 "nationality" => "Olanda",
                 "market_value" => 7.00,
@@ -160,7 +160,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Matteo",
                 "last_name" => "Ruggeri",
-                "date_of_birth" => "2002-07-11",
+                "date_of_birth" => '2002-07-11',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 20.00,
@@ -173,7 +173,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Lazar",
                 "last_name" => "Samardžić",
-                "date_of_birth" => "2002-02-24",
+                "date_of_birth" => '2002-02-24',
                 "role" => "Centrocampista",
                 "nationality" => "Serbia",
                 "market_value" => 20.00,
@@ -186,7 +186,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Marco",
                 "last_name" => "Brescianini",
-                "date_of_birth" => "2000-01-20",
+                "date_of_birth" => '2000-01-20',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 8.00,
@@ -199,7 +199,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Davide",
                 "last_name" => "Zappacosta",
-                "date_of_birth" => "1992-06-11",
+                "date_of_birth" => '1992-06-11',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 6.00,
@@ -212,7 +212,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Ademola",
                 "last_name" => "Lookman",
-                "date_of_birth" => "1997-10-20",
+                "date_of_birth" => '1997-10-20',
                 "role" => "Attaccante",
                 "nationality" => "Nigeria",
                 "market_value" => 55.00,
@@ -225,7 +225,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Charles",
                 "last_name" => "De Ketelaere",
-                "date_of_birth" => "2001-03-10",
+                "date_of_birth" => '2001-03-10',
                 "role" => "Attaccante",
                 "nationality" => "Belgio",
                 "market_value" => 38.00,
@@ -238,7 +238,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Mateo",
                 "last_name" => "Retegui",
-                "date_of_birth" => "1999-04-29",
+                "date_of_birth" => '1999-04-29',
                 "role" => "Attaccante",
                 "nationality" => "Italia",
                 "market_value" => 35.00,
@@ -251,7 +251,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Lucasz",
                 "last_name" => "Skorupski",
-                "date_of_birth" => "1991-05-05",
+                "date_of_birth" => '1991-05-05',
                 "role" => "Portiere",
                 "nationality" => "Polonia",
                 "market_value" => 2.50,
@@ -264,7 +264,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Emil",
                 "last_name" => "Hol",
-                "date_of_birth" => "2000-05-13",
+                "date_of_birth" => '2000-05-13',
                 "role" => "Difensore",
                 "nationality" => "Svezia",
                 "market_value" => 7.00,
@@ -277,7 +277,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Charalampos",
                 "last_name" => "Lykogiannis",
-                "date_of_birth" => "1993-10-22",
+                "date_of_birth" => '1993-10-22',
                 "role" => "Difensore",
                 "nationality" => "Grecia",
                 "market_value" => 1.00,
@@ -290,7 +290,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Tommaso",
                 "last_name" => "Pobega",
-                "date_of_birth" => "1999-07-15",
+                "date_of_birth" => '1999-07-15',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 10.00,
@@ -303,7 +303,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Riccardo",
                 "last_name" => "Orsolini",
-                "date_of_birth" => "1997-01-24",
+                "date_of_birth" => '1997-01-24',
                 "role" => "Attaccante",
                 "nationality" => "Italia",
                 "market_value" => 16.00,
@@ -316,7 +316,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Santiago",
                 "last_name" => "Castro",
-                "date_of_birth" => "2004-09-18",
+                "date_of_birth" => '2004-09-18',
                 "role" => "Attaccante",
                 "nationality" => "Argentina",
                 "market_value" => 25.00,
@@ -329,7 +329,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Elia",
                 "last_name" => "Caprile",
-                "date_of_birth" => "2001-08-25",
+                "date_of_birth" => '2001-08-25',
                 "role" => "Portiere",
                 "nationality" => "Italia",
                 "market_value" => 6.00,
@@ -342,7 +342,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Nadir",
                 "last_name" => "Zortea",
-                "date_of_birth" => "1999-06-19",
+                "date_of_birth" => '1999-06-19',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 3.00,
@@ -355,7 +355,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Razvan",
                 "last_name" => "Marin",
-                "date_of_birth" => "1996-05-23",
+                "date_of_birth" => '1996-05-23',
                 "role" => "Centrocampista",
                 "nationality" => "Romania",
                 "market_value" => 4.00,
@@ -368,7 +368,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Roberto",
                 "last_name" => "Piccoli",
-                "date_of_birth" => "2001-01-27",
+                "date_of_birth" => '2001-01-27',
                 "role" => "Attaccante",
                 "nationality" => "Italia",
                 "market_value" => 6.00,
@@ -381,7 +381,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Pepe",
                 "last_name" => "Reina",
-                "date_of_birth" => "1982-09-31",
+                "date_of_birth" => '1982-09-31',
                 "role" => "Portiere",
                 "nationality" => "Spagna",
                 "market_value" => 0.60,
@@ -394,7 +394,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Alberto",
                 "last_name" => "Dossena",
-                "date_of_birth" => "1998-10-13",
+                "date_of_birth" => '1998-10-13',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 7.00,
@@ -407,7 +407,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Nico",
                 "last_name" => "Paz",
-                "date_of_birth" => "2004-09-08",
+                "date_of_birth" => '2004-09-08',
                 "role" => "Centrocampista",
                 "nationality" => "Argentina",
                 "market_value" => 20.00,
@@ -420,7 +420,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Patrick",
                 "last_name" => "Cutrone",
-                "date_of_birth" => "1998-01-03",
+                "date_of_birth" => '1998-01-03',
                 "role" => "Attaccante",
                 "nationality" => "Italia",
                 "market_value" => 7.00,
@@ -434,7 +434,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Devis",
                 "last_name" => "Vaquez",
-                "date_of_birth" => "1998-05-12",
+                "date_of_birth" => '1998-05-12',
                 "role" => "Portiere",
                 "nationality" => "Colombia",
                 "market_value" => 4.00,
@@ -447,7 +447,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Mattia",
                 "last_name" => "De Sciglio",
-                "date_of_birth" => "1992-10-28",
+                "date_of_birth" => '1992-10-28',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 1.00,
@@ -460,7 +460,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Jacopo",
                 "last_name" => "Fazzini",
-                "date_of_birth" => "2003-03-16",
+                "date_of_birth" => '2003-03-16',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 8.00,
@@ -473,7 +473,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Lorenzo",
                 "last_name" => "Colombo",
-                "date_of_birth" => "2002-03-08",
+                "date_of_birth" => '2002-03-08',
                 "role" => "Attaccante",
                 "nationality" => "Italia",
                 "market_value" => 6.00,
@@ -487,7 +487,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "David",
                 "last_name" => "De Gea",
-                "date_of_birth" => "1990-11-7",
+                "date_of_birth" => '1990-11-07',
                 "role" => "Portiere",
                 "nationality" => "Spagna",
                 "market_value" => 5.00,
@@ -500,7 +500,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Robin",
                 "last_name" => "Gosens",
-                "date_of_birth" => "1994-07-05",
+                "date_of_birth" => '1994-07-05',
                 "role" => "Difensore",
                 "nationality" => "Germania",
                 "market_value" => 8.00,
@@ -513,7 +513,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Edoardo",
                 "last_name" => "Bove",
-                "date_of_birth" => "2002-05-16",
+                "date_of_birth" => '2002-05-16',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 14.00,
@@ -526,7 +526,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Moise",
                 "last_name" => "Kean",
-                "date_of_birth" => "2000-02-28",
+                "date_of_birth" => '2000-02-28',
                 "role" => "Attaccante",
                 "nationality" => "Italia",
                 "market_value" => 30.00,
@@ -540,7 +540,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Nicola",
                 "last_name" => "Leali",
-                "date_of_birth" => "1993-02-17",
+                "date_of_birth" => '1993-02-17',
                 "role" => "Portiere",
                 "nationality" => "Italia",
                 "market_value" => 0.80,
@@ -553,7 +553,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Aaron",
                 "last_name" => "Martin",
-                "date_of_birth" => "1997-04-22",
+                "date_of_birth" => '1997-04-22',
                 "role" => "Difensore",
                 "nationality" => "Spagna",
                 "market_value" => 5.00,
@@ -566,7 +566,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Ruslan",
                 "last_name" => "Malinovskyi",
-                "date_of_birth" => "1993-05-04",
+                "date_of_birth" => '1993-05-04',
                 "role" => "Centrocampista",
                 "nationality" => "Ucraina",
                 "market_value" => 3.50,
@@ -579,7 +579,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Andrea",
                 "last_name" => "Pinamonti",
-                "date_of_birth" => "1999-05-19",
+                "date_of_birth" => '1999-05-19',
                 "role" => "Attaccante",
                 "nationality" => "Italia",
                 "market_value" => 16.00,
@@ -593,7 +593,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Lorenzo",
                 "last_name" => "Montipò",
-                "date_of_birth" => "1996-02-20",
+                "date_of_birth" => '1996-02-20',
                 "role" => "Portiere",
                 "nationality" => "Italia",
                 "market_value" => 3.00,
@@ -606,7 +606,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Davide",
                 "last_name" => "Faraoni",
-                "date_of_birth" => "1991-10-25",
+                "date_of_birth" => '1991-10-25',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 3.00,
@@ -619,7 +619,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Abdou",
                 "last_name" => "Harroui",
-                "date_of_birth" => "1998-01-13",
+                "date_of_birth" => '1998-01-13',
                 "role" => "Centrocampista",
                 "nationality" => "Marocco",
                 "market_value" => 2.50,
@@ -632,7 +632,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Amin",
                 "last_name" => "Sarr",
-                "date_of_birth" => "2001-03-11",
+                "date_of_birth" => '2001-03-11',
                 "role" => "Attaccante",
                 "nationality" => "Svezia",
                 "market_value" => 4.00,
@@ -646,7 +646,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Yann",
                 "last_name" => "Sommer",
-                "date_of_birth" => "1988-12-17",
+                "date_of_birth" => '1988-12-17',
                 "role" => "Portiere",
                 "nationality" => "Svizzera",
                 "market_value" => 4.00,
@@ -659,7 +659,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Federico",
                 "last_name" => "Dimarco",
-                "date_of_birth" => "1997-11-10",
+                "date_of_birth" => '1997-11-10',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 60.00,
@@ -672,7 +672,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Nicolò",
                 "last_name" => "Barella",
-                "date_of_birth" => "1997-02-07",
+                "date_of_birth" => '1997-02-07',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 80.00,
@@ -685,7 +685,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Lautaro",
                 "last_name" => "Martinez",
-                "date_of_birth" => "1997-08-22",
+                "date_of_birth" => '1997-08-22',
                 "role" => "Attaccante",
                 "nationality" => "Argentina",
                 "market_value" => 100.00,
@@ -699,7 +699,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Michele",
                 "last_name" => "Di Gregorio",
-                "date_of_birth" => "1997-07-27",
+                "date_of_birth" => '1997-07-27',
                 "role" => "Portiere",
                 "nationality" => "Italia",
                 "market_value" => 18.00,
@@ -712,7 +712,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Gleison",
                 "last_name" => "Bremer",
-                "date_of_birth" => "1997-03-18",
+                "date_of_birth" => '1997-03-18',
                 "role" => "Difensore",
                 "nationality" => "Brasile",
                 "market_value" => 60.00,
@@ -725,7 +725,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Khephren",
                 "last_name" => "Thura",
-                "date_of_birth" => "2001-03-26",
+                "date_of_birth" => '2001-03-26',
                 "role" => "Centrocampista",
                 "nationality" => "Francia",
                 "market_value" => 35.00,
@@ -738,7 +738,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Kenan",
                 "last_name" => "Yldiz",
-                "date_of_birth" => "2005-05-04",
+                "date_of_birth" => '2005-05-04',
                 "role" => "Attaccante",
                 "nationality" => "Turchia",
                 "market_value" => 45.00,
@@ -752,7 +752,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Ivan",
                 "last_name" => "Provedel",
-                "date_of_birth" => "1994-03-17",
+                "date_of_birth" => '1994-03-17',
                 "role" => "Portiere",
                 "nationality" => "Italia",
                 "market_value" => 14.00,
@@ -765,7 +765,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Nuno",
                 "last_name" => "Tavares",
-                "date_of_birth" => "2000-01-26",
+                "date_of_birth" => '2000-01-26',
                 "role" => "Difensore",
                 "nationality" => "Portogallo",
                 "market_value" => 25.00,
@@ -778,7 +778,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Mattia",
                 "last_name" => "Zaccagni",
-                "date_of_birth" => "1995-06-16",
+                "date_of_birth" => '1995-06-16',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 20.00,
@@ -791,7 +791,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Taty",
                 "last_name" => "Castellanos",
-                "date_of_birth" => "1998-10-03",
+                "date_of_birth" => '1998-10-03',
                 "role" => "Attaccante",
                 "nationality" => "Argentina",
                 "market_value" => 20.00,
@@ -805,7 +805,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Wladimiro",
                 "last_name" => "Falcone",
-                "date_of_birth" => "1995-04-12",
+                "date_of_birth" => '1995-04-12',
                 "role" => "Portiere",
                 "nationality" => "Italia",
                 "market_value" => 4.00,
@@ -818,7 +818,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Federico",
                 "last_name" => "Baschirotto",
-                "date_of_birth" => "1996-09-20",
+                "date_of_birth" => '1996-09-20',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 5.00,
@@ -831,7 +831,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Lassana",
                 "last_name" => "coulibaly",
-                "date_of_birth" => "1996-04-10",
+                "date_of_birth" => '1996-04-10',
                 "role" => "Centrocampista",
                 "nationality" => "Mali",
                 "market_value" => 2.50,
@@ -844,7 +844,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Nikola",
                 "last_name" => "Krstović",
-                "date_of_birth" => "2000-04-05",
+                "date_of_birth" => '2000-04-05',
                 "role" => "Attaccante",
                 "nationality" => "Montenegro",
                 "market_value" => 6.00,
@@ -858,7 +858,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Mike",
                 "last_name" => "Maignan",
-                "date_of_birth" => "1995-07-03",
+                "date_of_birth" => '1995-07-03',
                 "role" => "Portiere",
                 "nationality" => "Francia",
                 "market_value" => 35.00,
@@ -871,7 +871,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Theo",
                 "last_name" => "Hernández",
-                "date_of_birth" => "1997-10-06",
+                "date_of_birth" => '1997-10-06',
                 "role" => "Difensore",
                 "nationality" => "Francia",
                 "market_value" => 50.00,
@@ -884,7 +884,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Tijjani",
                 "last_name" => "Reijnders",
-                "date_of_birth" => "1998-07-29",
+                "date_of_birth" => '1998-07-29',
                 "role" => "Centrocampista",
                 "nationality" => "Olanda",
                 "market_value" => 50.00,
@@ -897,7 +897,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Rafael",
                 "last_name" => "Leão",
-                "date_of_birth" => "1999-06-10",
+                "date_of_birth" => '1999-06-10',
                 "role" => "Attaccante",
                 "nationality" => "Portogallo",
                 "market_value" => 75.00,
@@ -911,7 +911,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Stefano",
                 "last_name" => "Turati",
-                "date_of_birth" => "2001-09-05",
+                "date_of_birth" => '2001-09-05',
                 "role" => "Portiere",
                 "nationality" => "Italia",
                 "market_value" => 7.50,
@@ -924,7 +924,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Luca",
                 "last_name" => "Caldirola",
-                "date_of_birth" => "1991-02-01",
+                "date_of_birth" => '1991-02-01',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 1.00,
@@ -937,7 +937,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Matteo",
                 "last_name" => "Pessina",
-                "date_of_birth" => "1997-04-21",
+                "date_of_birth" => '1997-04-21',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 12.00,
@@ -950,7 +950,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Dany",
                 "last_name" => "Mota",
-                "date_of_birth" => "1998-08-02",
+                "date_of_birth" => '1998-08-02',
                 "role" => "Attaccante",
                 "nationality" => "Portogallo",
                 "market_value" => 5.00,
@@ -964,7 +964,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Alex",
                 "last_name" => "Meret",
-                "date_of_birth" => "1997-03-22",
+                "date_of_birth" => '1997-03-22',
                 "role" => "Portiere",
                 "nationality" => "Italia",
                 "market_value" => 12.00,
@@ -977,7 +977,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Giovanni",
                 "last_name" => "Di Lorenzo",
-                "date_of_birth" => "1993-08-04",
+                "date_of_birth" => '1993-08-04',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 15.00,
@@ -990,7 +990,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Stanislav",
                 "last_name" => "Lobotka",
-                "date_of_birth" => "1994-11-25",
+                "date_of_birth" => '1994-11-25',
                 "role" => "Centrocampista",
                 "nationality" => "Slovacchia",
                 "market_value" => 28.00,
@@ -1003,7 +1003,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Romelu",
                 "last_name" => "Lukaku",
-                "date_of_birth" => "1993-05-13",
+                "date_of_birth" => '1993-05-13',
                 "role" => "Attaccante",
                 "nationality" => "Belgio",
                 "market_value" => 25.00,
@@ -1017,7 +1017,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Edoardo",
                 "last_name" => "Corvi",
-                "date_of_birth" => "2001-03-23",
+                "date_of_birth" => '2001-03-23',
                 "role" => "Portiere",
                 "nationality" => "Italia",
                 "market_value" => 0.35,
@@ -1030,7 +1030,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Enrico",
                 "last_name" => "Delprato",
-                "date_of_birth" => "1999-11-10",
+                "date_of_birth" => '1999-11-10',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 6.00,
@@ -1043,7 +1043,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Mateusz",
                 "last_name" => "Kowalski",
-                "date_of_birth" => "2005-07-21",
+                "date_of_birth" => '2005-07-21',
                 "role" => "Centrocampista",
                 "nationality" => "Polonia",
                 "market_value" => 0.30,
@@ -1056,7 +1056,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Ange-Yoan",
                 "last_name" => "Bonny",
-                "date_of_birth" => "2003-10-25",
+                "date_of_birth" => '2003-10-25',
                 "role" => "Attaccante",
                 "nationality" => "Francia",
                 "market_value" => 20.00,
@@ -1070,7 +1070,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Mile",
                 "last_name" => "Svilar",
-                "date_of_birth" => "1999-08-27",
+                "date_of_birth" => '1999-08-27',
                 "role" => "Portiere",
                 "nationality" => "Serbia",
                 "market_value" => 14.00,
@@ -1083,7 +1083,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Gianluca",
                 "last_name" => "Mancini",
-                "date_of_birth" => "1996-04-17",
+                "date_of_birth" => '1996-04-17',
                 "role" => "Difensore",
                 "nationality" => "Italia",
                 "market_value" => 18.00,
@@ -1096,7 +1096,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Lorenzo",
                 "last_name" => "Pellegrini",
-                "date_of_birth" => "1996-06-19",
+                "date_of_birth" => '1996-06-19',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 14.00,
@@ -1109,7 +1109,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Paulo",
                 "last_name" => "Dybala",
-                "date_of_birth" => "1993-11-15",
+                "date_of_birth" => '1993-11-15',
                 "role" => "Attaccante",
                 "nationality" => "Argentina",
                 "market_value" => 8.00,
@@ -1123,7 +1123,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Vanja",
                 "last_name" => "Milinković-Savić",
-                "date_of_birth" => "1997-02-20",
+                "date_of_birth" => '1997-02-20',
                 "role" => "Portiere",
                 "nationality" => "Serbia",
                 "market_value" => 8.00,
@@ -1136,7 +1136,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Guillermo",
                 "last_name" => "Maripán",
-                "date_of_birth" => "1994-05-06",
+                "date_of_birth" => '1994-05-06',
                 "role" => "Difensore",
                 "nationality" => "Cile",
                 "market_value" => 4.00,
@@ -1149,7 +1149,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Samuele",
                 "last_name" => "Ricci",
-                "date_of_birth" => "2001-08-21",
+                "date_of_birth" => '2001-08-21',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 28.00,
@@ -1162,7 +1162,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Ché",
                 "last_name" => "Adams",
-                "date_of_birth" => "1996-07-13",
+                "date_of_birth" => '1996-07-13',
                 "role" => "Attaccante",
                 "nationality" => "Scozia",
                 "market_value" => 15.00,
@@ -1176,7 +1176,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Maduka",
                 "last_name" => "Okoye",
-                "date_of_birth" => "1999-08-28",
+                "date_of_birth" => '1999-08-28',
                 "role" => "Portiere",
                 "nationality" => "Nigeria",
                 "market_value" => 7.50,
@@ -1189,7 +1189,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Kingsley",
                 "last_name" => "Ehizibue",
-                "date_of_birth" => "1995-05-25",
+                "date_of_birth" => '1995-05-25',
                 "role" => "Difensore",
                 "nationality" => "Olanda",
                 "market_value" => 3.00,
@@ -1202,7 +1202,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Sandi",
                 "last_name" => "Lovrić",
-                "date_of_birth" => "1998-03-28",
+                "date_of_birth" => '1998-03-28',
                 "role" => "Centrocampista",
                 "nationality" => "Slovenia",
                 "market_value" => 8.00,
@@ -1215,7 +1215,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Lorenzo",
                 "last_name" => "Lucca",
-                "date_of_birth" => "2000-09-10",
+                "date_of_birth" => '2000-09-10',
                 "role" => "Attaccante",
                 "nationality" => "Italia",
                 "market_value" => 18.00,
@@ -1229,7 +1229,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Jesse",
                 "last_name" => "Joronen",
-                "date_of_birth" => "1993-03-21",
+                "date_of_birth" => '1993-03-21',
                 "role" => "Portiere",
                 "nationality" => "Finlandia",
                 "market_value" => 1.00,
@@ -1242,7 +1242,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Jay",
                 "last_name" => "Idzes",
-                "date_of_birth" => "2000-06-02",
+                "date_of_birth" => '2000-06-02',
                 "role" => "Difensore",
                 "nationality" => "Indonesia",
                 "market_value" => 3.00,
@@ -1255,7 +1255,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Hans",
                 "last_name" => "Nicolussi Caviglia",
-                "date_of_birth" => "2000-06-18",
+                "date_of_birth" => '2000-06-18',
                 "role" => "Centrocampista",
                 "nationality" => "Italia",
                 "market_value" => 6.00,
@@ -1268,7 +1268,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Christian",
                 "last_name" => " Gytkjær",
-                "date_of_birth" => "1990-05-06",
+                "date_of_birth" => '1990-05-06',
                 "role" => "Attaccante",
                 "nationality" => "Danimarca",
                 "market_value" => 0.70,
