@@ -13,13 +13,13 @@
                         <div class="card mb-3 shadow-lg border-success">
                             <div class="card-body text-center">
                                 <img class="img-fluid" src="{{ $player->img }}" alt="{{ $player->first_name }}">
-                                <h5 class="card-title fw-bold">{{ $player->first_name }} {{ $player->last_name }}</h5>
+                                <h5 class="card-title mb-2 fw-bold">{{ $player->first_name }} {{ $player->last_name }}</h5>
                                 <p class="card-text text-muted">🏅 Ruolo: {{ $player->role }}</p>
                                 <p class="card-text">🛡 Squadra: <strong>{{ $player->team->name }}</strong></p>
                                 <p class="card-text">⚽ Piede preferito: {{ $player->fav_foot }}</p>
-                                <p class="card-text">📏 Altezza: {{ $player->height }} cm</p>
+                                <p class="card-text">📏 Altezza: {{ $player->height }} m</p>
                                 <p class="card-text">💰 Valore di mercato:
-                                    €{{ number_format($player->market_value, 2, ',', '.') }}</p>
+                                    € {{ number_format($player->market_value, 2, ',', '.') }} mln </p>
                                 <a href="{{ route('admin.players.show', $player->id) }}" class="btn btn-outline-success">👤
                                     Profilo</a>
                             </div>
