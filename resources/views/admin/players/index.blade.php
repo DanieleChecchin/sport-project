@@ -21,7 +21,7 @@
 
         <!-- Sezione Giocatori -->
         <section class="mb-5">
-            <h2 class="text-success">⚽ Giocatori di Serie A</h2>
+            <h2 class="text-success mb-5">⚽ Giocatori di Serie A</h2>
             <div class="row">
                 @foreach ($players as $player)
                     <div class="col-md-3">
