@@ -5,12 +5,16 @@
         <h1 class="text-center mb-4 text-primary fw-bold">Serie A - Giocatori, Squadre e Allenatori</h1>
 
         <!-- SearchBar -->
+
         <div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
             <div class="input-group">
                 <form action="{{ route('admin.players.index') }}" method="GET">
-                    <input type="text" name="team" class="form-control" placeholder="Scrivi la squadra"
-                        aria-label="Input group example" aria-describedby="btnGroupAddon2">
-                    <button type="submit" class="btn btn-primary">Cerca</button>
+                    <div class="d-flex">
+                        <input type="text" name="team" class="form-control me-3" placeholder="Scrivi la squadra"
+                            aria-label="Input group example" aria-describedby="btnGroupAddon2">
+                        <button type="submit" class="btn btn-primary">Cerca</button>
+                    </div>
+
                 </form>
             </div>
         </div>
