@@ -22,7 +22,7 @@ class PlayerSeeder extends Seeder
                 "nationality" => "Italia",
                 "market_value" => 20.00,
                 "fav_foot" => "Destro",
-                "height" => "1.91",
+                "height" => '1.91',
                 "img" => "https://img.legaseriea.it/vimages/66cf2fc8/CRNMR1.png?webp&q=100&ch=840&size=609x-",
                 "team_id" => 5,
                 "coach_id" => 20,
