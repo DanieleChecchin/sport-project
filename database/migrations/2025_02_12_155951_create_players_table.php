@@ -17,9 +17,9 @@ return new class extends Migration {
             $table->date('date_of_birth');
             $table->string('role');
             $table->string('nationality');
-            $table->integer('market_value');
+            $table->float('market_value');
             $table->string('fav_foot');
-            $table->integer('height');
+            $table->float('height');
             $table->text('img')->nullable();
             $table->foreignId('team_id')->constrained();
             $table->foreignId('coach_id')->constrained();

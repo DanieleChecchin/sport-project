@@ -5,17 +5,27 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Player;
+use App\Models\Team;
 
 class PlayerController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $players = Player::all();
+        $teamName = $request->input('team');
+        $teams = Team::all();
 
-        return view('admin.players.index', compact('players'));
+        if ($teamName) {
+            $players = Player::whereHas('team', function ($query) use ($teamName) {
+                $query->where('name', 'LIKE', "%$teamName%");
+            })->get();
+        } else {
+            $players = Player::all();
+        }
+
+        return view('admin.players.index', compact('players', 'teams'));
     }
 
     /**

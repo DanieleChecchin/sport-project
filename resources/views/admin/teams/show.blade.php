@@ -24,28 +24,28 @@
                     <p><strong>🏟 Stadio:</strong> {{ $team->stadium }}</p>
                     <p><strong>💰 Valore Squadra:</strong> €{{ number_format($team->team_value, 2, ',', '.') }}</p>
                     <p><strong>🏆 Palmares:</strong> {{ $team->palmares }}</p>
-                    <a href="{{ route('admin.teams.index') }}" class="btn btn-outline-primary btn-animated">🔙 Torna alle squadre</a>
+                    <a href="{{ route('admin.teams.index') }}" class="btn btn-outline-primary btn-animated border-0">🔙
+                        Torna alle squadre</a>
                 </div>
             </div>
         </div>
     </div>
 
     <style>
-        
         .fade-in {
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 0.6s ease-out, transform 0.6s ease-out;
         }
 
-        
+
         .team-card {
             opacity: 0;
             transform: scale(0.9);
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
         }
 
-        
+
         .flip-box {
             width: 150px;
             height: 150px;
@@ -66,7 +66,8 @@
             transform: rotateY(180deg);
         }
 
-        .flip-box-front, .flip-box-back {
+        .flip-box-front,
+        .flip-box-back {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -89,7 +90,7 @@
             padding: 10px;
         }
 
-        
+
         .btn-animated {
             transition: all 0.3s ease-in-out;
         }
@@ -101,12 +102,12 @@
     </style>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            
+        document.addEventListener("DOMContentLoaded", function() {
+
             document.querySelector(".fade-in").style.opacity = 1;
             document.querySelector(".fade-in").style.transform = "translateY(0)";
-            
-            
+
+
             setTimeout(() => {
                 document.querySelector(".team-card").style.opacity = 1;
                 document.querySelector(".team-card").style.transform = "scale(1)";
