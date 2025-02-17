@@ -381,7 +381,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Pepe",
                 "last_name" => "Reina",
-                "date_of_birth" => '1982-09-31',
+                "date_of_birth" => '1982-08-31',
                 "role" => "Portiere",
                 "nationality" => "Spagna",
                 "market_value" => 0.60,
