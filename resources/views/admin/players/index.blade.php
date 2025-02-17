@@ -7,8 +7,11 @@
         <!-- SearchBar -->
         <div class="btn-toolbar justify-content-end" role="toolbar" aria-label="Toolbar with button groups">
             <div class="input-group">
-                <input type="text" class="form-control" placeholder="Scrivi la squadra" aria-label="Input group example"
-                    aria-describedby="btnGroupAddon2">
+                <form action="{{ route('admin.players.index') }}" method="GET">
+                    <input type="text" name="team" class="form-control" placeholder="Scrivi la squadra"
+                        aria-label="Input group example" aria-describedby="btnGroupAddon2">
+                    <button type="submit" class="btn btn-primary">Cerca</button>
+                </form>
             </div>
         </div>
 
