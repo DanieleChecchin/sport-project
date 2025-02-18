@@ -2,18 +2,20 @@
 
 @section('content')
     <div class="container mt-5">
-        <h1 class="text-center mb-4 text-primary fw-bold">Serie A - Giocatori, Squadre e Allenatori</h1>
+        {{-- <h1 class="text-center mb-4 text-primary fw-bold">Serie A - Giocatori, Squadre e Allenatori</h1> --}}
 
         <!-- Sezione Squadre -->
         <section class="mb-5">
-            <h2 class="text-danger">🏆 Squadre di Serie A</h2>
+            {{-- <h2 class="text-danger">🏆 Squadre di Serie A</h2> --}}
             <div class="row">
                 @foreach ($teams as $team)
                     <div class="col-md-3">
-                        <div class="card mb-3 shadow-lg border-0 rounded-3 overflow-hidden fade-in py-3">
-                            <img src="{{ $team->team_logo }}" class="card-img-top img-fluid team-logo"
-                                alt="{{ $team->name }}">
-                            <div class="card-body text-center">
+                        <div class=" m-5  border-0 rounded-3 overflow-hidden fade-in py-3">
+                            <a href="{{ route('admin.teams.show', $team->id) }}">
+                                <img src="{{ $team->team_logo }}" class="card-img-top img-fluid team-logo" alt="{{ $team->name }}">
+                            </a>
+
+                            {{-- <div class="card-body text-center">
                                 <h5 class="card-title text-uppercase fw-bold text-dark">{{ $team->name }}</h5>
                                 <p class="card-text text-muted small">📍 Città: {{ $team->city }}</p>
                                 <p class="card-text small">🏟 Stadio: {{ $team->stadium }}</p>
@@ -21,7 +23,7 @@
                                     {{ number_format($team->team_value, 2, ',', '.') }} mln</p>
                                 <a href="{{ route('admin.teams.show', $team->id) }}"
                                     class="btn btn-outline-primary btn-sm border-0">🔍 Dettagli</a>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 @endforeach
