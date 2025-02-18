@@ -9,7 +9,7 @@
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
-                                <img src="{{ $team->team_logo }}" class="img-fluid team-logo" alt="{{ $team->name }}">
+                                <img src="{{ asset($team->team_logo) }}" class="img-fluid team-logo" alt="{{ $team->name }}">
                             </div>
                             <div class="flip-box-back">
                                 <h4 class="text-light">{{ $team->name }}</h4>
@@ -18,34 +18,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8 fade-in">
+                <div class="col-md-8 team-info">
                     <h2 class="text-primary">{{ $team->name }}</h2>
                     <p><strong>📍 Città:</strong> {{ $team->city }}</p>
                     <p><strong>🏟 Stadio:</strong> {{ $team->stadium }}</p>
-                    <p><strong>💰 Valore Squadra:</strong> €{{ number_format($team->team_value, 2, ',', '.') }}</p>
+                    <p><strong>💰 Valore Squadra:</strong> €{{ number_format($team->team_value, 2, ',', '.') }} mln</p>
                     <p><strong>🏆 Palmares:</strong> {{ $team->palmares }}</p>
-                    <a href="{{ route('admin.teams.index') }}" class="btn btn-outline-primary btn-animated border-0">🔙
-                        Torna alle squadre</a>
+                    <a href="{{ route('admin.teams.index') }}" class="btn btn-outline-primary btn-animated">🔙 Torna alle squadre</a>
                 </div>
             </div>
         </div>
     </div>
 
     <style>
-        .fade-in {
+        /* Animazione Fade-In */
+        .team-info, .team-card {
             opacity: 0;
             transform: translateY(20px);
-            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-        }
-
-
-        .team-card {
-            opacity: 0;
-            transform: scale(0.9);
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
         }
 
-
+        /* Flip Box */
         .flip-box {
             width: 150px;
             height: 150px;
@@ -54,9 +47,9 @@
         }
 
         .flip-box-inner {
-            position: relative;
             width: 100%;
             height: 100%;
+            position: relative;
             text-align: center;
             transition: transform 0.6s;
             transform-style: preserve-3d;
@@ -66,8 +59,7 @@
             transform: rotateY(180deg);
         }
 
-        .flip-box-front,
-        .flip-box-back {
+        .flip-box-front, .flip-box-back {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -76,6 +68,7 @@
             align-items: center;
             justify-content: center;
             border-radius: 10px;
+            padding: 10px;
         }
 
         .flip-box-front {
@@ -87,12 +80,11 @@
             background: #007bff;
             transform: rotateY(180deg);
             color: white;
-            padding: 10px;
         }
 
-
+        /* Bottone animato */
         .btn-animated {
-            transition: all 0.3s ease-in-out;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
         }
 
         .btn-animated:hover {
@@ -103,15 +95,22 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
+            const teamInfo = document.querySelector(".team-info");
+            const teamCard = document.querySelector(".team-card");
 
-            document.querySelector(".fade-in").style.opacity = 1;
-            document.querySelector(".fade-in").style.transform = "translateY(0)";
+            if (teamInfo) {
+                setTimeout(() => {
+                    teamInfo.style.opacity = 1;
+                    teamInfo.style.transform = "translateY(0)";
+                }, 200);
+            }
 
-
-            setTimeout(() => {
-                document.querySelector(".team-card").style.opacity = 1;
-                document.querySelector(".team-card").style.transform = "scale(1)";
-            }, 200);
+            if (teamCard) {
+                setTimeout(() => {
+                    teamCard.style.opacity = 1;
+                    teamCard.style.transform = "translateY(0)";
+                }, 300);
+            }
         });
     </script>
 @endsection
