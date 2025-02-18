@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container mt-5">
-        <h1 class="text-center mb-4 text-primary fw-bold">⚽ Serie A - Giocatori, Squadre e Allenatori</h1>
+        {{-- <h1 class="text-center mb-4 text-primary fw-bold">⚽ Serie A - Giocatori, Squadre e Allenatori</h1> --}}
 
         <!-- 🔍 SearchBar -->
         <div class="d-flex justify-content-center mb-4">
@@ -15,20 +15,24 @@
 
         <!-- 🏆 Sezione Giocatori -->
         <section class="mb-5">
-            <h2 class="text-success mb-4 text-center">👕 Giocatori di Serie A</h2>
+            {{-- <h2 class="text-success mb-4 text-center">👕 Giocatori di Serie A</h2> --}}
             <div class="row">
                 @foreach ($players as $player)
                     <div class="col-md-4 col-lg-3">
                         <div class="card mb-4 player-card shadow-sm">
-                            <div class="card-body text-center">
-                                <div class="player-image-container">
+                            <div class="card-body position-relative text-center">
+                                <div class="">
                                     <img class="img-fluid player-img" src="{{ $player->img }}"
                                         alt="{{ $player->first_name }}">
                                 </div>
-                                <h5 class="card-title mt-3 fw-bold">{{ $player->first_name }} {{ $player->last_name }}</h5>
-                                <p class="card-text"><strong>{{ $player->team->name }}</strong><img
-                                        src="{{ $player->team->url_logo }}" class="card-img-top img-fluid team-logo"
-                                        alt="{{ $player->team->name }}"> </p>
+                                <h5 class="card-title nome-fig mt-3 fw-bold">{{ $player->first_name }}
+                                    {{ $player->last_name }}</h5>
+                                <div class="d-flex  position-absolute nome-verticale">
+                                    {{ $player->team->name }}
+                                </div>
+                                <img src="{{ $player->team->url_logo }}" class="card-img-top icona-logo img-fluid team-logo"
+                                    alt="{{ $player->team->name }}">
+
                                 <a href="{{ route('admin.players.show', $player->id) }}"
                                     class="btn btn-outline-success rounded-pill px-4 mt-2">👤 Profilo</a>
                             </div>
@@ -69,24 +73,39 @@
             overflow: hidden;
         }
 
+        .nome-fig {
+            width: 100%;
+            background-color: #fff;
+            border-radius: 6px;
+            border: 1px solid black;
+            padding: 1px 3px;
+            position: absolute;
+            top: 250px;
+            left: 0;
+
+        }
+
+        .nome-verticale {
+            top: 7px;
+            right: -12px;
+            width: 100%;
+            font-weight: bold;
+        }
+
         .player-card:hover {
             transform: translateY(-5px);
             box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
         }
 
-        /* 📸 Immagine giocatore */
-        .player-image-container {
-            width: 150px;
-            height: 150px;
-            margin: auto;
-            overflow: hidden;
-            border-radius: 50%;
-            border: 3px solid #28a745;
+        .icona-logo {
+            position: absolute;
+            top: 10px;
+            right: -40%;
         }
 
         .player-img {
             width: 100%;
-            height: 100%;
+            height: 275px;
             object-fit: cover;
         }
 
