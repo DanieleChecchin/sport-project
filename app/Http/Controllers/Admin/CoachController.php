@@ -11,12 +11,22 @@ class CoachController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $coaches = Coach::all();
+        $search = $request->input('search');
+        $query = Coach::query();
+
+        if ($search) {
+            $query->where('last_name', 'LIKE', "%$search%");
+        } else {
+            $choaches = Coach::all();
+        }
+
+        $coaches = $query->get();
 
         return view('admin.coaches.index', compact('coaches'));
     }
+
 
     /**
      * Show the form for creating a new resource.
