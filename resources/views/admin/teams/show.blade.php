@@ -9,7 +9,8 @@
                     <div class="flip-box">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
-                                <img src="{{ asset($team->team_logo) }}" class="img-fluid team-logo" alt="{{ $team->name }}">
+                                <img src="{{ asset('/storage/' . $team->team_logo) }}" class="img-fluid team-logo"
+                                    alt="{{ $team->name }}">
                             </div>
                             <div class="flip-box-back">
                                 <h4 class="text-light">{{ $team->name }}</h4>
@@ -24,7 +25,8 @@
                     <p><strong>🏟 Stadio:</strong> {{ $team->stadium }}</p>
                     <p><strong>💰 Valore Squadra:</strong> €{{ number_format($team->team_value, 2, ',', '.') }} mln</p>
                     <p><strong>🏆 Palmares:</strong> {{ $team->palmares }}</p>
-                    <a href="{{ route('admin.teams.index') }}" class="btn btn-outline-primary btn-animated">🔙 Torna alle squadre</a>
+                    <a href="{{ route('admin.teams.index') }}" class="btn btn-outline-primary btn-animated">🔙 Torna alle
+                        squadre</a>
                 </div>
             </div>
         </div>
@@ -32,7 +34,8 @@
 
     <style>
         /* Animazione Fade-In */
-        .team-info, .team-card {
+        .team-info,
+        .team-card {
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -59,7 +62,8 @@
             transform: rotateY(180deg);
         }
 
-        .flip-box-front, .flip-box-back {
+        .flip-box-front,
+        .flip-box-back {
             position: absolute;
             width: 100%;
             height: 100%;

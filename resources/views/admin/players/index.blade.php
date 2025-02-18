@@ -24,10 +24,13 @@
                                 <div class="player-image-container">
                                     <img class="img-fluid player-img" src="{{ $player->img }}"
                                         alt="{{ $player->first_name }}">
-                                </div>                               
-                                <h5 class="card-title mt-3 fw-bold">{{ $player->first_name }} {{ $player->last_name }}</h5>                                 
-                                <p class="card-text"><strong>{{ $player->team->name  }}</strong><img src="{{ $player->team->team_logo }}" class="card-img-top img-fluid team-logo" alt="{{ $player->team->name }}"> </p>                                 
-                                <a href="{{ route('admin.players.show', $player->id) }}" class="btn btn-outline-success rounded-pill px-4 mt-2">👤 Profilo</a>
+                                </div>
+                                <h5 class="card-title mt-3 fw-bold">{{ $player->first_name }} {{ $player->last_name }}</h5>
+                                <p class="card-text"><strong>{{ $player->team->name }}</strong><img
+                                        src="{{ $player->team->url_logo }}" class="card-img-top img-fluid team-logo"
+                                        alt="{{ $player->team->name }}"> </p>
+                                <a href="{{ route('admin.players.show', $player->id) }}"
+                                    class="btn btn-outline-success rounded-pill px-4 mt-2">👤 Profilo</a>
                             </div>
                         </div>
                     </div>
@@ -102,6 +105,5 @@
             object-fit: contain;
             transition: transform 0.3s ease-in-out;
         }
-
     </style>
 @endsection

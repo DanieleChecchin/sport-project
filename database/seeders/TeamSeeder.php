@@ -23,7 +23,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 71,
                 'city' => 'Torino',
                 'main_sponsor' => 'Save the Children',
-                'team_logo' => 'juve.png'
+                'team_logo' => 'juve.png',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cfda28/colore=BLACK.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Milan',
@@ -34,7 +35,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 53,
                 'city' => 'Milano',
                 'main_sponsor' => 'Emirates',
-                'team_logo' => 'milan.webp'
+                'team_logo' => 'milan.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cef513/milan.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Inter',
@@ -45,7 +47,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 46,
                 'city' => 'Milano',
                 'main_sponsor' => 'Betsson.sport',
-                'team_logo' => 'inter.webp'
+                'team_logo' => 'inter.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cef496/inter.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Napoli',
@@ -56,7 +59,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 14,
                 'city' => 'Napoli',
                 'main_sponsor' => 'MSC Crociere',
-                'team_logo' => 'Napoli.webp'
+                'team_logo' => 'Napoli.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/6681d23a/Napoli.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Atalanta',
@@ -67,7 +71,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 8,
                 'city' => 'Bergamo',
                 'main_sponsor' => 'Lete',
-                'team_logo' => 'atalanta.webp'
+                'team_logo' => 'atalanta.webp',
+                'url_logo' => 'https://cdn.discordapp.com/attachments/1314535509720301690/1341439136455983208/atalanta.png?ex=67b6000c&is=67b4ae8c&hm=708a3cdb77be05a1f859b49c18259928e0d71bc50462d6be29c93f16c9587c67&'
             ],
             [
                 'name' => 'Roma',
@@ -78,7 +83,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 17,
                 'city' => 'Roma',
                 'main_sponsor' => 'Riyadh Season',
-                'team_logo' => 'roma.webp'
+                'team_logo' => 'roma.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cfd5ce/roma.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Bologna',
@@ -89,7 +95,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 16,
                 'city' => 'Bologna',
                 'main_sponsor' => 'Saputo Inc.',
-                'team_logo' => 'bologna.webp'
+                'team_logo' => 'bologna.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cef3f6/bologna.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Fiorentina',
@@ -100,7 +107,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 13,
                 'city' => 'Firenze',
                 'main_sponsor' => 'Mediacom',
-                'team_logo' => 'fiorentina.webp'
+                'team_logo' => 'fiorentina.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cef452/fiorentina.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Como',
@@ -111,7 +119,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 5,
                 'city' => 'Como',
                 'main_sponsor' => 'Uber',
-                'team_logo' => 'como.webp'
+                'team_logo' => 'como.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62e28387/como.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Torino',
@@ -122,7 +131,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 13,
                 'city' => 'Torino',
                 'main_sponsor' => 'Suzuki',
-                'team_logo' => 'torino.webp'
+                'team_logo' => 'torino.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cef5cb/torino.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Cagliari',
@@ -133,7 +143,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 4,
                 'city' => 'Cagliari',
                 'main_sponsor' => 'Sardegna / AeroItalia',
-                'team_logo' => 'cagliari.webp'
+                'team_logo' => 'cagliari.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cfd202/cagliari.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Hellas Verona',
@@ -144,7 +155,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 4,
                 'city' => 'Verona',
                 'main_sponsor' => '958 Santero',
-                'team_logo' => 'verona.webp'
+                'team_logo' => 'verona.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cfe8b8/colore=BLUE.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Monza',
@@ -155,7 +167,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 7,
                 'city' => 'Monza',
                 'main_sponsor' => 'Motorola',
-                'team_logo' => 'monza.webp'
+                'team_logo' => 'monza.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62c6acbd/monza.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Lecce',
@@ -166,7 +179,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 4,
                 'city' => 'Lecce',
                 'main_sponsor' => 'DEGHI',
-                'team_logo' => 'lecce.webp'
+                'team_logo' => 'lecce.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cef4f6/lecce.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Lazio',
@@ -177,7 +191,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 17,
                 'city' => 'Roma',
                 'main_sponsor' => 'Nessuno',
-                'team_logo' => 'lazio.webp'
+                'team_logo' => 'lazio.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cef4d5/lazio.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Udinese',
@@ -188,7 +203,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 8,
                 'city' => 'Udine',
                 'main_sponsor' => 'Io sono Friuli-Venezia Giulia',
-                'team_logo' => 'udinese.webp'
+                'team_logo' => 'udinese.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cef5e9/udinese.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Empoli',
@@ -199,7 +215,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 4,
                 'city' => 'Empoli',
                 'main_sponsor' => 'Computer Gross',
-                'team_logo' => 'empoli.webp'
+                'team_logo' => 'empoli.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cef42e/empoli.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Parma',
@@ -210,7 +227,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 10,
                 'city' => 'Parma',
                 'main_sponsor' => 'Prometeon',
-                'team_logo' => 'parmalogo.webp'
+                'team_logo' => 'parmalogo.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/632da7d1/parmalogo.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Genoa',
@@ -221,7 +239,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 13,
                 'city' => 'Genova',
                 'main_sponsor' => 'Pulsee Luce e Gas',
-                'team_logo' => 'GENOA-1.webp'
+                'team_logo' => 'GENOA-1.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/649e8a06/GENOA-1.png?webp&q=70&size=-x180'
             ],
             [
                 'name' => 'Venezia',
@@ -232,7 +251,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 6,
                 'city' => 'Venezia',
                 'main_sponsor' => 'Cynar Spritz',
-                'team_logo' => 'Logo-Venezia.webp'
+                'team_logo' => 'Logo-Venezia.webp',
+                'url_logo' => 'https://img.legaseriea.it/vimages/64c7b5fd/Logo-Venezia.png?webp&q=70&size=-x180'
             ],
         ];
 

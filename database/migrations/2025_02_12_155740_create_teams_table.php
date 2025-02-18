@@ -21,6 +21,7 @@ return new class extends Migration {
             $table->string('city');
             $table->string('main_sponsor');
             $table->text('team_logo')->nullable();
+            $table->text('url_logo')->nullable();
             $table->timestamps();
         });
     }
