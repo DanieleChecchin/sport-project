@@ -12,7 +12,8 @@
                     <div class="col-md-3">
                         <div class=" m-5  border-0 rounded-3 overflow-hidden fade-in py-3">
                             <a href="{{ route('admin.teams.show', $team->id) }}">
-                                <img src="{{ $team->team_logo }}" class="card-img-top img-fluid team-logo" alt="{{ $team->name }}">
+                                <img src="{{ asset('/storage/' . $team->team_logo) }}"
+                                    class="card-img-top img-fluid team-logo" alt="{{ $team->name }}">
                             </a>
 
                             {{-- <div class="card-body text-center">
@@ -61,7 +62,7 @@
             transition: opacity 0.6s ease-out, transform 0.6s ease-out;
         }
 
-         /* Contenitore del video  */
+        /* Contenitore del video  */
         .video-background {
             position: fixed;
             top: 0;
@@ -80,9 +81,8 @@
             transform: translate(-50%, -50%);
             width: 120vw;
             height: 120vh;
-            pointer-events: none; / Evita interazioni col video
+            pointer-events: none;/ Evita interazioni col video
         }
-
     </style>
 
     <script>
@@ -98,14 +98,15 @@
             });
         });
 
-// ------------------------------------------
+        // ------------------------------------------
 
-let tag = document.createElement('script');
+        let tag = document.createElement('script');
         tag.src = "https://www.youtube.com/iframe_api";
         let firstScriptTag = document.getElementsByTagName('script')[0];
         firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
         let player;
+
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
                 videoId: 'xkDTwbT4oog', // ID del video YouTube
