@@ -14,19 +14,25 @@ class PlayerController extends Controller
      */
     public function index(Request $request)
     {
-        $teamName = $request->input('team');
+        $search = $request->input('search');
         $teams = Team::all();
 
-        if ($teamName) {
-            $players = Player::whereHas('team', function ($query) use ($teamName) {
-                $query->where('name', 'LIKE', "%$teamName%");
-            })->get();
-        } else {
-            $players = Player::all();
+        $query = Player::query();
+
+        if ($search) {
+            $query->where(function ($query) use ($search) {
+                $query->whereHas('team', function ($query) use ($search) {
+                    $query->where('name', 'LIKE', "%$search%");
+                })
+                    ->orWhere('last_name', 'LIKE', "%$search%");
+            });
         }
+
+        $players = $query->get();
 
         return view('admin.players.index', compact('players', 'teams'));
     }
+
 
     /**
      * Show the form for creating a new resource.
