@@ -724,7 +724,7 @@ class PlayerSeeder extends Seeder
             ],
             [
                 "first_name" => "Khephren",
-                "last_name" => "Thura",
+                "last_name" => "Thuram",
                 "date_of_birth" => '2001-03-26',
                 "role" => "Centrocampista",
                 "nationality" => "Francia",
