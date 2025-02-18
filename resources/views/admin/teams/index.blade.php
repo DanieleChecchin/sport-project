@@ -15,16 +15,6 @@
                                 <img src="{{ asset('/storage/' . $team->team_logo) }}"
                                     class="card-img-top img-fluid team-logo" alt="{{ $team->name }}">
                             </a>
-
-                            {{-- <div class="card-body text-center">
-                                <h5 class="card-title text-uppercase fw-bold text-dark">{{ $team->name }}</h5>
-                                <p class="card-text text-muted small">📍 Città: {{ $team->city }}</p>
-                                <p class="card-text small">🏟 Stadio: {{ $team->stadium }}</p>
-                                <p class="card-text small">💰 Valore Squadra: €
-                                    {{ number_format($team->team_value, 2, ',', '.') }} mln</p>
-                                <a href="{{ route('admin.teams.show', $team->id) }}"
-                                    class="btn btn-outline-primary btn-sm border-0">🔍 Dettagli</a>
-                            </div> --}}
                         </div>
                     </div>
                 @endforeach
