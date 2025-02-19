@@ -21,6 +21,8 @@ return new class extends Migration {
             $table->text('img')->nullable();
             $table->string('team')->unique();
             $table->timestamps();
+            $table->string('nationality_logo')->nullable();
+            $table->string('team_logo')->nullable();
         });
     }
 

@@ -13,9 +13,13 @@ class Coach extends Model
         'first_name',
         'last_name',
         'nationality',
+        'nationality_logo',
         'trophies',
         'date_of_birth',
         'description',
+        'img',
+        'team',
+        'team_logo'
     ];
 
     public function players()
