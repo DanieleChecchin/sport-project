@@ -20,7 +20,7 @@ class CoachSeeder extends Seeder
                 'nationality' => 'Italiano',
                 'trophies' => 0,
                 'date_of_birth' => '1977-12-10',
-                'description' => 'Vincenzo Italiano (Karlsruhe, 10 dicembre 1977) è un allenatore di calcio ed ex calciatore italiano, di ruolo centrocampista, tecnico del Bologna. Ha vestito le maglie di Ribera, Partinicaudace, Trapani, Verona, Genoa, Chievo, Padova, Perugia e Lumezzane; del Verona e del Padova è stato anche capitano. Nel corso della sua carriera agonistica ha vinto due campionati italiani di Serie B: nel 1998-1999 con il Verona e nel 2007-2008 con il Chievo.',
+                'description' => 'Vincenzo Italiano (Karlsruhe, 10 dicembre 1977) è un allenatore di calcio ed ex calciatore italiano, di ruolo centrocampista, tecnico del Bologna. Ha vestito le maglie di Ribera, Partinicaudace, Trapani, Verona, Genoa, Chievo, Padova, Perugia e Lumezzane; del Verona e del Padova è stato anche capitano.',
                 'img' => 'https://media.gettyimages.com/id/2167298128/it/foto/bologna-italy-vincenzo-italiano-head-coach-of-bologna-greets-his-fans-during-the-serie-a-match.jpg?s=612x612&w=0&k=20&c=UmezvBqv7JnX2VNILhENfiLSSwlKt21H2D9KxQ1sKbY='
             ],
             [
@@ -29,7 +29,7 @@ class CoachSeeder extends Seeder
                 'nationality' => 'Italiano',
                 'trophies' => 0,
                 'date_of_birth' => '1973-03-05',
-                'description' => 'Davide Nicola (Luserna San Giovanni, 5 marzo 1973) è un allenatore di calcio ed ex calciatore italiano, di ruolo difensore, tecnico del Cagliari. Ha difeso per lungo tempo i colori del Genoa[3], prima di esordire in Serie A con il Siena.Consegue il patentino nel 2008, superando il corso FIGC per Allenatori Professionisti di 1ª Categoria UEFA PRO con la votazione di 110/110.',
+                'description' => 'Davide Nicola (Luserna San Giovanni, 5 marzo 1973) è un allenatore di calcio ed ex calciatore italiano, di ruolo difensore, tecnico del Cagliari. Ha difeso per lungo tempo i colori del Genoa, prima di esordire in Serie A con il Siena.Consegue il patentino nel 2008, superando il corso FIGC per Allenatori Professionisti di 1ª Categoria UEFA PRO con la votazione di 110/110.',
                 'img' => 'https://media.gettyimages.com/id/2147952887/it/foto/empoli-italy-davide-nicola-heand-coach-of-empoli-fc-looks-on-during-the-serie-a-tim-match.jpg?s=612x612&w=0&k=20&c=5Hi2NEZ87oPL0BknBCKiUqXJeG29_0kpC0Zvvsig0C0='
             ],
             [
