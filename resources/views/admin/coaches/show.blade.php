@@ -2,21 +2,21 @@
 
 @section('content')
     <div class="container mt-5 d-flex justify-content-center align-items-center">
-        <!-- Card Allenatore in layout orizzontale -->
-        <div class="card shadow-lg p-4 custom-card d-flex flex-row animate-slide-in">
+        <!-- Card Allenatore in stile moderno -->
+        <div class="card shadow-lg p-4 custom-card d-flex flex-row animate-flip-in">
             <!-- Immagine dell'allenatore -->
             <div class="image-container">
                 <img src="{{ asset($coach->img) }}" alt="{{ $coach->first_name }}" class="coach-image">
             </div>
 
             <!-- Informazioni Allenatore -->
-            <div class="coach-details ms-4">
+            <div class="coach-details ms-4 text-w">
                 <h2 class="text-warning fw-bold">{{ $coach->first_name }} {{ $coach->last_name }}</h2>
                 <hr class="custom-hr">
-                <p><strong>🌍 Nazionalità:</strong> {{ $coach->nationality }}</p>
-                <p><strong>🏆 Trofei vinti:</strong> {{ $coach->trophies }}</p>
-                <p><strong>📜 Descrizione:</strong></p>
-                <p class="coach-description">{{ $coach->description }}</p>
+                <p class="text-white"><strong>🌍 Nazionalità:</strong> {{ $coach->nationality }}</p>
+                <p class="text-white"><strong>🏆 Trofei vinti:</strong> {{ $coach->trophies }}</p>
+                <p class="text-white"><strong>📜 Descrizione:</strong></p>
+                <p class="coach-description typing-effect">{{ $coach->description }}</p>
 
                 <!-- Pulsante di ritorno -->
                 <div class="mt-4">
@@ -32,26 +32,40 @@
     <style>
         /* Sfondo */
         body {
-            background: linear-gradient(135deg, #fff7e3 0%, #ffebd9 100%);
+            background: url('https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/dev/v9q9wjyz2fazuf8dlegf.jpg') no-repeat center center fixed;
+            background-size: cover;
+            position: relative;
         }
 
-        /* Card con layout orizzontale */
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        /* Card moderna */
         .custom-card {
             border-radius: 15px;
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+            background: rgb(0 0 0 / 33%);
+            backdrop-filter: blur(3px);
+            transition: transform 0.3sease, box-shadow 0.3sease;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
             border: 1px solid rgba(255, 255, 255, 0.2);
             max-width: 800px;
             display: flex;
             align-items: center;
             padding: 20px;
+            overflow: hidden;
         }
 
         .custom-card:hover {
             transform: scale(1.03);
-            box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 10px 30px rgba(255, 193, 7, 0.4);
         }
 
         /* Immagine dell'allenatore */
@@ -62,14 +76,15 @@
             border-radius: 50%;
             border: 4px solid #ffc107;
             box-shadow: 0px 0px 15px rgba(255, 193, 7, 0.7);
-            transition: box-shadow 0.3s ease;
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
         }
 
         .coach-image:hover {
-            box-shadow: 0px 0px 25px rgba(255, 193, 7, 1);
+            box-shadow: 0px 0px 30px rgba(255, 193, 7, 1);
+            transform: rotateY(10deg) scale(1.05);
         }
 
-        /* Contenitore dettagli allenatore */
+        /* Dettagli allenatore */
         .coach-details {
             flex-grow: 1;
             text-align: left;
@@ -79,22 +94,23 @@
         .custom-hr {
             width: 50%;
             border: 2px solid #ffc107;
-            opacity: 0.7;
+            opacity: 0.8;
         }
 
-        /* Descrizione allenatore */
+        /* Descrizione con effetto typing */
         .coach-description {
-            background: #fff3cd;
+            background: rgba(255, 255, 255, 0.8);
             padding: 10px;
             border-left: 5px solid #ffc107;
             font-style: italic;
             border-radius: 5px;
             text-align: justify;
+            font-size: 1.1em;
         }
 
-        /* Pulsante con effetto hover */
+        /* Pulsante moderno */
         .custom-btn {
-            background: #ffc107;
+            background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
             color: black;
             padding: 12px 25px;
             border-radius: 30px;
@@ -102,38 +118,74 @@
             font-weight: bold;
             text-decoration: none;
             transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
             display: inline-block;
+            box-shadow: 0px 5px 10px rgba(255, 193, 7, 0.5);
         }
 
         .custom-btn:hover {
-            background: #e0a800;
+            background: linear-gradient(135deg, #ff9800 0%, #ff6f00 100%);
             transform: scale(1.05);
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+            box-shadow: 0px 5px 15px rgba(255, 193, 7, 0.7);
         }
 
-        /* Animazione slide-in */
-        .animate-slide-in {
+        /* Effetto di luce sui bottoni */
+        .custom-btn::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .custom-btn:hover::before {
+            left: 100%;
+        }
+
+        /* Animazione flip-in */
+        .animate-flip-in {
             opacity: 0;
-            transform: translateX(-50px);
-            animation: slideIn 0.6s ease-out forwards;
+            transform: rotateY(-90deg);
+            animation: flipIn 0.7s ease-out forwards;
         }
 
-        @keyframes slideIn {
+        @keyframes flipIn {
             from {
                 opacity: 0;
-                transform: translateX(-50px);
+                transform: rotateY(-90deg);
             }
             to {
                 opacity: 1;
-                transform: translateX(0);
+                transform: rotateY(0);
             }
         }
+
     </style>
 
-    <!-- JS per animazione dinamica -->
+    <!-- JS per animazioni dinamiche -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            document.querySelector(".custom-card").classList.add("animate-slide-in");
+            document.querySelector(".custom-card").classList.add("animate-flip-in");
+
+            // Effetto macchina da scrivere sulla descrizione
+            const description = document.querySelector(".typing-effect");
+            const text = description.textContent;
+            description.textContent = "";
+            let i = 0;
+
+            function typeEffect() {
+                if (i < text.length) {
+                    description.textContent += text.charAt(i);
+                    i++;
+                    setTimeout(typeEffect, 30);
+                }
+            }
+
+            setTimeout(typeEffect, 500);
         });
     </script>
 @endsection

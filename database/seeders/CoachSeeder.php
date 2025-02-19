@@ -29,7 +29,7 @@ class CoachSeeder extends Seeder
                 'nationality' => 'Italiano',
                 'trophies' => 0,
                 'date_of_birth' => '1973-03-05',
-                'description' => 'aaaaaaaa',
+                'description' => 'Davide Nicola (Luserna San Giovanni, 5 marzo 1973) è un allenatore di calcio ed ex calciatore italiano, di ruolo difensore, tecnico del Cagliari.',
                 'img' => 'https://media.gettyimages.com/id/2147952887/it/foto/empoli-italy-davide-nicola-heand-coach-of-empoli-fc-looks-on-during-the-serie-a-tim-match.jpg?s=612x612&w=0&k=20&c=5Hi2NEZ87oPL0BknBCKiUqXJeG29_0kpC0Zvvsig0C0='
             ],
             [
