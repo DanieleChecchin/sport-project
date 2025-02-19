@@ -19,7 +19,7 @@
                 <p class="coach-description typing-effect">{{ $coach->description }}</p>
 
                 <!-- Pulsante di ritorno -->
-                <div class="mt-4">
+                <div class="mt-3">
                     <a href="{{ route('admin.coaches.index') }}" class="btn custom-btn">
                         🔙 Torna agli allenatori
                     </a>

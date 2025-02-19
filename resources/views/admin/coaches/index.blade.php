@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mt-5">
-        <h2 class="text-warning text-center mb-4">Allenatori di Serie A</h2>
+    <div class="container mt-5">        
         <!-- SearchBar con live search -->
         <div class="d-flex justify-content-center mb-4">
             <form action="{{ route('admin.coaches.index') }}" method="GET" class="d-flex search-bar" id="searchForm">
@@ -16,14 +15,14 @@
             <div class="row" id="coachesList">
                 @foreach ($coaches as $coach)
                     <div class="col-md-4 col-lg-3 coach-card" data-name="{{ strtolower($coach->first_name . ' ' . $coach->last_name) }}">
-                        <div class="card mb-4 shadow-lg border-warning animate-card">
+                        <div class="card mb-4 shadow-lg  animate-card">
                             <div class="card-img-top coach-image-container">
                                 <img src="{{ $coach->img }}" class="img-fluid coach-img"
                                     alt="{{ $coach->first_name }}">
                             </div>
                             <div class="card-body text-center">
-                                <h5 class="card-title fw-bold">{{ $coach->first_name }} {{ $coach->last_name }}</h5>
-                                <p class="card-text text-muted">🌍 Nazionalità: <strong>{{ $coach->nationality }}</strong></p>                                
+                                <h5 class="card-title fw-bold text-white">{{ $coach->first_name }} {{ $coach->last_name }}</h5>
+                                <p class="card-text text-white ">🌍 Nazionalità: <strong>{{ $coach->nationality }}</strong></p>                                
                                 <a href="{{ route('admin.coaches.show', $coach->id) }}" class="btn btn-outline-warning rounded-pill px-4 mt-2">📖 Scopri di più</a>
                             </div>
                         </div>
@@ -36,9 +35,8 @@
     <style>
         /* Sfondo della Pagina */
         body {
-            background: url('https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/dev/v9q9wjyz2fazuf8dlegf.jpg') no-repeat center center fixed;
-            background-size: cover;
-            position: relative;
+            background: url('https://media.gettyimages.com/id/1026849104/it/video/panning-passed-dugout-in-empty-maracana-stadium.jpg?s=640x640&k=20&c=poAUgepa08BYxqgSM1UkIsDplfga9SiDRfnJnTCoHEM=') no-repeat center center fixed;
+            background-size: cover;            
         }
 
        
@@ -48,8 +46,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.6);
+            height: 100%;            
             z-index: -1;
         }
 
@@ -65,16 +62,8 @@
 
         .search-bar input:focus {
             box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
-        }
-
-        /* Card Allenatori */
-        .coach-card {
-            display: flex;
-            justify-content: center;
-            opacity: 0;
-            transform: translateY(20px);
-            animation: fadeInUp 0.5s ease-in-out forwards;
-        }
+        }   
+        
 
         /* Animazioni di entrata */
         @keyframes fadeInUp {
@@ -88,23 +77,31 @@
             }
         }
 
-        .animate-card {
-            transition: all 0.3s ease-in-out;
+        .animate-card {            
             border-radius: 15px;
-            background: white;
-            position: relative;
-            overflow: hidden;            
-        }
+            background: rgb(0 0 0 / 33%);            
+            transition: transform 0.3sease, box-shadow 0.3sease;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            width: 300px;
+            height: 335px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            overflow: hidden;
+            backdrop-filter: blur(4px);
+        }        
+        
 
         .animate-card:hover {
-            transform: translateY(-10px) scale(1.05);
+            transform: translateY(-5px) scale(1);
             box-shadow: 0px 15px 30px rgba(255, 193, 7, 0.3);
         }
 
         /* Immagine allenatore */
         .coach-image-container {
-            width: 100px;
-            height: 100px;
+            width: 140px;
+            height: 140px;
             margin: auto;
             overflow: hidden;
             border-radius: 50%;
