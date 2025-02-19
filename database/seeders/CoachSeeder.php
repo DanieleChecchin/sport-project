@@ -93,9 +93,9 @@ class CoachSeeder extends Seeder
                 'trophies' => 3,
                 'date_of_birth' => '1963-09-11',
                 'description' => 'Nato a Firenze l’11 settembre 1963, ex difensore e ora tecnico della Lazio. Ha esordito nelle competizioni europee con la Lazio nel 2024.',
-                'img' => 'https://media.gettyimages.com/id/1713513387/it/foto/reggio-nellemilia-italy-raffaele-palladino-head-coach-of-monza-looks-on-prior-tothe-serie-a.jpg?s=612x612&w=0&k=20&c=9iYT6mcMglyubGjOQuCsWbZ828sspDajEfN8mGExP_w='
+                'img' => 'https://media.gettyimages.com/id/2191685923/it/foto/rome-italy-the-ss-lazio-head-coach-marco-baroni-looks-on-during-the-serie-a-match-between-ss.jpg?s=612x612&w=0&k=20&c=9BlzeXO7VZUQuuCCqUBZycGmh7ATJ8luOB8PlcECSNI='
             ],
-        
+
             [
                 'first_name' => 'Sergio',
                 'last_name' => 'Conceição',

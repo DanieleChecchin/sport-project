@@ -1,29 +1,34 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mt-5">        
+    <div class="container mt-5">
+
         <!-- SearchBar con live search -->
         <div class="d-flex justify-content-center mb-4">
             <form action="{{ route('admin.coaches.index') }}" method="GET" class="d-flex search-bar" id="searchForm">
                 <input type="text" name="search" id="searchInput" class="form-control me-2 rounded-pill shadow-sm"
-                    placeholder="Cerca squadra o allenatore..." aria-label="Search">
+                    placeholder="Cerca allenatore" aria-label="Search">
                 <button type="submit" class="btn btn-primary rounded-pill px-4">🔍 Cerca</button>
             </form>
         </div>
+
         <!-- Sezione Allenatori -->
         <section class="mb-5">
             <div class="row" id="coachesList">
                 @foreach ($coaches as $coach)
-                    <div class="col-md-4 col-lg-3 coach-card" data-name="{{ strtolower($coach->first_name . ' ' . $coach->last_name) }}">
+                    <div class="col-md-4 col-lg-3 coach-card"
+                        data-name="{{ strtolower($coach->first_name . ' ' . $coach->last_name) }}">
                         <div class="card mb-4 shadow-lg  animate-card">
                             <div class="card-img-top coach-image-container">
-                                <img src="{{ $coach->img }}" class="img-fluid coach-img"
-                                    alt="{{ $coach->first_name }}">
+                                <img src="{{ $coach->img }}" class="img-fluid coach-img" alt="{{ $coach->first_name }}">
                             </div>
                             <div class="card-body text-center">
-                                <h5 class="card-title fw-bold text-white">{{ $coach->first_name }} {{ $coach->last_name }}</h5>
-                                <p class="card-text text-white ">🌍 Nazionalità: <strong>{{ $coach->nationality }}</strong></p>                                
-                                <a href="{{ route('admin.coaches.show', $coach->id) }}" class="btn btn-outline-warning rounded-pill px-4 mt-2">📖 Scopri di più</a>
+                                <h5 class="card-title fw-bold text-white">{{ $coach->first_name }} {{ $coach->last_name }}
+                                </h5>
+                                <p class="card-text text-white ">🌍 Nazionalità: <strong>{{ $coach->nationality }}</strong>
+                                </p>
+                                <a href="{{ route('admin.coaches.show', $coach->id) }}"
+                                    class="btn btn-outline-warning rounded-pill px-4 mt-2">📖 Scopri di più</a>
                             </div>
                         </div>
                     </div>
@@ -36,21 +41,21 @@
         /* Sfondo della Pagina */
         body {
             background: url('https://media.gettyimages.com/id/1026849104/it/video/panning-passed-dugout-in-empty-maracana-stadium.jpg?s=640x640&k=20&c=poAUgepa08BYxqgSM1UkIsDplfga9SiDRfnJnTCoHEM=') no-repeat center center fixed;
-            background-size: cover;            
+            background-size: cover;
         }
 
-       
+
         body::before {
             content: "";
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;            
+            height: 100%;
             z-index: -1;
         }
 
-        
+
         .search-bar {
             max-width: 600px;
             width: 100%;
@@ -62,8 +67,8 @@
 
         .search-bar input:focus {
             box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
-        }   
-        
+        }
+
 
         /* Animazioni di entrata */
         @keyframes fadeInUp {
@@ -71,15 +76,16 @@
                 opacity: 0;
                 transform: translateY(20px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
             }
         }
 
-        .animate-card {            
+        .animate-card {
             border-radius: 15px;
-            background: rgb(0 0 0 / 33%);            
+            background: rgb(0 0 0 / 33%);
             transition: transform 0.3sease, box-shadow 0.3sease;
             box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
             border: 1px solid rgba(255, 255, 255, 0.2);
@@ -90,8 +96,8 @@
             padding: 20px;
             overflow: hidden;
             backdrop-filter: blur(4px);
-        }        
-        
+        }
+
 
         .animate-card:hover {
             transform: translateY(-5px) scale(1);
@@ -106,7 +112,7 @@
             overflow: hidden;
             border-radius: 50%;
             border: 3px solid #ffc107;
-            
+
         }
 
         .coach-img {
@@ -143,7 +149,6 @@
         .btn-outline-warning:hover::before {
             left: 100%;
         }
-
     </style>
 
     <script>
