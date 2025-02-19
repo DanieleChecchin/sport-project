@@ -43,9 +43,6 @@
 
     <style>
         /* 🏅 Stile Generale */
-        /* body {
-                                                                                                                                                                                                    background-color: #f8f9fa;
-                                                                                                                                                                                                } */
         .custom-card {
             border-radius: 15px;
             background: rgb(0 0 0 / 33%);
@@ -99,13 +96,13 @@
 
         /* 👕 Card Giocatori */
         /* .player-card {
-                                                                                                                            border: 1px solid black;
-                                                                                                                            border-radius: 15px;
-                                                                                                                            background: white;
-                                                                                                                            transition: all 0.3s ease-in-out;
-                                                                                                                            position: relative;
-                                                                                                                            overflow: hidden;
-                                                                                                                        } */
+                    border: 1px solid black;
+                    border-radius: 15px;
+                    background: white;
+                    transition: all 0.3s ease-in-out;
+                    position: relative;
+                    overflow: hidden;
+                } */
 
         .nome-fig {
             width: 100%;
