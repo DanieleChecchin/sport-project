@@ -14,6 +14,7 @@ class PlayerSeeder extends Seeder
     public function run(): void
     {
         $players = [
+            // ATALANTA
             [
                 "first_name" => "Marco",
                 "last_name" => "Carnesecchi",
@@ -248,6 +249,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 5,
                 "coach_id" => 20,
             ],
+            // BOLOGNA
             [
                 "first_name" => "Lucasz",
                 "last_name" => "Skorupski",
@@ -326,6 +328,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 7,
                 "coach_id" => 1,
             ],
+            // CAGLIARI
             [
                 "first_name" => "Giuseppe",
                 "last_name" => "Ciocci",
@@ -349,6 +352,19 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.87",
                 "img" => "https://img.legaseriea.it/vimages/66cf5a4d/ZRTNDR.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 11,
+                "coach_id" => 2,
+            ],
+            [
+                "first_name" => "Tommaso",
+                "last_name" => "Augello",
+                "date_of_birth" => '1994-08-30',
+                "role" => "Difensore",
+                "nationality" => "Italia",
+                "market_value" => 1.80,
+                "fav_foot" => "Sinistro",
+                "height" => "1.80",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a31/GLLMMS.png?webp&q=100&ch=840&size=-x265.5",
                 "team_id" => 11,
                 "coach_id" => 2,
             ],
@@ -378,6 +394,20 @@ class PlayerSeeder extends Seeder
                 "team_id" => 11,
                 "coach_id" => 2,
             ],
+            [
+                "first_name" => "Zito",
+                "last_name" => "Luvumbo",
+                "date_of_birth" => '2002-03-09',
+                "role" => "Attaccante",
+                "nationality" => "Angola",
+                "market_value" => 7.00,
+                "fav_foot" => "Sinistro",
+                "height" => "1.71",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a30/LVMBZT.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 11,
+                "coach_id" => 2,
+            ],
+            // COMO
             [
                 "first_name" => "Pepe",
                 "last_name" => "Reina",
@@ -418,6 +448,19 @@ class PlayerSeeder extends Seeder
                 "coach_id" => 3,
             ],
             [
+                "first_name" => "Sergi",
+                "last_name" => "Roberto",
+                "date_of_birth" => '1992-02-07',
+                "role" => "Centrocampista",
+                "nationality" => "Spagna",
+                "market_value" => 2.00,
+                "fav_foot" => "Destro",
+                "height" => "1.78",
+                "img" => "https://img.legaseriea.it/vimages/66db1ca2/RBRSR.png?webp&q=100&ch=840&size=379.5x-",
+                "team_id" => 9,
+                "coach_id" => 3,
+            ],
+            [
                 "first_name" => "Patrick",
                 "last_name" => "Cutrone",
                 "date_of_birth" => '1998-01-03',
@@ -430,7 +473,20 @@ class PlayerSeeder extends Seeder
                 "team_id" => 9,
                 "coach_id" => 3,
             ],
-            // ----------
+            [
+                "first_name" => "Gabriel",
+                "last_name" => "Strefezza",
+                "date_of_birth" => '1997-04-18',
+                "role" => "Attaccante",
+                "nationality" => "Brasile",
+                "market_value" => 6.00,
+                "fav_foot" => "Destro",
+                "height" => "1.68",
+                "img" => "https://img.legaseriea.it/vimages/66cf5a67/STRBRL.png?webp&q=100&ch=840&size=273x-",
+                "team_id" => 9,
+                "coach_id" => 3,
+            ],
+            // EMPOLI
             [
                 "first_name" => "Devis",
                 "last_name" => "Vaquez",
@@ -483,7 +539,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 17,
                 "coach_id" => 4,
             ],
-            // ----------
+            // FIORENTINA
             [
                 "first_name" => "David",
                 "last_name" => "De Gea",
@@ -536,7 +592,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 8,
                 "coach_id" => 5,
             ],
-            // ----------
+            // GENOA
             [
                 "first_name" => "Nicola",
                 "last_name" => "Leali",
@@ -589,7 +645,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 19,
                 "coach_id" => 6,
             ],
-            // ----------
+            // HELLAS VERONA
             [
                 "first_name" => "Lorenzo",
                 "last_name" => "Montipò",
@@ -642,7 +698,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 12,
                 "coach_id" => 19,
             ],
-            // ----------
+            // INTER
             [
                 "first_name" => "Yann",
                 "last_name" => "Sommer",
@@ -670,6 +726,19 @@ class PlayerSeeder extends Seeder
                 "coach_id" => 7,
             ],
             [
+                "first_name" => "Denzel",
+                "last_name" => "Dumfries",
+                "date_of_birth" => '1996-04-18',
+                "role" => "Difensore",
+                "nationality" => "Olanda",
+                "market_value" => 20.00,
+                "fav_foot" => "Destro",
+                "height" => "1.88",
+                "img" => "https://img.legaseriea.it/vimages/66cf305d/DMFNZL.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 3,
+                "coach_id" => 7,
+            ],
+            [
                 "first_name" => "Nicolò",
                 "last_name" => "Barella",
                 "date_of_birth" => '1997-02-07',
@@ -679,6 +748,19 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.75",
                 "img" => "https://img.legaseriea.it/vimages/66cf3057/BRLNC.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 3,
+                "coach_id" => 7,
+            ],
+            [
+                "first_name" => "Hakan",
+                "last_name" => "Çalhanoğlu",
+                "date_of_birth" => '1994-02-08',
+                "role" => "Centrocampista",
+                "nationality" => "Turchia",
+                "market_value" => 40.00,
+                "fav_foot" => "Destro",
+                "height" => "1.78",
+                "img" => "https://img.legaseriea.it/vimages/66cf304f/CLHHK.png?webp&q=100&ch=840&size=325.5x-",
                 "team_id" => 3,
                 "coach_id" => 7,
             ],
@@ -695,7 +777,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 3,
                 "coach_id" => 7,
             ],
-            // ----------
+            // JUVENTUS
             [
                 "first_name" => "Michele",
                 "last_name" => "Di Gregorio",
@@ -723,6 +805,19 @@ class PlayerSeeder extends Seeder
                 "coach_id" => 8,
             ],
             [
+                "first_name" => "Federico",
+                "last_name" => "Gatti",
+                "date_of_birth" => '1998-06-24',
+                "role" => "Difensore",
+                "nationality" => "Italiano",
+                "market_value" => 25.00,
+                "fav_foot" => "Destro",
+                "height" => "1.90",
+                "img" => "https://img.legaseriea.it/vimages/66d0572b/GTTDRC.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 1,
+                "coach_id" => 8,
+            ],
+            [
                 "first_name" => "Khephren",
                 "last_name" => "Thuram",
                 "date_of_birth" => '2001-03-26',
@@ -732,6 +827,19 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.92",
                 "img" => "https://img.legaseriea.it/vimages/66d05721/THRHRN.png?webp&q=100&ch=840&size=-x444",
+                "team_id" => 1,
+                "coach_id" => 8,
+            ],
+            [
+                "first_name" => "Francisco",
+                "last_name" => "Conceição",
+                "date_of_birth" => '2002-12-14',
+                "role" => "Attaccante",
+                "nationality" => "Portogallo",
+                "market_value" => 36.00,
+                "fav_foot" => "Sinistro",
+                "height" => "1.70",
+                "img" => "https://img.legaseriea.it/vimages/66db1b5b/CNCFN.png?webp&q=100&ch=840&size=277.5x-",
                 "team_id" => 1,
                 "coach_id" => 8,
             ],
@@ -748,7 +856,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 1,
                 "coach_id" => 8,
             ],
-            // ----------
+            // LAZIO
             [
                 "first_name" => "Ivan",
                 "last_name" => "Provedel",
@@ -801,7 +909,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 15,
                 "coach_id" => 9,
             ],
-            // ----------
+            // LECCE
             [
                 "first_name" => "Wladimiro",
                 "last_name" => "Falcone",
@@ -854,7 +962,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 14,
                 "coach_id" => 13,
             ],
-            // ----------
+            // MILAN
             [
                 "first_name" => "Mike",
                 "last_name" => "Maignan",
@@ -882,6 +990,19 @@ class PlayerSeeder extends Seeder
                 "coach_id" => 10,
             ],
             [
+                "first_name" => "Fikayo",
+                "last_name" => "Tomori",
+                "date_of_birth" => '1997-12-19',
+                "role" => "Difensore",
+                "nationality" => "Inghilterra",
+                "market_value" => 22.00,
+                "fav_foot" => "Destro",
+                "height" => "1.85",
+                "img" => "https://img.legaseriea.it/vimages/66cf21d0/TMRFKY.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 2,
+                "coach_id" => 10,
+            ],
+            [
                 "first_name" => "Tijjani",
                 "last_name" => "Reijnders",
                 "date_of_birth" => '1998-07-29',
@@ -891,6 +1012,19 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.85",
                 "img" => "https://img.legaseriea.it/vimages/66cf21cb/RJNJJN.png?webp&q=100&ch=840&size=271.5x-",
+                "team_id" => 2,
+                "coach_id" => 10,
+            ],
+            [
+                "first_name" => "Youssouf",
+                "last_name" => "Fofana",
+                "date_of_birth" => '1999-01-10',
+                "role" => "Centrocampista",
+                "nationality" => "Francia",
+                "market_value" => 30.00,
+                "fav_foot" => "Destro",
+                "height" => "1.85",
+                "img" => "https://img.legaseriea.it/vimages/66db1b7a/FFNSSF.png?webp&q=100&ch=840&size=-x265.5",
                 "team_id" => 2,
                 "coach_id" => 10,
             ],
@@ -907,7 +1041,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 2,
                 "coach_id" => 10,
             ],
-            // ----------
+            // MONZA
             [
                 "first_name" => "Stefano",
                 "last_name" => "Turati",
@@ -960,7 +1094,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 13,
                 "coach_id" => 14,
             ],
-            // ----------
+            // NAPOLI
             [
                 "first_name" => "Alex",
                 "last_name" => "Meret",
@@ -988,6 +1122,19 @@ class PlayerSeeder extends Seeder
                 "coach_id" => 11,
             ],
             [
+                "first_name" => "Alessandro",
+                "last_name" => "Buongiorno",
+                "date_of_birth" => '1999-06-06',
+                "role" => "Difensore",
+                "nationality" => "Italia",
+                "market_value" => 45.00,
+                "fav_foot" => "Sinistro",
+                "height" => "1.90",
+                "img" => "https://img.legaseriea.it/vimages/66d058b1/BNGNDR.png?webp&q=100&ch=840&size=321x-",
+                "team_id" => 4,
+                "coach_id" => 11,
+            ],
+            [
                 "first_name" => "Stanislav",
                 "last_name" => "Lobotka",
                 "date_of_birth" => '1994-11-25',
@@ -997,6 +1144,19 @@ class PlayerSeeder extends Seeder
                 "fav_foot" => "Destro",
                 "height" => "1.68",
                 "img" => "https://img.legaseriea.it/vimages/66d058c5/LBTST.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 4,
+                "coach_id" => 11,
+            ],
+            [
+                "first_name" => "Frank",
+                "last_name" => "Anguissa",
+                "date_of_birth" => '1995-11-16',
+                "role" => "Centrocampista",
+                "nationality" => "Camerun",
+                "market_value" => 27.00,
+                "fav_foot" => "Destro",
+                "height" => "1.84",
+                "img" => "https://img.legaseriea.it/vimages/66d058d6/RGRLW.png?webp&q=100&ch=840&size=-x265.5",
                 "team_id" => 4,
                 "coach_id" => 11,
             ],
@@ -1013,7 +1173,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 4,
                 "coach_id" => 11,
             ],
-            // ----------
+            // PARMA
             [
                 "first_name" => "Edoardo",
                 "last_name" => "Corvi",
@@ -1066,7 +1226,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 18,
                 "coach_id" => 15,
             ],
-            // ----------
+            // ROMA
             [
                 "first_name" => "Mile",
                 "last_name" => "Svilar",
@@ -1107,6 +1267,19 @@ class PlayerSeeder extends Seeder
                 "coach_id" => 16,
             ],
             [
+                "first_name" => "Bryan",
+                "last_name" => "Cristante",
+                "date_of_birth" => '1995-03-03',
+                "role" => "Centrocampista",
+                "nationality" => "Italia",
+                "market_value" => 12.00,
+                "fav_foot" => "Destro",
+                "height" => "1.86",
+                "img" => "https://img.legaseriea.it/vimages/66cf21f4/LKXHL.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 6,
+                "coach_id" => 16,
+            ],
+            [
                 "first_name" => "Paulo",
                 "last_name" => "Dybala",
                 "date_of_birth" => '1993-11-15',
@@ -1119,7 +1292,20 @@ class PlayerSeeder extends Seeder
                 "team_id" => 6,
                 "coach_id" => 16,
             ],
-            // ----------
+            [
+                "first_name" => "Matías",
+                "last_name" => "Soulé",
+                "date_of_birth" => '2003-04-15',
+                "role" => "Attaccante",
+                "nationality" => "Argentina",
+                "market_value" => 22.00,
+                "fav_foot" => "Sinistro",
+                "height" => "1.82",
+                "img" => "https://img.legaseriea.it/vimages/66cf2211/SLMMTS.png?webp&q=100&ch=840&size=-x265.5",
+                "team_id" => 6,
+                "coach_id" => 16,
+            ],
+            // TORINO
             [
                 "first_name" => "Vanja",
                 "last_name" => "Milinković-Savić",
@@ -1172,7 +1358,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 10,
                 "coach_id" => 17,
             ],
-            // ----------
+            // UDINESE
             [
                 "first_name" => "Maduka",
                 "last_name" => "Okoye",
@@ -1225,7 +1411,7 @@ class PlayerSeeder extends Seeder
                 "team_id" => 16,
                 "coach_id" => 18,
             ],
-            // ----------
+            // VENEZIA
             [
                 "first_name" => "Jesse",
                 "last_name" => "Joronen",
