@@ -2,25 +2,26 @@
 
 @section('content')
     <div class="container mt-5 d-flex justify-content-center align-items-center">
-        @if(isset($player))
+        @if (isset($player))
             <!-- Card Giocatore Orizzontale -->
             <div class="card shadow-lg p-6 custom-card animate-slide-in d-flex flex-row align-items-center">
                 <!-- Immagine del giocatore -->
                 <div class="player-img-container me-4">
                     <img src="{{ $player->img }}" alt="{{ $player->first_name }}" class="player-image">
                 </div>
-                
+
                 <!-- Dettagli del giocatore -->
                 <div class="player-details">
                     <h2 class="text-success fw-bold">{{ $player->first_name }} {{ $player->last_name }}</h2>
                     <hr class="custom-hr">
                     <p><strong>🏅 Ruolo:</strong> {{ $player->role }}</p>
                     <p><strong>🛡 Squadra:</strong> {{ $player->team->name }}</p>
+                    <p><strong>📏 Numero di maglia:</strong> {{ $player->number }}</p>
                     <p><strong>⚽ Piede preferito:</strong> {{ $player->fav_foot }}</p>
                     <p><strong>📏 Altezza:</strong> {{ $player->height }} cm</p>
                     <p><strong>💰 Valore di mercato:</strong>
                         €{{ number_format($player->market_value, 2, ',', '.') }} mln</p>
-                    
+
                     <!-- Pulsante di ritorno -->
                     <div class="mt-3">
                         <a href="{{ route('admin.players.index') }}" class="btn custom-btn">
@@ -117,7 +118,7 @@
                 flex-direction: column;
                 text-align: center;
             }
-            
+
             .player-img-container {
                 margin-bottom: 15px;
             }
@@ -140,6 +141,7 @@
                 opacity: 0;
                 transform: translateY(40px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -149,7 +151,7 @@
 
     <!-- JS per animazione dinamica -->
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             const card = document.querySelector(".custom-card");
             if (card) {
                 card.classList.add("animate-slide-in");

@@ -21,6 +21,7 @@ return new class extends Migration {
             $table->string('fav_foot');
             $table->float('height');
             $table->text('img')->nullable();
+            $table->integer('number')->nullable();
             $table->foreignId('team_id')->constrained();
             $table->foreignId('coach_id')->constrained();
             $table->timestamps();
