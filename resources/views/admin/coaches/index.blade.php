@@ -23,8 +23,7 @@
                             </div>
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold">{{ $coach->first_name }} {{ $coach->last_name }}</h5>
-                                <p class="card-text text-muted">🌍 Nazionalità: <strong>{{ $coach->nationality }}</strong></p>
-                                <p class="card-text">🏆 Trofei vinti: <strong>{{ $coach->trophies }}</strong></p>
+                                <p class="card-text text-muted">🌍 Nazionalità: <strong>{{ $coach->nationality }}</strong></p>                                
                                 <a href="{{ route('admin.coaches.show', $coach->id) }}" class="btn btn-outline-warning rounded-pill px-4 mt-2">📖 Scopri di più</a>
                             </div>
                         </div>

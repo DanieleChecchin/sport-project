@@ -56,7 +56,8 @@
             transition: transform 0.3sease, box-shadow 0.3sease;
             box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            max-width: 800px;
+            width: 70%;
+            height: 500px;            
             display: flex;
             align-items: center;
             padding: 20px;
