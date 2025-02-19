@@ -19,6 +19,7 @@ return new class extends Migration {
             $table->date('date_of_birth');
             $table->text('description');
             $table->text('img')->nullable();
+            $table->string('team')->unique();
             $table->timestamps();
         });
     }
