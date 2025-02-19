@@ -83,7 +83,7 @@ class CoachSeeder extends Seeder
                 'nationality' => 'Italiano',
                 'trophies' => 0,
                 'date_of_birth' => '1982-08-28',
-                'description' => 'Thiago Motta (São Bernardo do Campo, 28 agosto 1982) è un allenatore di calcio ed ex calciatore italo-brasiliano, di ruolo centrocampista, tecnico della Juventus.Conclusa la carriera da calciatore, intraprende quella di tecnico. Dopo una breve esperienza con il Genoa (2019), nel 2021-22 allena lo Spezia, con cui ottiene una salvezza in massima serie. Nel 2022 assume l’incarico sulla panchina del Bologna, con cui nella stagione 2023-2024 raggiunge la qualificazione in Champions League, riportando i felsinei nella massima competizione europea per club dopo 60 anni. A fine stagione passa alla guida della Juventus.',
+                'description' => 'Thiago Motta (São Bernardo do Campo, 28 agosto 1982) è un allenatore di calcio ed ex calciatore italo-brasiliano, di ruolo centrocampista, tecnico della Juventus.Conclusa la carriera da calciatore, intraprende quella di tecnico. Dopo una breve esperienza con il Genoa (2019). Nel 2022 assume l’incarico sulla panchina del Bologna, con cui nella stagione 2023-2024 raggiunge la qualificazione in Champions League, riportando i felsinei nella massima competizione europea per club dopo 60 anni.',
                 'img' => 'https://media.gettyimages.com/id/2187742381/it/foto/lecce-italy-head-coach-of-juventus-thiago-motta-looks-on-during-the-serie-a-match-between.jpg?s=612x612&w=0&k=20&c=mBqF9hH71jBM-Ep2QCZ4FFz19QZgwbD4O_CNXAIHUbU='
             ],
             [
