@@ -19,24 +19,23 @@
             <div class="row">
                 @foreach ($players as $player)
                     <div class="col-md-4 col-lg-3">
-                        <div class="card mb-4 player-card shadow-sm">
-                            <div class="card-body position-relative text-center">
-                                <div class="">
-                                    <img class="img-fluid player-img" src="{{ $player->img }}"
-                                        alt="{{ $player->first_name }}">
+                        <a href="{{ route('admin.players.show', $player->id) }}">
+                            <div class="card mb-4 player-card shadow-sm">
+                                <div class="card-body position-relative text-center">
+                                    <div class="">
+                                        <img class="img-fluid player-img" src="{{ $player->img }}"
+                                            alt="{{ $player->first_name }}">
+                                    </div>
+                                    <h5 class="card-title nome-fig fw-bold m-0">{{ $player->first_name }}
+                                        {{ $player->last_name }}</h5>
+                                    <div class="d-flex  position-absolute nome-verticale">
+                                        {{ $player->team->name }}
+                                    </div>
+                                    <img src="{{ $player->team->url_logo }}"
+                                        class="card-img-top icona-logo img-fluid team-logo" alt="{{ $player->team->name }}">
                                 </div>
-                                <h5 class="card-title nome-fig mt-3 fw-bold">{{ $player->first_name }}
-                                    {{ $player->last_name }}</h5>
-                                <div class="d-flex  position-absolute nome-verticale">
-                                    {{ $player->team->name }}
-                                </div>
-                                <img src="{{ $player->team->url_logo }}" class="card-img-top icona-logo img-fluid team-logo"
-                                    alt="{{ $player->team->name }}">
-
-                                <a href="{{ route('admin.players.show', $player->id) }}"
-                                    class="btn btn-outline-success rounded-pill px-4 mt-2">👤 Profilo</a>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 @endforeach
             </div>
@@ -65,7 +64,7 @@
 
         /* 👕 Card Giocatori */
         .player-card {
-            border: none;
+            border: 1px solid black;
             border-radius: 15px;
             background: white;
             transition: all 0.3s ease-in-out;
@@ -76,13 +75,12 @@
         .nome-fig {
             width: 100%;
             background-color: #fff;
-            border-radius: 6px;
+            border-radius: 15px;
             border: 1px solid black;
             padding: 1px 3px;
             position: absolute;
-            top: 250px;
+            top: 279px;
             left: 0;
-
         }
 
         .nome-verticale {
