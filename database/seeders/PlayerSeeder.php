@@ -1605,7 +1605,7 @@ class PlayerSeeder extends Seeder
             [
                 "first_name" => "Scott",
                 "last_name" => "McTominay",
-                "date_of_birth" => '1995ì6-12-08',
+                "date_of_birth" => '1995-12-08',
                 "role" => "Centrocampista",
                 "nationality" => "Scozia",
                 "market_value" => 40.00,
