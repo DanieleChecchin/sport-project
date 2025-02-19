@@ -25,15 +25,14 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title fw-bold text-white">{{ $coach->first_name }} {{ $coach->last_name }}
                                 </h5>
-                                <p class="card-text text-white ">Panchina: <strong>{{ $coach->team }}</strong>
-                                </p>
+                               
                                   <!-- Logo Squadra -->
                                     <img src="{{ asset($coach->team_logo) }}" class="img-fluid team-logo" 
-                                    alt="{{ $coach->team }}" style="width: 50px; height: auto;">
+                                    alt="{{ $coach->team }}" style="width: 35px; height: auto;">
 
                                 <!-- Logo Nazione -->                                
                                 <img src="{{ asset($coach->nationality_logo) }}" class="img-fluid nation-logo"
-                                    alt="{{ $coach->nationality }}" style="width: 40px; height: auto;">
+                                    alt="{{ $coach->nationality }}" style="width: 35px; height: auto;">
                                 <a href="{{ route('admin.coaches.show', $coach->id) }}"
                                     class="btn btn-outline-warning rounded-pill px-4 mt-2">📖 Scopri di più</a>
                             </div>
