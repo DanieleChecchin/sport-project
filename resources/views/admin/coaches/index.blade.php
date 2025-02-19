@@ -31,10 +31,7 @@
                                     <img src="{{ asset($coach->team_logo) }}" class="img-fluid team-logo" 
                                     alt="{{ $coach->team }}" style="width: 50px; height: auto;">
 
-                                <!-- Logo Nazione -->
-                                <p class="card-text text-white">
-                                    Nazionalità: <strong>{{ $coach->nationality }}</strong>
-                                </p>
+                                <!-- Logo Nazione -->                                
                                 <img src="{{ asset($coach->nationality_logo) }}" class="img-fluid nation-logo"
                                     alt="{{ $coach->nationality }}" style="width: 40px; height: auto;">
                                 <a href="{{ route('admin.coaches.show', $coach->id) }}"
@@ -99,8 +96,8 @@
             transition: transform 0.3sease, box-shadow 0.3sease;
             box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
             border: 1px solid rgba(255, 255, 255, 0.2);
-            width: 300px;
-            height: 335px;
+            width: 290px;
+            height: 350px;
             display: flex;
             align-items: center;
             padding: 20px;
