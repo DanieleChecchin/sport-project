@@ -1,8 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mt-5">
-        <h2 class="text-warning text-center mb-4">Allenatori di Serie A</h2>
+    <div class="container mt-5">        
         <!-- SearchBar con live search -->
         <div class="d-flex justify-content-center mb-4">
             <form action="{{ route('admin.coaches.index') }}" method="GET" class="d-flex search-bar" id="searchForm">
@@ -36,9 +35,8 @@
     <style>
         /* Sfondo della Pagina */
         body {
-            background: url('https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/dev/v9q9wjyz2fazuf8dlegf.jpg') no-repeat center center fixed;
-            background-size: cover;
-            position: relative;
+            background: url('https://media.gettyimages.com/id/1026849104/it/video/panning-passed-dugout-in-empty-maracana-stadium.jpg?s=640x640&k=20&c=poAUgepa08BYxqgSM1UkIsDplfga9SiDRfnJnTCoHEM=') no-repeat center center fixed;
+            background-size: cover;            
         }
 
        
@@ -48,8 +46,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.6);
+            height: 100%;            
             z-index: -1;
         }
 
@@ -103,8 +100,8 @@
 
         /* Immagine allenatore */
         .coach-image-container {
-            width: 100px;
-            height: 100px;
+            width: 130px;
+            height: 130px;
             margin: auto;
             overflow: hidden;
             border-radius: 50%;
