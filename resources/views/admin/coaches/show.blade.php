@@ -18,14 +18,16 @@
                 <p class="text-white"><strong>📜 Descrizione:</strong></p>
                 <p class="coach-description typing-effect">{{ $coach->description }}</p>
 
-                <!-- Pulsante di ritorno -->
-                <div class="mt-3">
-                    <a href="{{ route('admin.coaches.index') }}" class="btn custom-btn">
-                        🔙 Torna agli allenatori
-                    </a>
-                </div>
+               
             </div>
         </div>
+    </div>
+
+     <!-- Pulsante di ritorno -->
+     <div class="mt-3 d-flex justify-content-center">
+        <a href="{{ route('admin.coaches.index') }}" class="btn custom-btn">
+            🔙 Torna agli allenatori
+        </a>
     </div>
 
     <!-- Stili personalizzati -->
