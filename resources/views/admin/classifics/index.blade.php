@@ -22,7 +22,7 @@
             <tbody>
                 @foreach ($classifics as $index => $team)
                     <tr class="table-row">
-                        <td>{{ $index + 1 }}</td>
+                        <td class="position">{{ $index + 1 }}</td>
                         <td>{{ $team->team_name }}</td>
                         <td>{{ $team->played }}</td>
                         <td>{{ $team->wins }}</td>
@@ -31,12 +31,18 @@
                         <td>{{ $team->goals_for }}</td>
                         <td>{{ $team->goals_against }}</td>
                         <td>{{ $team->goal_difference }}</td>
-                        <td>{{ $team->points }}</td>
+                        <td class="position">{{ $team->points }}</td>
                     </tr>
                 @endforeach
             </tbody>
         </table>
     </div>
 </div>
+
+<style>
+    .position {
+        width: 15px;
+    }
+</style>
 
 @endsection
