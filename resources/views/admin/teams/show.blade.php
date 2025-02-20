@@ -1,42 +1,55 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container height-vh">
-        <!-- Dettagli Squadra -->
-        <div class="card shadow-lg p-4  team-card">
-            <div class="row align-items-center">
-                <div class="col-md-4 text-center">
-                    <div class="flip-box">
-                        <div class="flip-box-inner">
-                            <div class="flip-box-front">
-                                <img src="{{ asset('/storage/' . $team->team_logo) }}" class="img-fluid team-logo"
-                                    alt="{{ $team->name }}">
-                            </div>
-                            <div class="flip-box-back">
-                                <h4 class="text-light">{{ $team->name }}</h4>
-                                <p class="text-light">🏆 Palmares: {{ $team->palmares }}</p>
+    <div style="background-image: url('{{ $team->stadium_url }}'); background-repeat: no-repeat; background-size: cover;">
+        <div class="container height-vh">
+            <!-- Dettagli Squadra -->
+            <div class="card shadow-lg p-4 team-card bg-transparent">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center">
+                        <div class="flip-box">
+                            <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                                    <img src="{{ asset('/storage/' . $team->team_logo) }}" class="img-fluid team-logo"
+                                        alt="{{ $team->name }}">
+                                </div>
+                                <div class="flip-box-back">
+                                    <h4 class="text-light">{{ $team->name }}</h4>
+                                    <p class="text-light">🏆 Palmares: {{ $team->palmares }}</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-8 team-info">
-                    <h2 class="text-primary">{{ $team->name }}</h2>
-                    <p><strong>📍 Città:</strong> {{ $team->city }}</p>
-                    <p><strong>🏟 Stadio:</strong> {{ $team->stadium }}</p>
-                    <p><strong>💰 Valore Squadra:</strong> €{{ number_format($team->team_value, 2, ',', '.') }} mln</p>
-                    <p><strong>🏆 Palmares:</strong> {{ $team->palmares }}</p>
-                    <a href="{{ route('admin.teams.index') }}" class="btn btn-outline-primary btn-animated">🔙 Torna alle
-                        squadre</a>
+                    <div class="col-md-8 team-info">
+                        <h2 class="text-primary">{{ $team->name }}</h2>
+                        <p><strong>📍 Città:</strong> {{ $team->city }}</p>
+                        <p><strong>🏟 Stadio:</strong> {{ $team->stadium }}</p>
+                        <p><strong>💰 Valore Squadra:</strong> €{{ number_format($team->team_value, 2, ',', '.') }} mln</p>
+                        <p><strong>🏆 Palmares:</strong> {{ $team->palmares }}</p>
+                        <a href="{{ route('admin.teams.index') }}" class="btn btn-outline-primary btn-animated">🔙 Torna
+                            alle
+                            squadre</a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
     <style>
         .height-vh {
             height: 100vh;
             padding-top: 250px;
+
         }
+
+        /*
+                        .back {
+                            background-image: url('https://media.gettyimages.com/id/2129996675/it/foto/reggio-nellemilia-italy-keep-racism-out-logo-is-seen-prior-to-the-serie-a-tim-match-between-us.jpg?s=2048x2048&w=gi&k=20&c=7nFZT7hR92_U3JPiBzMm3gxoMG0YpAL7GavNlKOUgvw=');
+                            /* background-repeat: no-repeat; */
+        /* background-size: cover;
+
+                    } */
+
+        */
 
         /* Animazione Fade-In */
         .team-info,
@@ -44,6 +57,7 @@
             opacity: 0;
             transform: translateY(20px);
             transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+
         }
 
         /* Flip Box */
@@ -99,6 +113,10 @@
         .btn-animated:hover {
             transform: scale(1.1);
             box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+        }
+
+        body {
+            background-image: url('{{ $team->stadium_url }}');
         }
     </style>
 
