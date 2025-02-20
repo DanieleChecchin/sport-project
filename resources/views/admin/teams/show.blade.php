@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mt-5">
+    <div class="container height-vh">
         <!-- Dettagli Squadra -->
-        <div class="card shadow-lg p-4 team-card">
+        <div class="card shadow-lg p-4  team-card">
             <div class="row align-items-center">
                 <div class="col-md-4 text-center">
                     <div class="flip-box">
@@ -33,6 +33,11 @@
     </div>
 
     <style>
+        .height-vh {
+            height: 100vh;
+            padding-top: 250px;
+        }
+
         /* Animazione Fade-In */
         .team-info,
         .team-card {
