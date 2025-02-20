@@ -72,7 +72,7 @@ class TeamSeeder extends Seeder
                 'city' => 'Bergamo',
                 'main_sponsor' => 'Lete',
                 'team_logo' => 'atalanta.webp',
-                'url_logo' => 'https://cdn.discordapp.com/attachments/1314535509720301690/1341439136455983208/atalanta.png?ex=67b6000c&is=67b4ae8c&hm=708a3cdb77be05a1f859b49c18259928e0d71bc50462d6be29c93f16c9587c67&'
+                'url_logo' => 'https://img.legaseriea.it/vimages/62cfd69d/atalanta.png?webp&q=70&size=-x39'
             ],
             [
                 'name' => 'Roma',
