@@ -1,59 +1,93 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mt-5 d-flex justify-content-center align-items-center">
-        @if (isset($player))
-            <!-- Card Giocatore Orizzontale -->
-            <div class="card shadow-lg p-6 custom-card animate-slide-in d-flex flex-row align-items-center">
-                <!-- Immagine del giocatore -->
-                <div class="player-img-container me-4">
-                    <img src="{{ $player->img }}" alt="{{ $player->first_name }}" class="player-image">
-                </div>
+    <div class="container ">
+        <div class="ciao d-flex justify-content-center align-items-center">
 
-                <!-- Dettagli del giocatore -->
-                <div class="player-details">
-                    <h2 class="text-success fw-bold">{{ $player->first_name }} {{ $player->last_name }}</h2>
-                    <hr class="custom-hr">
-                    <p><strong>🏅 Ruolo:</strong> {{ $player->role }}</p>
-                    <p><strong>🛡 Squadra:</strong> {{ $player->team->name }}</p>
-                    <p><strong>👕 Numero di maglia:</strong> {{ $player->number }}</p>
-                    <p><strong>⚽ Piede preferito:</strong> {{ $player->fav_foot }}</p>
-                    <p><strong>📏 Altezza:</strong> {{ $player->height }} cm</p>
-                    <p><strong>💰 Valore di mercato:</strong>
-                        €{{ number_format($player->market_value, 2, ',', '.') }} mln</p>
+            @if (isset($player))
+                <!-- Card Giocatore Orizzontale -->
+                <div class="card shadow-lg p-6 custom-card animate-slide-in d-flex flex-row align-items-center text-white">
+                    <!-- Immagine del giocatore -->
+                    <div class="player-img-container me-4">
+                        <img src="{{ $player->img }}" alt="{{ $player->first_name }}" class="player-image">
+                    </div>
 
-                    <!-- Pulsante di ritorno -->
-                    <div class="mt-3">
-                        <a href="{{ route('admin.players.index') }}" class="btn custom-btn">
-                            🔙 Torna ai giocatori
-                        </a>
+                    <!-- Dettagli del giocatore -->
+                    <div class="player-details">
+                        <h2 class=" fw-bold">{{ $player->first_name }} {{ $player->last_name }}</h2>
+                        <hr class="custom-hr">
+                        <p><strong>🏅 Ruolo:</strong> {{ $player->role }}</p>
+                        <p><strong>🛡 Squadra:</strong> {{ $player->team->name }}</p>
+                        <p><strong>👕 Numero di maglia:</strong> {{ $player->number }}</p>
+                        <p><strong>⚽ Piede preferito:</strong> {{ $player->fav_foot }}</p>
+                        <p><strong>📏 Altezza:</strong> {{ $player->height }} cm</p>
+                        <p><strong>💰 Valore di mercato:</strong>
+                            €{{ number_format($player->market_value, 2, ',', '.') }} mln</p>
+
+                        <!-- Pulsante di ritorno -->
+                        <div class="mt-3">
+                            <a href="{{ route('admin.players.index') }}" class="btn custom-btn">
+                                🔙 Torna ai giocatori
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        @else
-            <div class="alert alert-danger text-center animate-fade-in">⚠️ Dati non trovati.</div>
-        @endif
+            @else
+                <div class="alert alert-danger text-center animate-fade-in">⚠️ Dati non trovati.</div>
+            @endif
+        </div>
     </div>
 
     <!-- 🎨 Stili personalizzati -->
     <style>
         /* Sfondo con sfumature */
         body {
-            background: linear-gradient(135deg, #e3ffe7 0%, #d9e7ff 100%);
+            background: url('https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/dev/v9q9wjyz2fazuf8dlegf.jpg') no-repeat center center fixed;
+            background-size: cover;
+            position: relative;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        .ciao {
+            height: 100vh;
         }
 
         /* Layout orizzontale */
+        /* .custom-card {
+                                                                    border-radius: 15px;
+                                                                    background: rgba(255, 255, 255, 0.2);
+                                                                    backdrop-filter: blur(10px);
+                                                                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                                                                    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+                                                                    border: 1px solid rgba(255, 255, 255, 0.2);
+                                                                    display: flex;
+                                                                    align-items: center;
+                                                                    padding: 20px;
+                                                                    max-width: 700px;
+                                                                } */
         .custom-card {
             border-radius: 15px;
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(10px);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+            background: rgb(0 0 0 / 33%);
+            backdrop-filter: blur(3px);
+            transition: transform 0.3sease, box-shadow 0.3sease;
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
             border: 1px solid rgba(255, 255, 255, 0.2);
+            width: 70%;
+            height: 500px;
             display: flex;
             align-items: center;
             padding: 20px;
-            max-width: 700px;
+            overflow: hidden;
         }
 
         .custom-card:hover {

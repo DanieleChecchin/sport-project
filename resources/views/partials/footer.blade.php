@@ -1,4 +1,4 @@
-<footer class="custom-footer mt-5">
+<footer class="custom-footer ">
     <div class="container">
         <div class="row py-4">
             <!-- Logo e descrizione -->
@@ -7,7 +7,7 @@
                 <p class=" small">Tutto sulla Serie A: squadre, giocatori, allenatori.</p>
             </div>
 
-           
+
             <div class="col-md-4 text-center">
                 <h5 class="text-light">Navigazione</h5>
                 <ul class="list-unstyled">
@@ -18,7 +18,7 @@
                 </ul>
             </div>
 
-           
+
             <div class="col-md-4 text-center text-md-end">
                 <h5 class="text-light">Seguici su</h5>
                 <div class="social-icons">
@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        
+
         <div class="text-center  py-3 small">
             &copy; <span id="year"></span> {{ config('app.name', 'Laravel') }}. Tutti i diritti riservati.
         </div>
@@ -38,11 +38,10 @@
 </footer>
 
 <style>
-
     .mt-5 {
         margin-top: 7rem !important;
     }
-    
+
     .custom-footer {
         background: #1a1a2e;
         color: #ffffff;
@@ -68,7 +67,7 @@
         transform: translateX(5px);
     }
 
-    
+
     .social-icons {
         display: flex;
         justify-content: center;
@@ -86,7 +85,7 @@
         transform: scale(1.2);
     }
 
-    
+
     @media (max-width: 768px) {
         .custom-footer .text-center {
             text-align: center !important;
@@ -95,6 +94,5 @@
 </style>
 
 <script>
-    
     document.getElementById("year").textContent = new Date().getFullYear();
 </script>

@@ -16,25 +16,27 @@
         <section class="mb-5">
             <div class="row" id="coachesList">
                 @foreach ($coaches as $coach)
-                    <div class="col-md-4 col-lg-3 coach-card"
+                    <div class="col-md-4 col-lg-3"
                         data-name="{{ strtolower($coach->first_name . ' ' . $coach->last_name) }}">
                         <div class="card mb-4 shadow-lg  animate-card">
                             <div class="card-img-top coach-image-container">
                                 <img src="{{ $coach->img }}" class="img-fluid coach-img" alt="{{ $coach->first_name }}">
                             </div>
-                            <div class="card-body text-center">
-                                <h5 class="card-title fw-bold text-white">{{ $coach->first_name }} {{ $coach->last_name }}
+                            <div class="card-body text-center pb-0">
+                                <h5 class="card-title fw-bold text-white mb-3">{{ $coach->first_name }}
+                                    {{ $coach->last_name }}
                                 </h5>
-                               
-                                  <!-- Logo Squadra -->
-                                    <img src="{{ asset($coach->team_logo) }}" class="img-fluid team-logo" 
+
+                                <!-- Logo Squadra -->
+                                <img src="{{ asset($coach->team_logo) }}" class="img-fluid team-logo me-3"
                                     alt="{{ $coach->team }}" style="width: 35px; height: auto;">
 
-                                <!-- Logo Nazione -->                                
-                                <img src="{{ asset($coach->nationality_logo) }}" class="img-fluid nation-logo"
-                                    alt="{{ $coach->nationality }}" style="width: 35px; height: auto;">
+                                <!-- Logo Nazione -->
+                                <img src="{{ asset($coach->nationality_logo) }}"
+                                    class="img-fluid nation-logo border-nat-logo" alt="{{ $coach->nationality }}"
+                                    style="width: 35px; height: auto;">
                                 <a href="{{ route('admin.coaches.show', $coach->id) }}"
-                                    class="btn btn-outline-warning rounded-pill px-4 mt-2">📖 Scopri di più</a>
+                                    class="btn btn-outline-warning rounded-pill px-4 mt-3">📖 Scopri di più</a>
                             </div>
                         </div>
                     </div>
@@ -48,8 +50,23 @@
         body {
             background: url('https://media.gettyimages.com/id/1026849104/it/video/panning-passed-dugout-in-empty-maracana-stadium.jpg?s=640x640&k=20&c=poAUgepa08BYxqgSM1UkIsDplfga9SiDRfnJnTCoHEM=') no-repeat center center fixed;
             background-size: cover;
+            position: relative;
         }
 
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: -1;
+        }
+
+        .border-nat-logo {
+            border: 1px solid black;
+        }
 
         body::before {
             content: "";

@@ -3,7 +3,7 @@
 @section('content')
     <div class="container mt-5 d-flex justify-content-center align-items-center">
         <!-- Card Allenatore in stile moderno -->
-        <div class="card shadow-lg p-4 custom-card d-flex flex-row animate-flip-in">
+        <div class="card shadow-lg p-4 custom-card d-flex align-items-center flex-row animate-flip-in">
             <!-- Immagine dell'allenatore -->
             <div class="image-container">
                 <img src="{{ asset($coach->img) }}" alt="{{ $coach->first_name }}" class="coach-image">
@@ -18,13 +18,13 @@
                 <p class="text-white"><strong>📜 Descrizione:</strong></p>
                 <p class="coach-description typing-effect">{{ $coach->description }}</p>
 
-               
+
             </div>
         </div>
     </div>
 
-     <!-- Pulsante di ritorno -->
-     <div class="mt-3 d-flex justify-content-center">
+    <!-- Pulsante di ritorno -->
+    <div class="mt-3 d-flex justify-content-center">
         <a href="{{ route('admin.coaches.index') }}" class="btn custom-btn">
             🔙 Torna agli allenatori
         </a>
@@ -59,9 +59,7 @@
             box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
             border: 1px solid rgba(255, 255, 255, 0.2);
             width: 70%;
-            height: 500px;            
-            display: flex;
-            align-items: center;
+            height: 500px;
             padding: 20px;
             overflow: hidden;
         }
@@ -161,17 +159,17 @@
                 opacity: 0;
                 transform: rotateY(-90deg);
             }
+
             to {
                 opacity: 1;
                 transform: rotateY(0);
             }
         }
-
     </style>
 
     <!-- JS per animazioni dinamiche -->
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
+        document.addEventListener("DOMContentLoaded", function() {
             document.querySelector(".custom-card").classList.add("animate-flip-in");
 
             // Effetto macchina da scrivere sulla descrizione
