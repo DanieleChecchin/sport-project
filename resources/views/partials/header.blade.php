@@ -27,8 +27,14 @@
                         <li class="nav-item">
                             <a class="nav-link nav-animated" href="{{ route('admin.coaches.index') }}">🎩 COACHES</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-animated" href="{{ route('admin.classifics.index') }}">Classifica Serie A</a>
+                        </li>
                     @endauth
                 </ul>
+
+               
+                
 
                 <!-- Login/Register/Logout -->
                 <ul class="navbar-nav ms-auto">

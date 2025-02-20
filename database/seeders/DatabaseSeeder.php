@@ -16,7 +16,8 @@ class DatabaseSeeder extends Seeder
             CoachSeeder::class,
             TeamSeeder::class,
             PlayerSeeder::class,
-            UserSeeder::class
+            UserSeeder::class,
+            ClassificSeeder::class,  
         ]);
     }
 }

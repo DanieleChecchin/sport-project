@@ -31,5 +31,9 @@ Route::middleware('auth')->prefix('/admin')->name('admin.')->group(function () {
 
     // Routes for Players
     Route::resource('/players', App\Http\Controllers\Admin\PlayerController::class);
+
+    // Routes for Classifica
+    Route::resource('/classifics', App\Http\Controllers\Admin\ClassificController::class);
+    
 });
 
