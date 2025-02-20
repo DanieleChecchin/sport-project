@@ -1,10 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mt-5">
+    <div class="container ">
 
         <!-- SearchBar con live search -->
-        <div class="d-flex justify-content-center mb-4">
+        <div class="d-flex justify-content-center nav-bar-mt ">
             <form action="{{ route('admin.coaches.index') }}" method="GET" class="d-flex search-bar" id="searchForm">
                 <input type="text" name="search" id="searchInput" class="form-control me-2 rounded-pill shadow-sm"
                     placeholder="Cerca allenatore" aria-label="Search">
@@ -18,7 +18,7 @@
                 @foreach ($coaches as $coach)
                     <div class="col-md-4 col-lg-3"
                         data-name="{{ strtolower($coach->first_name . ' ' . $coach->last_name) }}">
-                        <div class="card mb-4 shadow-lg  animate-card">
+                        <div class="card mb-5 shadow-lg  animate-card">
                             <div class="card-img-top coach-image-container">
                                 <img src="{{ $coach->img }}" class="img-fluid coach-img" alt="{{ $coach->first_name }}">
                             </div>
@@ -51,6 +51,10 @@
             background: url('https://media.gettyimages.com/id/1026849104/it/video/panning-passed-dugout-in-empty-maracana-stadium.jpg?s=640x640&k=20&c=poAUgepa08BYxqgSM1UkIsDplfga9SiDRfnJnTCoHEM=') no-repeat center center fixed;
             background-size: cover;
             position: relative;
+        }
+
+        .nav-bar-mt {
+            margin: 70px 0 35px 0;
         }
 
         body::after {
