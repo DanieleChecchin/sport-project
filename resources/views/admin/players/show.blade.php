@@ -16,7 +16,7 @@
                     <hr class="custom-hr">
                     <p><strong>🏅 Ruolo:</strong> {{ $player->role }}</p>
                     <p><strong>🛡 Squadra:</strong> {{ $player->team->name }}</p>
-                    <p><strong>📏 Numero di maglia:</strong> {{ $player->number }}</p>
+                    <p><strong>👕 Numero di maglia:</strong> {{ $player->number }}</p>
                     <p><strong>⚽ Piede preferito:</strong> {{ $player->fav_foot }}</p>
                     <p><strong>📏 Altezza:</strong> {{ $player->height }} cm</p>
                     <p><strong>💰 Valore di mercato:</strong>
