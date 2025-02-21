@@ -8,14 +8,14 @@
                 <tr>
                     <th class="sortable" data-column="position">Posizione <i class="fas fa-sort"></i></th>
                     <th class="sortable text-start" data-column="team">Squadra <i class="fas fa-sort"></i></th>
+                    <th class="sortable" data-column="points">Punti <i class="fas fa-sort"></i></th>
                     <th>G</th>
                     <th>V</th>
                     <th>N</th>
                     <th>P</th>
                     <th>GF</th>
                     <th>GS</th>
-                    <th>DR</th>
-                    <th class="sortable" data-column="points">Punti <i class="fas fa-sort"></i></th>
+                    <th>DR</th>                    
                 </tr>
             </thead>
             <tbody>
@@ -26,6 +26,7 @@
                            <img src="{{ asset('storage/' . $team->image) }}" alt="{{ $team->team_name }}" class="team-logo">
                            {{ $team->team_name }}
                         </td>
+                        <td class="position fw-bold">{{ $team->points }}</td>
                         <td>{{ $team->played }}</td>
                         <td class="text-success fw-bold">{{ $team->wins }}</td>
                         <td class="text-warning">{{ $team->draws }}</td>
@@ -35,7 +36,7 @@
                         <td class="{{ $team->goal_difference >= 0 ? 'text-success' : 'text-danger' }}">
                             {{ $team->goal_difference }}
                         </td>
-                        <td class="position fw-bold">{{ $team->points }}</td>
+                        
                     </tr>
                 @endforeach
             </tbody>
