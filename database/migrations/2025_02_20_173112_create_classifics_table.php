@@ -10,6 +10,7 @@ return new class extends Migration {
         Schema::create('classifics', function (Blueprint $table) {
             $table->id();
             $table->string('team_name');
+            $table->string('image')->nullable;
             $table->integer('played')->default(0);
             $table->integer('wins')->default(0);
             $table->integer('draws')->default(0);
@@ -19,11 +20,13 @@ return new class extends Migration {
             $table->integer('goal_difference')->default(0);
             $table->integer('points')->default(0);
             $table->timestamps();
+            
         });
     }
 
     public function down(): void
     {
         Schema::dropIfExists('classifics');
+        
     }
 };

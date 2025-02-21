@@ -11,6 +11,6 @@ class Classific extends Model
 
     protected $fillable = [
         'team_name', 'played', 'wins', 'draws', 'losses', 
-        'goals_for', 'goals_against', 'goal_difference', 'points'
+        'goals_for', 'goals_against', 'goal_difference', 'points', 'image'
     ];
 }

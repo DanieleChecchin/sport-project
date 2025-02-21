@@ -15,6 +15,7 @@
                     <li><a href="{{ route('admin.teams.index') }}" class="footer-link">⚽ Squadre</a></li>
                     <li><a href="{{ route('admin.players.index') }}" class="footer-link">👕 Giocatori</a></li>
                     <li><a href="{{ route('admin.coaches.index') }}" class="footer-link">🎩 Allenatori</a></li>
+                    <li><a href="{{ route('admin.classifics.index') }}" class="footer-link">Classifica Serie A</a></li>
                 </ul>
             </div>
 
@@ -46,6 +47,8 @@
         background: #1a1a2e;
         color: #ffffff;
         padding-top: 20px;
+        position: relative;
+        top: 71px;
     }
 
     .custom-footer h5 {
