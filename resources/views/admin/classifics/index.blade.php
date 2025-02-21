@@ -40,8 +40,18 @@
                 @endforeach
             </tbody>
         </table>
+        <!-- Legenda colori -->
+        <div class="legend mt-4 text-white fw-fold text-center table table-dark table-hover shadow-lg text-center">
+            <p><span class="legend-box champions"></span> Champions League</p>
+            <p><span class="legend-box europa"></span> Europa League</p>
+            <p><span class="legend-box conference"></span> Conference League</p>
+            <p><span class="legend-box retrocesse"></span> Retrocessione in Serie B</p>
+        </div>
     </div>
+    
+     
 </div>
+
 
 <style>
     body {
@@ -100,6 +110,60 @@
 
     .sorted-desc i {
         transform: rotate(0deg);
+    }
+
+    /* Colori per le competizioni europee */
+    .champions {
+        background-color: blue;
+    }
+
+    .europa {
+        background-color: orangered;
+    }
+
+    .conference {
+        background-color: rgba(0, 255, 170, 0.3) ;
+    }
+
+    .retrocesse {
+        background-color:red;
+    }
+
+    
+    .legend {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 7px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    background-color: #212529;
+    }
+
+    .legend-box {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+
+    .champions .legend-box {
+        background-color: rgba(0, 123, 255, 1);
+    }
+
+    .europa .legend-box {
+        background-color: rgba(255, 165, 0, 1);
+    }
+
+    .conference .legend-box {
+        background-color: rgba(0, 255, 170, 1);
+    }
+
+    .retrocesse .legend-box {
+        background-color: rgba(255, 0, 0, 1);
     }
 </style>
 
