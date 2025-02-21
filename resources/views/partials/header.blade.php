@@ -1,8 +1,9 @@
 <header>
     <nav class="navbar navbar-expand-md fixed-top custom-navbar">
         <div class="container">
-            <!-- Logo -->
-            <a class="navbar-brand fw-bold text-light" href="{{ url('/') }}">
+            <!-- Logo Serie A + Nome Sito -->
+            <a class="navbar-brand d-flex align-items-center fw-bold text-light" href="{{ url('/') }}">
+               <img src="{{ asset('storage/serie A.png') }}" alt="Serie A" class="serie-a-logo me-2">
                 {{ config('app.name', 'Laravel') }}
             </a>
 
@@ -19,35 +20,32 @@
                 <ul class="navbar-nav me-auto">
                     @auth
                         <li class="nav-item">
-                            <a class="nav-link nav-animated" href="{{ route('admin.teams.index') }}">🏆 TEAMS</a>
+                            <a class="nav-link nav-animated" href="{{ route('admin.teams.index') }}">🏆 Squadre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-animated" href="{{ route('admin.players.index') }}">⚽ PLAYERS</a>
+                            <a class="nav-link nav-animated" href="{{ route('admin.players.index') }}">⚽ Giocatori</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-animated" href="{{ route('admin.coaches.index') }}">🎩 COACHES</a>
+                            <a class="nav-link nav-animated" href="{{ route('admin.coaches.index') }}">🎩 Allenatori</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link nav-animated" href="{{ route('admin.classifics.index') }}">Classifica Serie A</a>
+                            <a class="nav-link nav-animated" href="{{ route('admin.classifics.index') }}">📊 Classifica</a>
                         </li>
                     @endauth
                 </ul>
-
-               
-                
 
                 <!-- Login/Register/Logout -->
                 <ul class="navbar-nav ms-auto">
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
-                                <a class="nav-link nav-animated" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                <a class="nav-link nav-animated" href="{{ route('login') }}">🔑 Login</a>
                             </li>
                         @endif
 
                         @if (Route::has('register'))
                             <li class="nav-item">
-                                <a class="nav-link nav-animated" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                <a class="nav-link nav-animated" href="{{ route('register') }}">📝 Register</a>
                             </li>
                         @endif
                     @else
@@ -61,7 +59,7 @@
                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                     onclick="event.preventDefault();
                                              document.getElementById('logout-form').submit();">
-                                    🚪 {{ __('Logout') }}
+                                    🚪 Esci
                                 </a>
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
@@ -79,7 +77,7 @@
 <style>
     /* Navbar */
     .custom-navbar {
-        background: rgba(0, 0, 30, 0.7); 
+        background: rgba(0, 0, 30, 0.7);
         backdrop-filter: blur(15px);
         transition: all 0.3s ease-in-out;
         padding: 10px 0;
@@ -90,6 +88,12 @@
     .custom-navbar.scrolled {
         background: rgba(0, 0, 50, 0.9);
         box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Logo Serie A */
+    .serie-a-logo {
+        width: 30px;
+        height: auto;
     }
 
     /* Links */
@@ -155,6 +159,10 @@
     @media (max-width: 768px) {
         .custom-navbar {
             padding: 8px 0;
+        }
+
+        .serie-a-logo {
+            width: 35px;
         }
     }
 </style>
