@@ -1,9 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container mt-5">
-    <h2 class="text-center text-black mb-4">🏆 Classifica Serie A 2024/2025 🏆</h2>
-    
+<div class="container mt-5">       
     <div class="table-responsive">
         <table id="classificaTable" class="table table-dark table-hover shadow-lg text-center">
             <thead class="thead-light">
