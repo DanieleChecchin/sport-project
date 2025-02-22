@@ -48,7 +48,8 @@
         color: #ffffff;
         padding-top: 20px;
         position: relative;
-        top: 71px;
+        top: 0px;
+        left: 0;
     }
 
     .custom-footer h5 {

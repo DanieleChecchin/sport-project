@@ -62,7 +62,7 @@ class TeamSeeder extends Seeder
                 'palmares' => 14,
                 'city' => 'Napoli',
                 'main_sponsor' => 'MSC Crociere',
-                'team_logo' => 'Napoli.webp',
+                'team_logo' => 'napoli.png',
                 'url_logo' => 'https://img.legaseriea.it/vimages/6681d23a/Napoli.png?webp&q=70&size=-x180',
                 'stadium_url' => 'https://upload.wikimedia.org/wikipedia/commons/7/71/Stadio_Maradona_Serie_A.jpg'
             ],
