@@ -5,16 +5,17 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card shadow-lg">
-                <div class="card-header text-center font-weight-bold">{{ __('Registrati') }}</div>
+                <div class="card-header text-center font-weight-bold py-3">{{ __('Registrati') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
 
-                        <div class="row mb-3">
-                            <label for="name" class="col-md-4 col-form-label text-md-end">{{ __('Nome') }}</label>
+                        <!-- Name Field -->
+                        <div class="mb-4">
+                            <label for="name" class="col-form-label text-md-end">{{ __('Nome') }}</label>
 
-                            <div class="col-md-6">
+                            <div>
                                 <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
                                 @error('name')
@@ -25,10 +26,11 @@
                             </div>
                         </div>
 
-                        <div class="row mb-3">
-                            <label for="email" class="col-md-4 col-form-label text-md-end">{{ __('Indirizzo Email') }}</label>
+                        <!-- Email Field -->
+                        <div class="mb-4">
+                            <label for="email" class="col-form-label text-md-end">{{ __('Indirizzo Email') }}</label>
 
-                            <div class="col-md-6">
+                            <div>
                                 <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
 
                                 @error('email')
@@ -39,10 +41,11 @@
                             </div>
                         </div>
 
-                        <div class="row mb-3">
-                            <label for="password" class="col-md-4 col-form-label text-md-end">{{ __('Password') }}</label>
+                        <!-- Password Field -->
+                        <div class="mb-4">
+                            <label for="password" class="col-form-label text-md-end">{{ __('Password') }}</label>
 
-                            <div class="col-md-6">
+                            <div>
                                 <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
 
                                 @error('password')
@@ -53,17 +56,19 @@
                             </div>
                         </div>
 
-                        <div class="row mb-3">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-end">{{ __('Conferma Password') }}</label>
+                        <!-- Password Confirmation Field -->
+                        <div class="mb-4">
+                            <label for="password-confirm" class="col-form-label text-md-end">{{ __('Conferma Password') }}</label>
 
-                            <div class="col-md-6">
+                            <div>
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
 
-                        <div class="row mb-0">
-                            <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-primary w-100 mb-2">
+                        <!-- Submit Button -->
+                        <div class="mb-4">
+                            <div>
+                                <button type="submit" class="btn btn-primary w-100">
                                     {{ __('Registrati') }}
                                 </button>
                             </div>
@@ -75,9 +80,6 @@
     </div>
 </div>
 
-@endsection
-
-@push('styles')
 <style>
     .card {
         border-radius: 15px;
@@ -87,28 +89,28 @@
         color: white;
         font-size: 1.25rem;
         border-radius: 15px 15px 0 0;
+        padding: 15px;
     }
     .form-control {
         border-radius: 10px;
+        padding: 10px;
     }
     .btn-primary {
         background-color: #28a745;
         border-color: #28a745;
+        padding: 12px;
+        font-size: 1rem;
+        border-radius: 10px;
     }
     .btn-primary:hover {
         background-color: #218838;
         border-color: #218838;
     }
-    .form-check-label {
-        font-size: 0.9rem;
-    }
     .invalid-feedback {
         font-size: 0.875rem;
     }
 </style>
-@endpush
 
-@push('scripts')
 <script>
     // Aggiungi un effetto visivo per il focus sugli input
     document.querySelectorAll('.form-control').forEach(input => {
@@ -120,4 +122,5 @@
         });
     });
 </script>
-@endpush
+
+@endsection

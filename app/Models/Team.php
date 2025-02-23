@@ -17,7 +17,16 @@ class Team extends Model
         'president',
         'palmares',
         'city',
-        'main_sponsor'
+        'main_sponsor',
+        'team_logo',
+        'url_logo',
+        'stadium_url',
+        'home_kit',
+        'away_kit',
+        'third_kit',
+        'gk_home_kit',
+        'gk_away_kit', 
+                      
     ];
 
     public function players()

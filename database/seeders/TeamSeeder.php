@@ -25,7 +25,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Save the Children',
                 'team_logo' => 'juve.png',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cfda28/colore=BLACK.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://www.seatsza.com/wp-content/uploads/2023/07/allianz-stadium-scaled.jpeg'
+                'stadium_url' => 'https://www.seatsza.com/wp-content/uploads/2023/07/allianz-stadium-scaled.jpeg',
+                'home_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/juventus-maglia-home-2024-25-398x464.jpg',
+                'away_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/juventus-away-adidas-398x464.jpg',
+                'third_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/juventus-terza-maglia-adidas-398x464.jpg',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Milan',
@@ -38,7 +43,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Emirates',
                 'team_logo' => 'milan.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cef513/milan.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://cdn.corrieredellosport.it/images/2023/05/10/221619463-5c95c738-3334-442a-b422-ad039c4f50e3.jpg'
+                'stadium_url' => 'https://cdn.corrieredellosport.it/images/2023/05/10/221619463-5c95c738-3334-442a-b422-ad039c4f50e3.jpg',
+                'home_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/milan-home-puma-2025-398x464.jpg',
+                'away_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/milan-away-bianca-398x464.jpg',
+                'third_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/milan-third-grigia-398x464.jpg',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Inter',
@@ -51,7 +61,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Betsson.sport',
                 'team_logo' => 'inter.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cef496/inter.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://www.interclubcastellanza.it/public/news/09062023134934_ft_5427.jpg'
+                'stadium_url' => 'https://www.interclubcastellanza.it/public/news/09062023134934_ft_5427.jpg',
+                'home_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/inter-maglia-nike-righe-398x464.jpg',                
+                'away_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/inter-away-bianca-2024-25-398x464.jpg',
+                'third_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/inter-third-2024-25-nike-398x464.jpg',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Napoli',
@@ -64,7 +79,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'MSC Crociere',
                 'team_logo' => 'napoli.png',
                 'url_logo' => 'https://img.legaseriea.it/vimages/6681d23a/Napoli.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://upload.wikimedia.org/wikipedia/commons/7/71/Stadio_Maradona_Serie_A.jpg'
+                'stadium_url' => 'https://upload.wikimedia.org/wikipedia/commons/7/71/Stadio_Maradona_Serie_A.jpg',
+                'home_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/napoli-home-ea7-398x464.jpg',
+                'away_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/napoli-away-398x464.jpg',
+                'third_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/11/napoli-third-2024-25-398x464.jpg',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Atalanta',
@@ -77,7 +97,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Lete',
                 'team_logo' => 'atalanta.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cfd69d/atalanta.png?webp&q=70&size=-x39',
-                'stadium_url' => 'https://img.legaseriea.it/vimages/6720e7c4/GewissStadium_0009.JPG'
+                'stadium_url' => 'https://img.legaseriea.it/vimages/6720e7c4/GewissStadium_0009.JPG',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Roma',
@@ -90,7 +115,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Riyadh Season',
                 'team_logo' => 'roma.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cfd5ce/roma.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2021/09/23/3225103-66019328-2560-1440.jpg'
+                'stadium_url' => 'https://imgresizer.eurosport.com/unsafe/2560x1440/filters:format(jpeg)/origin-imgresizer.eurosport.com/2021/09/23/3225103-66019328-2560-1440.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Bologna',
@@ -103,7 +133,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Saputo Inc.',
                 'team_logo' => 'bologna.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cef3f6/bologna.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://www.1000cuorirossoblu.it/wp-content/uploads/2024/03/7ba02c1a89195b4584175d46af62e717.jpg'
+                'stadium_url' => 'https://www.1000cuorirossoblu.it/wp-content/uploads/2024/03/7ba02c1a89195b4584175d46af62e717.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Fiorentina',
@@ -116,7 +151,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Mediacom',
                 'team_logo' => 'fiorentina.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cef452/fiorentina.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://www.milannews24.com/wp-content/uploads/2023/03/Artemio_Franchi_TEO_2907-scaled.jpg'
+                'stadium_url' => 'https://www.milannews24.com/wp-content/uploads/2023/03/Artemio_Franchi_TEO_2907-scaled.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Como',
@@ -129,7 +169,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Uber',
                 'team_logo' => 'como.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62e28387/como.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://citynews-quicomo.stgy.ovh/~media/original-hi/34219775447990/Como-Stadio.jpg'
+                'stadium_url' => 'https://citynews-quicomo.stgy.ovh/~media/original-hi/34219775447990/Como-Stadio.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Torino',
@@ -142,7 +187,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Suzuki',
                 'team_logo' => 'torino.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cef5cb/torino.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://www.torinofc.it/sites/default/files/2023-04/Modalita%CC%80%20di%20accesso%201.jpg'
+                'stadium_url' => 'https://www.torinofc.it/sites/default/files/2023-04/Modalita%CC%80%20di%20accesso%201.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Cagliari',
@@ -155,7 +205,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Sardegna / AeroItalia',
                 'team_logo' => 'cagliari.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cfd202/cagliari.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://www.tuttostadi.com/wp-content/uploads/2019/12/Sardegna-Arena-di-Cagliari-1210x642.jpg'
+                'stadium_url' => 'https://www.tuttostadi.com/wp-content/uploads/2019/12/Sardegna-Arena-di-Cagliari-1210x642.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Hellas Verona',
@@ -168,7 +223,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => '958 Santero',
                 'team_logo' => 'verona.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cfe8b8/colore=BLUE.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://www.calciohellas.it/wp-content/uploads/2023/12/IPA_Agency_IPA42394539-1024x682.jpg'
+                'stadium_url' => 'https://www.calciohellas.it/wp-content/uploads/2023/12/IPA_Agency_IPA42394539-1024x682.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Monza',
@@ -181,7 +241,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Motorola',
                 'team_logo' => 'monza.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62c6acbd/monza.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://newsmondo.it/wp-content/uploads/2022/09/IM_Stadio_Monza_Brianteo.jpg.webp'
+                'stadium_url' => 'https://newsmondo.it/wp-content/uploads/2022/09/IM_Stadio_Monza_Brianteo.jpg.webp',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Lecce',
@@ -194,7 +259,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'DEGHI',
                 'team_logo' => 'lecce.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cef4f6/lecce.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Stadio_Via_del_Mare_-_Lecce.jpg'
+                'stadium_url' => 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Stadio_Via_del_Mare_-_Lecce.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Lazio',
@@ -207,7 +277,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Nessuno',
                 'team_logo' => 'lazio.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cef4d5/lazio.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://slyvi-hosting.slyvi.it/teampages/4001485534977/images/imported/wp-content/uploads/2023/03/IMG_20230320_110613.jpg'
+                'stadium_url' => 'https://slyvi-hosting.slyvi.it/teampages/4001485534977/images/imported/wp-content/uploads/2023/03/IMG_20230320_110613.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Udinese',
@@ -220,7 +295,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Io sono Friuli-Venezia Giulia',
                 'team_logo' => 'udinese.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cef5e9/udinese.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://stadiumdb.com/pictures/stadiums/ita/dacia_arena/dacia_arena21.jpg'
+                'stadium_url' => 'https://stadiumdb.com/pictures/stadiums/ita/dacia_arena/dacia_arena21.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Empoli',
@@ -233,7 +313,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Computer Gross',
                 'team_logo' => 'empoli.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cef42e/empoli.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://img.legaseriea.it/vimages/62d9626f/Stadio-Carlo-Castellani.jpg'
+                'stadium_url' => 'https://img.legaseriea.it/vimages/62d9626f/Stadio-Carlo-Castellani.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Parma',
@@ -246,7 +331,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Prometeon',
                 'team_logo' => 'parmalogo.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/632da7d1/parmalogo.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://parmawelcome.it/wp-content/uploads/2025/01/Stadio-Tardini.jpg'
+                'stadium_url' => 'https://parmawelcome.it/wp-content/uploads/2025/01/Stadio-Tardini.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => '',
             ],
             [
                 'name' => 'Genoa',
@@ -259,7 +349,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Pulsee Luce e Gas',
                 'team_logo' => 'GENOA-1.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/649e8a06/GENOA-1.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://www.cagliarinews24.com/wp-content/uploads/2024/04/Stadio-Luigi-Ferraris-Genoa.webp'
+                'stadium_url' => 'https://www.cagliarinews24.com/wp-content/uploads/2024/04/Stadio-Luigi-Ferraris-Genoa.webp',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
             [
                 'name' => 'Venezia',
@@ -272,7 +367,12 @@ class TeamSeeder extends Seeder
                 'main_sponsor' => 'Cynar Spritz',
                 'team_logo' => 'Logo-Venezia.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/64c7b5fd/Logo-Venezia.png?webp&q=70&size=-x180',
-                'stadium_url' => 'https://www.metropolitano.it/wp-content/uploads/2021/09/Lo-stadio-Penzo-dopo-il-restauro.jpg'
+                'stadium_url' => 'https://www.metropolitano.it/wp-content/uploads/2021/09/Lo-stadio-Penzo-dopo-il-restauro.jpg',
+                'home_kit' => '',
+                'away_kit' => '',
+                'third_kit' => '',
+                'gk_home_kit' => '',
+                'gk_away_kit' => ''
             ],
         ];
 

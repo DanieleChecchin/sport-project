@@ -14,15 +14,20 @@ return new class extends Migration {
             $table->id();
             $table->string('name');
             $table->string('stadium');
-            $table->integer('team_value');
+            $table->bigInteger('team_value');
             $table->date('foundation_year');
             $table->string('president');
-            $table->integer('palmares');
+            $table->unsignedInteger('palmares');
             $table->string('city');
             $table->string('main_sponsor');
             $table->text('team_logo')->nullable();
             $table->text('url_logo')->nullable();
             $table->text('stadium_url')->nullable();
+            $table->text('home_kit')->nullable();
+            $table->text('away_kit')->nullable();
+            $table->text('third_kit')->nullable();
+            $table->text('gk_home_kit')->nullable();
+            $table->text('gk_away_kit')->nullable();
             $table->timestamps();
         });
     }

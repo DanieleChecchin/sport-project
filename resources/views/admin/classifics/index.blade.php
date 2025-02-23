@@ -3,7 +3,7 @@
 @section('content')
 <div class="container mt-5">       
     <div class="table-responsive">
-        <table id="classificaTable" class="table table-dark table-hover shadow-lg text-center">
+        <table id="classificaTable" class="table table-dark table-hover shadow-lg text-center classific">
             <thead class="thead-light">
                 <tr>
                     <th class="sortable" data-column="position">Posizione <i class="fas fa-sort"></i></th>
@@ -71,6 +71,10 @@
         border-radius: 12px;
         overflow: hidden;
         border: 2px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .classific {
+        margin: 80px 0 35px 0;
     }
 
     .table thead th {

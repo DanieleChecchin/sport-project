@@ -5,7 +5,7 @@
         {{-- <h1 class="text-center mb-4 text-primary fw-bold">⚽ Serie A - Giocatori, Squadre e Allenatori</h1> --}}
 
         <!-- 🔍 SearchBar -->
-        <div class="d-flex justify-content-center mb-4">
+        <div class="d-flex justify-content-center nav-bar-mt ">
             <form action="{{ route('admin.players.index') }}" method="GET" class="d-flex search-bar">
                 <input type="text" name="search" class="form-control me-2 rounded-pill shadow-sm"
                     placeholder="Cerca squadra o giocatore..." aria-label="Search">
@@ -58,6 +58,10 @@
             overflow: hidden;
         }
 
+        .nav-bar-mt {
+            margin: 80px 0 35px 0;
+        }
+
         .custom-card:hover {
             transform: scale(1.03);
             box-shadow: 0px 10px 30px rgba(255, 193, 7, 0.4);
@@ -75,8 +79,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.6);
+            height: 100%;           
             z-index: -1;
         }
 

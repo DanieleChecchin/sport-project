@@ -3,7 +3,7 @@
         <div class="container">
             <!-- Logo Serie A + Nome Sito -->
             <a class="navbar-brand d-flex align-items-center fw-bold text-light" href="{{ url('/') }}">
-               <img src="{{ asset('storage/serie A.png') }}" alt="Serie A" class="serie-a-logo me-2">
+                <img src="{{ asset('storage/serie A.png') }}" alt="Serie A" class="serie-a-logo me-2">
                 {{ config('app.name', 'Laravel') }}
             </a>
 
@@ -39,13 +39,13 @@
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
-                                <a class="nav-link nav-animated" href="{{ route('login') }}">🔑 Login</a>
+                                <a class="nav-link nav-animated" href="{{ route('login') }}">🔑 Accedi</a>
                             </li>
                         @endif
 
                         @if (Route::has('register'))
                             <li class="nav-item">
-                                <a class="nav-link nav-animated" href="{{ route('register') }}">📝 Register</a>
+                                <a class="nav-link nav-animated" href="{{ route('register') }}">📝 Registrati</a>
                             </li>
                         @endif
                     @else
@@ -56,9 +56,7 @@
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-end custom-dropdown" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="{{ route('logout') }}"
-                                    onclick="event.preventDefault();
-                                             document.getElementById('logout-form').submit();">
+                                <a class="dropdown-item text-black" href="{{ route('logout') }}"onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                     🚪 Esci
                                 </a>
 
@@ -80,7 +78,7 @@
         background: rgba(0, 0, 30, 0.7);
         backdrop-filter: blur(15px);
         transition: all 0.3s ease-in-out;
-        padding: 10px 0;
+        padding: 0 0; /* Reduced padding */
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     }
 
@@ -92,8 +90,10 @@
 
     /* Logo Serie A */
     .serie-a-logo {
-        width: 30px;
-        height: auto;
+        width: 22px; /* Reduced logo size */
+        margin-top: 6px; /* Adjusted top margin */
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
     }
 
     /* Links */
@@ -101,6 +101,7 @@
         position: relative;
         color: white !important;
         font-weight: 500;
+        font-size: 0.85rem; /* Smaller font size */
         text-transform: uppercase;
         transition: all 0.3s ease;
     }
@@ -158,11 +159,15 @@
     /* Responsive */
     @media (max-width: 768px) {
         .custom-navbar {
-            padding: 8px 0;
+            padding: 6px 0; /* Smaller padding for mobile */
         }
 
         .serie-a-logo {
-            width: 35px;
+            width: 28px; /* Slightly smaller logo on mobile */
+        }
+
+        .nav-animated {
+            font-size: 0.75rem; /* Smaller font size on mobile */
         }
     }
 </style>

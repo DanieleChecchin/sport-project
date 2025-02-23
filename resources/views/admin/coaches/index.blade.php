@@ -54,7 +54,7 @@
         }
 
         .nav-bar-mt {
-            margin: 70px 0 35px 0;
+            margin: 80px 0 35px 0;
         }
 
         body::after {
@@ -64,7 +64,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.6);
+            
             z-index: -1;
         }
 
