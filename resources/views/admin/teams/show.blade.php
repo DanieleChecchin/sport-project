@@ -73,15 +73,15 @@
     }
 
     .team-card {
-        backdrop-filter: blur(5px);
-        background: rgba(0, 0, 0, 0.7);
-        border-radius: 15px;
-        padding: 30px;
-        text-align: left;
-        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-        opacity: 0;
-        transform: translateY(20px);
-    }
+    backdrop-filter: blur(2px);
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    padding: 30px;
+    text-align: left;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    opacity: 0;
+    transform: translateY(20px) scale(0.9);
+}
 
     .team-info {
         opacity: 0;
@@ -140,7 +140,7 @@
         if (teamCard) {
             setTimeout(() => {
                 teamCard.style.opacity = 1;
-                teamCard.style.transform = "translateY(52px)";
+                teamCard.style.transform = "translateY(27px)";
             }, 200);
         }
 
