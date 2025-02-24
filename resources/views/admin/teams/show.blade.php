@@ -43,17 +43,17 @@
                 <div class="d-flex justify-content-center align-items-center gap-4 flex-wrap">
                     <!-- Home Kit -->
                     <div class="text-center">
-                        <img src="{{ $team->home_kit }}" class="img-fluid kit-img" alt="Home Kit">
+                        <img src="{{'/storage/' . $team->home_kit }}" class="img-fluid kit-img" alt="Home Kit">
                         <p class="text-white">🏠 Casa Kit</p>
-                    </div>
+                    </div> 
                     <!-- Away Kit -->
                     <div class="text-center">
-                        <img src="{{ $team->away_kit }}" class="img-fluid kit-img" alt="Away Kit">
+                        <img src="{{'/storage/' . $team->away_kit }}" class="img-fluid kit-img" alt="Away Kit">
                         <p class="text-white">🚗 Fuori Casa Kit</p>
                     </div>
                     <!-- Third Kit -->
                     <div class="text-center">
-                        <img src="{{ $team->third_kit }}" class="img-fluid kit-img" alt="Third Kit">
+                        <img src="{{'/storage/' . $team->third_kit }}" class="img-fluid kit-img" alt="Third Kit">
                         <p class="text-white">⭐ Terza Kit</p>
                     </div>
                 </div>
@@ -69,6 +69,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
+        }
+
+        .team-logo {
+            width: 130px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
         }
 
         body::after {
@@ -140,10 +147,10 @@
         }
 
         .kit-img {
-            max-width: 120px;
+            max-width: 125px;
             height: auto;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+            
         }
     </style>
 
