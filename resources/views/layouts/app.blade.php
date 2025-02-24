@@ -34,8 +34,6 @@
     <meta property="og:url" content="{{ url()->current() }}">
     <meta name="twitter:card" content="summary_large_image">
 
-    
-
 </head>
 
 <body class="bg-light">
@@ -47,18 +45,8 @@
         </main>
 
         @include('partials.footer')
-    </div>
-
-    <!-- Optional: Include Google Analytics (Replace with your own tracking code) -->
-    @if (env('APP_ENV') === 'production')
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXX-Y"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-XXXXX-Y');
-        </script>
-    @endif
+    </div>    
+    
 </body>
 
 </html>
