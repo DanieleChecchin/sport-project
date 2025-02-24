@@ -2,21 +2,21 @@
     <nav class="navbar navbar-expand-md fixed-top custom-navbar">
         <div class="container">
             <!-- Logo Serie A + Nome Sito -->
-            <a class="navbar-brand d-flex align-items-center fw-bold text-light" href="{{ url('/') }}">
-                <img src="{{ asset('storage/serie A.png') }}" alt="Serie A" class="serie-a-logo me-2">
+            <a class="navbar-brand d-flex align-items-center fw-bold text-light me-2" href="{{ url('/') }}">
+                <img src="{{ asset('storage/Serie_A.png') }}" alt="Serie A" class="serie-a-logo">
                 {{ config('app.name', 'Laravel') }}
             </a>
 
             <!-- Pulsante hamburger -->
-            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" 
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <!-- Menu -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                
+
                 <ul class="navbar-nav me-auto">
                     @auth
                         <li class="nav-item">
@@ -50,13 +50,14 @@
                         @endif
                     @else
                         <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle nav-animated" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle nav-animated" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                 👤 {{ Auth::user()->name }}
                             </a>
 
                             <div class="dropdown-menu dropdown-menu-end custom-dropdown" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item text-black" href="{{ route('logout') }}"onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                <a class="dropdown-item text-black"
+                                    href="{{ route('logout') }}"onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                     🚪 Esci
                                 </a>
 
@@ -78,7 +79,7 @@
         background: rgba(0, 0, 30, 0.7);
         backdrop-filter: blur(15px);
         transition: all 0.3s ease-in-out;
-        padding: 7px 0; 
+        padding: 7px 0;
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     }
 
@@ -90,10 +91,18 @@
 
     /* Logo Serie A */
     .serie-a-logo {
-        width: 22px; /* Reduced logo size */
-        margin-top: 6px; /* Adjusted top margin */
+        width: 80px;
+        /* Reduced logo size */
+        /* margin-top: 6px; Adjusted top margin */
         opacity: 0.9;
         transition: opacity 0.3s ease;
+        margin: 0;
+    }
+
+    .navbar-brand {
+        margin: 0;
+        padding: 0;
+
     }
 
     /* Links */
@@ -101,7 +110,8 @@
         position: relative;
         color: white !important;
         font-weight: 500;
-        font-size: 0.85rem; /* Smaller font size */
+        font-size: 0.85rem;
+        /* Smaller font size */
         text-transform: uppercase;
         transition: all 0.3s ease;
     }
@@ -150,6 +160,7 @@
             opacity: 0;
             transform: translateY(-10px);
         }
+
         to {
             opacity: 1;
             transform: translateY(0);
@@ -159,26 +170,29 @@
     /* Responsive */
     @media (max-width: 768px) {
         .custom-navbar {
-            padding: 6px 0; /* Smaller padding for mobile */
+            padding: 6px 0;
+            /* Smaller padding for mobile */
         }
 
         .serie-a-logo {
-            width: 28px; /* Slightly smaller logo on mobile */
+            width: 28px;
+            /* Slightly smaller logo on mobile */
         }
 
         .nav-animated {
-            font-size: 0.75rem; /* Smaller font size on mobile */
+            font-size: 0.75rem;
+            /* Smaller font size on mobile */
         }
     }
 </style>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
         const navbar = document.querySelector(".custom-navbar");
         const toggler = document.querySelector(".custom-toggler");
 
         // Effetto scroll
-        window.addEventListener("scroll", function () {
+        window.addEventListener("scroll", function() {
             if (window.scrollY > 50) {
                 navbar.classList.add("scrolled");
             } else {
@@ -187,7 +201,7 @@
         });
 
         // Animazione pulsante hamburger
-        toggler.addEventListener("click", function () {
+        toggler.addEventListener("click", function() {
             this.classList.toggle("active");
         });
     });
