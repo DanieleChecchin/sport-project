@@ -62,7 +62,7 @@ class TeamSeeder extends Seeder
                 'team_logo' => 'inter.webp',
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cef496/inter.png?webp&q=70&size=-x180',
                 'stadium_url' => 'https://www.interclubcastellanza.it/public/news/09062023134934_ft_5427.jpg',
-                'home_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/inter-maglia-nike-righe-398x464.jpg',                
+                'home_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/inter-maglia-nike-righe-398x464.jpg',
                 'away_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/inter-away-bianca-2024-25-398x464.jpg',
                 'third_kit' => 'https://www.passionemaglie.it/wp-content/uploads/2024/08/inter-third-2024-25-nike-398x464.jpg',
                 'gk_home_kit' => '',

@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>serie A</title>
 
     <!-- Favicon -->
     <link rel="icon" href="{{ asset('storage/serie A.png') }}" type="image/x-icon">
@@ -47,8 +47,8 @@
         </main>
 
         @include('partials.footer')
-    </div>    
-    
+    </div>
+
 </body>
 
 </html>
