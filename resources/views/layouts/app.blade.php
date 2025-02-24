@@ -38,7 +38,7 @@
 
 </head>
 
-<body class="bg-light">
+<body class="bg-light d-flex flex-column min-vh-100">
     <div id="app">
         @include('partials.header')
 

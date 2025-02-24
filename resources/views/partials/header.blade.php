@@ -78,7 +78,7 @@
         background: rgba(0, 0, 30, 0.7);
         backdrop-filter: blur(15px);
         transition: all 0.3s ease-in-out;
-        padding: 3px 0; 
+        padding: 7px 0; 
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     }
 
