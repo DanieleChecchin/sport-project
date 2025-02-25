@@ -2,10 +2,10 @@
     <nav class="navbar navbar-expand-md fixed-top custom-navbar">
         <div class="container">
             <!-- Logo Serie A + Nome Sito -->
-            <a class="navbar-brand d-flex align-items-center fw-bold text-light me-2" href="{{ url('/') }}">
+            <div class="navbar-brand d-flex align-items-center fw-bold text-light me-2">
                 <img src="{{ asset('storage/Serie_A.png') }}" alt="Serie A" class="serie-a-logo">
                 {{-- {{ config('app.name', 'Laravel') }} --}}
-            </a>
+            </div>
 
             <!-- Pulsante hamburger -->
             <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
