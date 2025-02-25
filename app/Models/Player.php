@@ -20,6 +20,7 @@ class Player extends Model
         'height',
         'team_id',
         'coach_id',
+        'shirt_id',
     ];
 
     public function coach()
