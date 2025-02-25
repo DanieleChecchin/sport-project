@@ -21,7 +21,7 @@
                 <tbody>
                     @foreach ($classifics as $index => $team)
                         <tr class="table-row">
-                            <td class="position fw-bold">{{ $index + 1 }}</td>
+                            <td class="position fw-bold" id="ciao">{{ $index + 1 }}</td>
                             <td class="text-start">
                                 <img src="{{ asset('storage/' . $team->image) }}" alt="{{ $team->team_name }}"
                                     class="team-logo">
@@ -135,7 +135,7 @@
         }
 
         .europa {
-            background-color: orangered;
+            background-color: goldenrod;
         }
 
         .conference {
@@ -213,6 +213,21 @@
                     tbody.innerHTML = "";
                     rows.forEach(row => tbody.appendChild(row));
                 });
+            });
+
+            const rows = document.querySelectorAll('#classificaTable tbody tr');
+
+            rows.forEach(row => {
+                const position = Number(row.querySelector('.position').textContent);
+                if (position <= 4) {
+                    row.querySelector('.position').classList.add('text-primary');
+                } else if (position === 5) {
+                    row.querySelector('.position').classList.add('text-warning');
+                } else if (position === 6) {
+                    row.querySelector('.position').classList.add('text-success');
+                } else if (position >= 18) {
+                    row.querySelector('.position').classList.add('text-danger');
+                }
             });
         });
     </script>
