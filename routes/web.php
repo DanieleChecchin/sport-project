@@ -14,12 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('/home');
+    return redirect()->route('admin.teams.index');
 });
 
 Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::middleware('auth')->prefix('/admin')->name('admin.')->group(function () {
 
@@ -34,6 +32,6 @@ Route::middleware('auth')->prefix('/admin')->name('admin.')->group(function () {
 
     // Routes for Classifica
     Route::resource('/classifics', App\Http\Controllers\Admin\ClassificController::class);
-    
+
 });
 
