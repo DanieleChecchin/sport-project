@@ -145,7 +145,7 @@ class CoachSeeder extends Seeder
                 'description' => 'Nato a Lecce il 31 luglio 1969, è un allenatore di calcio ed ex calciatore italiano, di ruolo centrocampista, tecnico del Napoli, è stato un centrocampista italiano, noto per la sua lunga militanza nella Juventus dal 1991 al 2004, con cui ha vinto cinque Scudetti, una Champions League nel 1995-96 e una Coppa Intercontinentale nel 1996. Da allenatore, ha guidato la Juventus alla conquista di tre Scudetti consecutivi dal 2011 al 2014. Ha poi allenato la nazionale italiana e il Chelsea, con cui ha vinto la Premier League nel 2016-17 e la FA Cup nel 2017-18.',
                 'img' => 'https://media.gettyimages.com/id/1466076322/it/foto/milan-italy-antonio-conte-manager-of-tottenham-hotspur-looks-on-prior-to-the-uefa-champions.jpg?s=612x612&w=0&k=20&c=6Nxiv0OkIgCDRDlKS3jGUJrYnY1BYc5LodfOfGcjhDM=',
                 'team' => 'Napoli',
-                'team_logo' => 'https://img.legaseriea.it/vimages/6681d23a/Napoli.png?webp&q=70&size=172.5x-'
+                'team_logo' => 'https://static.flashscore.com/res/image/data/tSuMfRjT-Qcs4tGVj.png'
             ],
             [
                 'first_name' => 'Eusebio',
@@ -187,11 +187,11 @@ class CoachSeeder extends Seeder
                 'first_name' => 'Cristian',
                 'last_name' => 'Chivu',
                 'nationality' => 'Romania',
-                'nationality_logo' => 'https://img.legaseriea.it/frontend/hwmsg-fcc9c8e2be90813baa484573f7d07fa5f27e3958/public/images/flags/it.svg',
-                'trophies' => 2,
+                'nationality_logo' => 'https://img.legaseriea.it/frontend/hwmsg-40b70cd263f3c9639bdf6b9cfe5508742a467a26/public/images/flags/ro.svg',
+                'trophies' => 0,
                 'date_of_birth' => '1980-10-26',
-                'description' => 'Nato a Cassino il 24 agosto 1973, è un allenatore di calcio ed ex calciatore italiano, di ruolo centrocampista, tecnico del Parma. Centrocampista italiano, Fabio Pecchia ha giocato in diverse squadre di Serie A e B, tra cui Napoli e Juventus, con cui ha vinto una Supercoppa Italiana nel 1997. Da allenatore, ha guidato il Verona alla promozione in Serie A nella stagione 2016-17 e la Cremonese alla promozione nel 2021-22.',
-                'img' => 'https://media.gettyimages.com/id/2194710454/it/foto/parma-italy-fabio-pecchia-head-coach-of-parma-calcio-looks-on-during-the-serie-a-match-between.jpg?s=612x612&w=0&k=20&c=8y5NQp6CIcfOa36CKOQFAGFMATs8wlN73ONvUxbe2-g=',
+                'description' => 'Cristian Eugen Chivu (Reșița, 26 ottobre 1980) è un allenatore di calcio ed ex calciatore rumeno, di ruolo difensore, tecnico del Parma.',
+                'img' => 'https://www.parmacalcio1913.com/wp-content/uploads/_news/34875656_ParBol_HD-008-20250222182007.webp',
                 'team' => 'Parma',
                 'team_logo' => 'https://img.legaseriea.it/vimages/632da7d1/parmalogo.png?webp&q=70&size=172.5x-'
             ],
