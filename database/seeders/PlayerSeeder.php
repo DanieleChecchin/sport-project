@@ -28,6 +28,7 @@ class PlayerSeeder extends Seeder
                 'number' => 29,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Rafael",
@@ -42,6 +43,7 @@ class PlayerSeeder extends Seeder
                 'number' => 2,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Raoul",
@@ -56,6 +58,7 @@ class PlayerSeeder extends Seeder
                 'number' => 16,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Isak",
@@ -70,6 +73,7 @@ class PlayerSeeder extends Seeder
                 'number' => 4,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Berat",
@@ -84,6 +88,7 @@ class PlayerSeeder extends Seeder
                 'number' => 19,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Sead",
@@ -98,6 +103,7 @@ class PlayerSeeder extends Seeder
                 'number' => 23,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Giorgio",
@@ -112,6 +118,7 @@ class PlayerSeeder extends Seeder
                 'number' => 42,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Juan",
@@ -126,6 +133,7 @@ class PlayerSeeder extends Seeder
                 'number' => 7,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Mario",
@@ -140,6 +148,7 @@ class PlayerSeeder extends Seeder
                 'number' => 8,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "José",
@@ -154,6 +163,7 @@ class PlayerSeeder extends Seeder
                 'number' => 13,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Marten",
@@ -168,6 +178,7 @@ class PlayerSeeder extends Seeder
                 'number' => 15,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Matteo",
@@ -182,6 +193,7 @@ class PlayerSeeder extends Seeder
                 'number' => 22,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Lazar",
@@ -196,6 +208,7 @@ class PlayerSeeder extends Seeder
                 'number' => 24,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Marco",
@@ -210,6 +223,7 @@ class PlayerSeeder extends Seeder
                 'number' => 44,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Davide",
@@ -224,6 +238,7 @@ class PlayerSeeder extends Seeder
                 'number' => 77,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Ademola",
@@ -238,6 +253,7 @@ class PlayerSeeder extends Seeder
                 'number' => 11,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Charles",
@@ -252,6 +268,7 @@ class PlayerSeeder extends Seeder
                 'number' => 17,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Mateo",
@@ -266,6 +283,7 @@ class PlayerSeeder extends Seeder
                 'number' => 32,
                 "team_id" => 5,
                 "coach_id" => 20,
+                "shirt_id" => ,
             ],
             // BOLOGNA
             [
@@ -281,6 +299,7 @@ class PlayerSeeder extends Seeder
                 'number' => 1,
                 "team_id" => 7,
                 "coach_id" => 1,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Emil",
@@ -295,6 +314,7 @@ class PlayerSeeder extends Seeder
                 'number' => 2,
                 "team_id" => 7,
                 "coach_id" => 1,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Charalampos",
@@ -309,6 +329,7 @@ class PlayerSeeder extends Seeder
                 'number' => 22,
                 "team_id" => 7,
                 "coach_id" => 1,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Tommaso",
@@ -323,6 +344,7 @@ class PlayerSeeder extends Seeder
                 'number' => 18,
                 "team_id" => 7,
                 "coach_id" => 1,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Giovanni",
@@ -337,6 +359,7 @@ class PlayerSeeder extends Seeder
                 'number' => 80,
                 "team_id" => 7,
                 "coach_id" => 1,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Riccardo",
@@ -351,6 +374,7 @@ class PlayerSeeder extends Seeder
                 'number' => 7,
                 "team_id" => 7,
                 "coach_id" => 1,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Santiago",
@@ -365,6 +389,7 @@ class PlayerSeeder extends Seeder
                 'number' => 9,
                 "team_id" => 7,
                 "coach_id" => 1,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Dan",
@@ -379,6 +404,7 @@ class PlayerSeeder extends Seeder
                 'number' => 11,
                 "team_id" => 7,
                 "coach_id" => 1,
+                "shirt_id" => ,
             ],
             // CAGLIARI
             [
@@ -394,6 +420,7 @@ class PlayerSeeder extends Seeder
                 'number' => 1,
                 "team_id" => 11,
                 "coach_id" => 2,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Nadir",
@@ -408,6 +435,7 @@ class PlayerSeeder extends Seeder
                 'number' => 19,
                 "team_id" => 11,
                 "coach_id" => 2,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Tommaso",
@@ -422,6 +450,7 @@ class PlayerSeeder extends Seeder
                 'number' => 3,
                 "team_id" => 11,
                 "coach_id" => 2,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Razvan",
@@ -436,6 +465,7 @@ class PlayerSeeder extends Seeder
                 'number' => 18,
                 "team_id" => 11,
                 "coach_id" => 2,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Roberto",
@@ -450,6 +480,7 @@ class PlayerSeeder extends Seeder
                 'number' => 91,
                 "team_id" => 11,
                 "coach_id" => 2,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Zito",
@@ -464,6 +495,7 @@ class PlayerSeeder extends Seeder
                 'number' => 77,
                 "team_id" => 11,
                 "coach_id" => 2,
+                "shirt_id" => ,
             ],
             // COMO
             [
@@ -479,6 +511,7 @@ class PlayerSeeder extends Seeder
                 'number' => 25,
                 "team_id" => 9,
                 "coach_id" => 3,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Alberto",
@@ -493,6 +526,7 @@ class PlayerSeeder extends Seeder
                 'number' => 13,
                 "team_id" => 9,
                 "coach_id" => 3,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Edoardo",
@@ -507,6 +541,7 @@ class PlayerSeeder extends Seeder
                 'number' => 5,
                 "team_id" => 9,
                 "coach_id" => 3,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Nico",
@@ -521,6 +556,7 @@ class PlayerSeeder extends Seeder
                 'number' => 79,
                 "team_id" => 9,
                 "coach_id" => 3,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Sergi",
@@ -535,6 +571,7 @@ class PlayerSeeder extends Seeder
                 'number' => 20,
                 "team_id" => 9,
                 "coach_id" => 3,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Lucas",
@@ -549,6 +586,7 @@ class PlayerSeeder extends Seeder
                 'number' => 33,
                 "team_id" => 9,
                 "coach_id" => 3,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Patrick",
@@ -563,6 +601,7 @@ class PlayerSeeder extends Seeder
                 'number' => 10,
                 "team_id" => 9,
                 "coach_id" => 3,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Gabriel",
@@ -577,6 +616,7 @@ class PlayerSeeder extends Seeder
                 'number' => 7,
                 "team_id" => 9,
                 "coach_id" => 3,
+                "shirt_id" => ,
             ],
             // EMPOLI
             [
@@ -592,6 +632,7 @@ class PlayerSeeder extends Seeder
                 'number' => 23,
                 "team_id" => 17,
                 "coach_id" => 4,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Mattia",
@@ -606,6 +647,7 @@ class PlayerSeeder extends Seeder
                 'number' => 22,
                 "team_id" => 17,
                 "coach_id" => 4,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Ardian",
@@ -620,6 +662,7 @@ class PlayerSeeder extends Seeder
                 'number' => 34,
                 "team_id" => 17,
                 "coach_id" => 4,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Jacopo",
@@ -634,6 +677,7 @@ class PlayerSeeder extends Seeder
                 'number' => 10,
                 "team_id" => 17,
                 "coach_id" => 4,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Liam",
@@ -648,6 +692,7 @@ class PlayerSeeder extends Seeder
                 'number' => 6,
                 "team_id" => 17,
                 "coach_id" => 4,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Nicolas",
@@ -662,6 +707,7 @@ class PlayerSeeder extends Seeder
                 'number' => 32,
                 "team_id" => 17,
                 "coach_id" => 4,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Lorenzo",
@@ -676,6 +722,7 @@ class PlayerSeeder extends Seeder
                 'number' => 29,
                 "team_id" => 17,
                 "coach_id" => 4,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Sebastiano",
@@ -690,6 +737,7 @@ class PlayerSeeder extends Seeder
                 'number' => 99,
                 "team_id" => 17,
                 "coach_id" => 4,
+                "shirt_id" => ,
             ],
             // FIORENTINA
             [
@@ -705,6 +753,7 @@ class PlayerSeeder extends Seeder
                 'number' => 43,
                 "team_id" => 8,
                 "coach_id" => 5,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Robin",
@@ -719,6 +768,7 @@ class PlayerSeeder extends Seeder
                 'number' => 21,
                 "team_id" => 8,
                 "coach_id" => 5,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Fabiano",
@@ -733,6 +783,7 @@ class PlayerSeeder extends Seeder
                 'number' => 65,
                 "team_id" => 8,
                 "coach_id" => 5,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Edoardo",
@@ -747,6 +798,7 @@ class PlayerSeeder extends Seeder
                 'number' => 4,
                 "team_id" => 8,
                 "coach_id" => 5,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Andrea",
@@ -761,6 +813,7 @@ class PlayerSeeder extends Seeder
                 'number' => 23,
                 "team_id" => 8,
                 "coach_id" => 5,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Moise",
@@ -775,6 +828,7 @@ class PlayerSeeder extends Seeder
                 'number' => 20,
                 "team_id" => 8,
                 "coach_id" => 5,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Rolando",
@@ -789,6 +843,7 @@ class PlayerSeeder extends Seeder
                 'number' => 8,
                 "team_id" => 8,
                 "coach_id" => 5,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Albert",
@@ -803,6 +858,7 @@ class PlayerSeeder extends Seeder
                 'number' => 10,
                 "team_id" => 8,
                 "coach_id" => 5,
+                "shirt_id" => ,
             ],
             // GENOA
             [
@@ -818,6 +874,7 @@ class PlayerSeeder extends Seeder
                 'number' => 1,
                 "team_id" => 19,
                 "coach_id" => 6,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Aaron",
@@ -832,6 +889,7 @@ class PlayerSeeder extends Seeder
                 'number' => 3,
                 "team_id" => 19,
                 "coach_id" => 6,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Koni",
@@ -846,6 +904,7 @@ class PlayerSeeder extends Seeder
                 'number' => 4,
                 "team_id" => 19,
                 "coach_id" => 6,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Ruslan",
@@ -860,6 +919,7 @@ class PlayerSeeder extends Seeder
                 'number' => 17,
                 "team_id" => 19,
                 "coach_id" => 6,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Morten",
@@ -874,6 +934,7 @@ class PlayerSeeder extends Seeder
                 'number' => 2,
                 "team_id" => 19,
                 "coach_id" => 6,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Fabio",
@@ -888,6 +949,7 @@ class PlayerSeeder extends Seeder
                 'number' => 23,
                 "team_id" => 19,
                 "coach_id" => 6,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Andrea",
@@ -902,6 +964,7 @@ class PlayerSeeder extends Seeder
                 'number' => 19,
                 "team_id" => 19,
                 "coach_id" => 6,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Caleb",
@@ -916,6 +979,7 @@ class PlayerSeeder extends Seeder
                 'number' => 18,
                 "team_id" => 19,
                 "coach_id" => 6,
+                "shirt_id" => ,
             ],
             // HELLAS VERONA
             [
@@ -931,6 +995,7 @@ class PlayerSeeder extends Seeder
                 'number' => 1,
                 "team_id" => 12,
                 "coach_id" => 19,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Davide",
@@ -945,6 +1010,7 @@ class PlayerSeeder extends Seeder
                 'number' => 5,
                 "team_id" => 12,
                 "coach_id" => 19,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Jackson",
@@ -959,6 +1025,7 @@ class PlayerSeeder extends Seeder
                 'number' => 38,
                 "team_id" => 12,
                 "coach_id" => 19,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Abdou",
@@ -973,6 +1040,7 @@ class PlayerSeeder extends Seeder
                 'number' => 18,
                 "team_id" => 12,
                 "coach_id" => 19,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Darko",
@@ -987,6 +1055,7 @@ class PlayerSeeder extends Seeder
                 'number' => 8,
                 "team_id" => 12,
                 "coach_id" => 19,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Amin",
@@ -1001,6 +1070,7 @@ class PlayerSeeder extends Seeder
                 'number' => 9,
                 "team_id" => 12,
                 "coach_id" => 19,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Dailon",
@@ -1015,6 +1085,7 @@ class PlayerSeeder extends Seeder
                 'number' => 14,
                 "team_id" => 12,
                 "coach_id" => 19,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Alphadjo",
@@ -1029,6 +1100,7 @@ class PlayerSeeder extends Seeder
                 'number' => 80,
                 "team_id" => 12,
                 "coach_id" => 19,
+                "shirt_id" => ,
             ],
             // INTER
             [
@@ -1044,6 +1116,7 @@ class PlayerSeeder extends Seeder
                 'number' => 1,
                 "team_id" => 3,
                 "coach_id" => 7,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Federico",
@@ -1058,6 +1131,7 @@ class PlayerSeeder extends Seeder
                 'number' => 32,
                 "team_id" => 3,
                 "coach_id" => 7,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Denzel",
@@ -1072,6 +1146,7 @@ class PlayerSeeder extends Seeder
                 'number' => 2,
                 "team_id" => 3,
                 "coach_id" => 7,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Nicolò",
@@ -1086,6 +1161,7 @@ class PlayerSeeder extends Seeder
                 'number' => 23,
                 "team_id" => 3,
                 "coach_id" => 7,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Henrikh",
@@ -1100,6 +1176,7 @@ class PlayerSeeder extends Seeder
                 'number' => 22,
                 "team_id" => 3,
                 "coach_id" => 7,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Hakan",
@@ -1114,6 +1191,7 @@ class PlayerSeeder extends Seeder
                 'number' => 20,
                 "team_id" => 3,
                 "coach_id" => 7,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Lautaro",
@@ -1128,6 +1206,7 @@ class PlayerSeeder extends Seeder
                 'number' => 10,
                 "team_id" => 3,
                 "coach_id" => 7,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Marcus",
@@ -1142,6 +1221,7 @@ class PlayerSeeder extends Seeder
                 'number' => 9,
                 "team_id" => 3,
                 "coach_id" => 7,
+                "shirt_id" => ,
             ],
             // JUVENTUS
             [
@@ -1157,6 +1237,7 @@ class PlayerSeeder extends Seeder
                 'number' => 29,
                 "team_id" => 1,
                 "coach_id" => 8,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Gleison",
@@ -1171,6 +1252,7 @@ class PlayerSeeder extends Seeder
                 'number' => 3,
                 "team_id" => 1,
                 "coach_id" => 8,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Federico",
@@ -1185,6 +1267,7 @@ class PlayerSeeder extends Seeder
                 'number' => 4,
                 "team_id" => 1,
                 "coach_id" => 8,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Khephren",
@@ -1199,6 +1282,7 @@ class PlayerSeeder extends Seeder
                 'number' => 19,
                 "team_id" => 1,
                 "coach_id" => 8,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Manuel",
@@ -1213,6 +1297,7 @@ class PlayerSeeder extends Seeder
                 'number' => 5,
                 "team_id" => 1,
                 "coach_id" => 8,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Weston",
@@ -1227,6 +1312,7 @@ class PlayerSeeder extends Seeder
                 'number' => 16,
                 "team_id" => 1,
                 "coach_id" => 8,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Francisco",
@@ -1241,6 +1327,7 @@ class PlayerSeeder extends Seeder
                 'number' => 7,
                 "team_id" => 1,
                 "coach_id" => 8,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Kenan",
@@ -1255,6 +1342,7 @@ class PlayerSeeder extends Seeder
                 'number' => 10,
                 "team_id" => 1,
                 "coach_id" => 8,
+                "shirt_id" => ,
             ],
             // LAZIO
             [
@@ -1270,6 +1358,7 @@ class PlayerSeeder extends Seeder
                 'number' => 94,
                 "team_id" => 15,
                 "coach_id" => 9,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Nuno",
@@ -1284,6 +1373,7 @@ class PlayerSeeder extends Seeder
                 'number' => 30,
                 "team_id" => 15,
                 "coach_id" => 9,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Adam",
@@ -1298,6 +1388,7 @@ class PlayerSeeder extends Seeder
                 'number' => 77,
                 "team_id" => 15,
                 "coach_id" => 9,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Mattia",
@@ -1312,6 +1403,7 @@ class PlayerSeeder extends Seeder
                 'number' => 10,
                 "team_id" => 15,
                 "coach_id" => 9,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Matteo",
@@ -1326,6 +1418,7 @@ class PlayerSeeder extends Seeder
                 'number' => 8,
                 "team_id" => 15,
                 "coach_id" => 9,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Taty",
@@ -1340,6 +1433,7 @@ class PlayerSeeder extends Seeder
                 'number' => 11,
                 "team_id" => 15,
                 "coach_id" => 9,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Boulaye",
@@ -1354,6 +1448,7 @@ class PlayerSeeder extends Seeder
                 'number' => 19,
                 "team_id" => 15,
                 "coach_id" => 9,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Eliezer Rodríguez Ledesma",
@@ -1368,6 +1463,7 @@ class PlayerSeeder extends Seeder
                 'number' => 9,
                 "team_id" => 15,
                 "coach_id" => 9,
+                "shirt_id" => ,
             ],
             // LECCE
             [
@@ -1383,6 +1479,7 @@ class PlayerSeeder extends Seeder
                 'number' => 30,
                 "team_id" => 14,
                 "coach_id" => 13,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Federico",
@@ -1397,6 +1494,7 @@ class PlayerSeeder extends Seeder
                 'number' => 6,
                 "team_id" => 14,
                 "coach_id" => 13,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Antonino",
@@ -1411,6 +1509,7 @@ class PlayerSeeder extends Seeder
                 'number' => 25,
                 "team_id" => 14,
                 "coach_id" => 13,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Lassana",
@@ -1425,6 +1524,7 @@ class PlayerSeeder extends Seeder
                 'number' => 29,
                 "team_id" => 14,
                 "coach_id" => 13,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Nikola",
@@ -1439,6 +1539,7 @@ class PlayerSeeder extends Seeder
                 'number' => 9,
                 "team_id" => 14,
                 "coach_id" => 13,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Santiago",
@@ -1453,6 +1554,7 @@ class PlayerSeeder extends Seeder
                 'number' => 50,
                 "team_id" => 14,
                 "coach_id" => 13,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Ante",
@@ -1467,6 +1569,7 @@ class PlayerSeeder extends Seeder
                 'number' => 3,
                 "team_id" => 14,
                 "coach_id" => 13,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Nicola",
@@ -1481,6 +1584,7 @@ class PlayerSeeder extends Seeder
                 'number' => 11,
                 "team_id" => 14,
                 "coach_id" => 13,
+                "shirt_id" => ,
             ],
             // MILAN
             [
@@ -1496,6 +1600,7 @@ class PlayerSeeder extends Seeder
                 'number' => 16,
                 "team_id" => 2,
                 "coach_id" => 10,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Theo",
@@ -1510,6 +1615,7 @@ class PlayerSeeder extends Seeder
                 'number' => 19,
                 "team_id" => 2,
                 "coach_id" => 10,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Fikayo",
@@ -1524,6 +1630,7 @@ class PlayerSeeder extends Seeder
                 'number' => 23,
                 "team_id" => 2,
                 "coach_id" => 10,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Tijjani",
@@ -1538,6 +1645,7 @@ class PlayerSeeder extends Seeder
                 'number' => 14,
                 "team_id" => 2,
                 "coach_id" => 10,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Youssouf",
@@ -1552,6 +1660,7 @@ class PlayerSeeder extends Seeder
                 'number' => 29,
                 "team_id" => 2,
                 "coach_id" => 10,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Christian",
@@ -1566,6 +1675,7 @@ class PlayerSeeder extends Seeder
                 'number' => 11,
                 "team_id" => 2,
                 "coach_id" => 10,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Rafael",
@@ -1580,6 +1690,7 @@ class PlayerSeeder extends Seeder
                 'number' => 90,
                 "team_id" => 2,
                 "coach_id" => 10,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Tammy",
@@ -1594,6 +1705,7 @@ class PlayerSeeder extends Seeder
                 'number' => 1,
                 "team_id" => 2,
                 "coach_id" => 10,
+                "shirt_id" => ,
             ],
             // MONZA
             [
@@ -1609,6 +1721,7 @@ class PlayerSeeder extends Seeder
                 'number' => 30,
                 "team_id" => 13,
                 "coach_id" => 14,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Luca",
@@ -1623,6 +1736,7 @@ class PlayerSeeder extends Seeder
                 'number' => 5,
                 "team_id" => 13,
                 "coach_id" => 14,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Luca",
@@ -1637,6 +1751,7 @@ class PlayerSeeder extends Seeder
                 'number' => 4,
                 "team_id" => 13,
                 "coach_id" => 14,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Matteo",
@@ -1651,6 +1766,7 @@ class PlayerSeeder extends Seeder
                 'number' => 32,
                 "team_id" => 13,
                 "coach_id" => 14,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Stefano",
@@ -1665,6 +1781,7 @@ class PlayerSeeder extends Seeder
                 'number' => 12,
                 "team_id" => 13,
                 "coach_id" => 14,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Dany",
@@ -1679,6 +1796,7 @@ class PlayerSeeder extends Seeder
                 'number' => 47,
                 "team_id" => 13,
                 "coach_id" => 14,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Patrick",
@@ -1693,6 +1811,7 @@ class PlayerSeeder extends Seeder
                 'number' => 84,
                 "team_id" => 13,
                 "coach_id" => 14,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Gianluca",
@@ -1707,6 +1826,7 @@ class PlayerSeeder extends Seeder
                 'number' => 10,
                 "team_id" => 13,
                 "coach_id" => 14,
+                "shirt_id" => ,
             ],
             // NAPOLI
             [
@@ -1722,6 +1842,7 @@ class PlayerSeeder extends Seeder
                 'number' => 1,
                 "team_id" => 4,
                 "coach_id" => 11,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Giovanni",
@@ -1736,6 +1857,7 @@ class PlayerSeeder extends Seeder
                 'number' => 22,
                 "team_id" => 4,
                 "coach_id" => 11,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Alessandro",
@@ -1750,6 +1872,7 @@ class PlayerSeeder extends Seeder
                 'number' => 4,
                 "team_id" => 4,
                 "coach_id" => 11,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Stanislav",
@@ -1764,6 +1887,7 @@ class PlayerSeeder extends Seeder
                 'number' => 68,
                 "team_id" => 4,
                 "coach_id" => 11,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Frank",
@@ -1778,6 +1902,7 @@ class PlayerSeeder extends Seeder
                 'number' => 99,
                 "team_id" => 4,
                 "coach_id" => 11,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Scott",
@@ -1792,6 +1917,7 @@ class PlayerSeeder extends Seeder
                 'number' => 8,
                 "team_id" => 4,
                 "coach_id" => 11,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Romelu",
@@ -1806,6 +1932,7 @@ class PlayerSeeder extends Seeder
                 'number' => 11,
                 "team_id" => 4,
                 "coach_id" => 11,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Giacomo",
@@ -1820,6 +1947,7 @@ class PlayerSeeder extends Seeder
                 'number' => 81,
                 "team_id" => 4,
                 "coach_id" => 11,
+                "shirt_id" => ,
             ],
             // PARMA
             [
@@ -1835,6 +1963,7 @@ class PlayerSeeder extends Seeder
                 'number' => 40,
                 "team_id" => 18,
                 "coach_id" => 15,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Enrico",
@@ -1849,6 +1978,7 @@ class PlayerSeeder extends Seeder
                 'number' => 15,
                 "team_id" => 18,
                 "coach_id" => 15,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Emanuele",
@@ -1863,6 +1993,7 @@ class PlayerSeeder extends Seeder
                 'number' => 14,
                 "team_id" => 18,
                 "coach_id" => 15,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Mateusz",
@@ -1877,6 +2008,7 @@ class PlayerSeeder extends Seeder
                 'number' => 62,
                 "team_id" => 18,
                 "coach_id" => 15,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Simon",
@@ -1891,6 +2023,7 @@ class PlayerSeeder extends Seeder
                 'number' => 19,
                 "team_id" => 18,
                 "coach_id" => 15,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Ange-Yoan",
@@ -1905,6 +2038,7 @@ class PlayerSeeder extends Seeder
                 'number' => 13,
                 "team_id" => 18,
                 "coach_id" => 15,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Dennis",
@@ -1919,6 +2053,7 @@ class PlayerSeeder extends Seeder
                 'number' => 98,
                 "team_id" => 18,
                 "coach_id" => 15,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Matteo",
@@ -1933,6 +2068,7 @@ class PlayerSeeder extends Seeder
                 'number' => 22,
                 "team_id" => 18,
                 "coach_id" => 15,
+                "shirt_id" => ,
             ],
             // ROMA
             [
@@ -1948,6 +2084,7 @@ class PlayerSeeder extends Seeder
                 'number' => 99,
                 "team_id" => 6,
                 "coach_id" => 16,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Gianluca",
@@ -1962,6 +2099,7 @@ class PlayerSeeder extends Seeder
                 'number' => 23,
                 "team_id" => 6,
                 "coach_id" => 16,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Lorenzo",
@@ -1976,6 +2114,7 @@ class PlayerSeeder extends Seeder
                 'number' => 7,
                 "team_id" => 6,
                 "coach_id" => 16,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Bryan",
@@ -1990,6 +2129,7 @@ class PlayerSeeder extends Seeder
                 'number' => 4,
                 "team_id" => 6,
                 "coach_id" => 16,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Leandro",
@@ -2004,6 +2144,7 @@ class PlayerSeeder extends Seeder
                 'number' => 16,
                 "team_id" => 6,
                 "coach_id" => 16,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Paulo",
@@ -2018,6 +2159,7 @@ class PlayerSeeder extends Seeder
                 'number' => 21,
                 "team_id" => 6,
                 "coach_id" => 16,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Matías",
@@ -2032,6 +2174,7 @@ class PlayerSeeder extends Seeder
                 'number' => 18,
                 "team_id" => 6,
                 "coach_id" => 16,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Artem",
@@ -2046,6 +2189,7 @@ class PlayerSeeder extends Seeder
                 'number' => 11,
                 "team_id" => 6,
                 "coach_id" => 16,
+                "shirt_id" => ,
             ],
             // TORINO
             [
@@ -2061,6 +2205,7 @@ class PlayerSeeder extends Seeder
                 'number' => 32,
                 "team_id" => 10,
                 "coach_id" => 17,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Guillermo",
@@ -2075,6 +2220,7 @@ class PlayerSeeder extends Seeder
                 'number' => 13,
                 "team_id" => 10,
                 "coach_id" => 17,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Valentino",
@@ -2089,6 +2235,7 @@ class PlayerSeeder extends Seeder
                 'number' => 20,
                 "team_id" => 10,
                 "coach_id" => 17,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Samuele",
@@ -2103,6 +2250,7 @@ class PlayerSeeder extends Seeder
                 'number' => 28,
                 "team_id" => 10,
                 "coach_id" => 17,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Nikola",
@@ -2117,6 +2265,7 @@ class PlayerSeeder extends Seeder
                 'number' => 10,
                 "team_id" => 10,
                 "coach_id" => 17,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Ché",
@@ -2131,6 +2280,7 @@ class PlayerSeeder extends Seeder
                 'number' => 18,
                 "team_id" => 10,
                 "coach_id" => 17,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Antonio",
@@ -2145,6 +2295,7 @@ class PlayerSeeder extends Seeder
                 'number' => 9,
                 "team_id" => 10,
                 "coach_id" => 17,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Duvan",
@@ -2159,6 +2310,7 @@ class PlayerSeeder extends Seeder
                 'number' => 91,
                 "team_id" => 10,
                 "coach_id" => 17,
+                "shirt_id" => ,
             ],
             // UDINESE
             [
@@ -2174,6 +2326,7 @@ class PlayerSeeder extends Seeder
                 'number' => 40,
                 "team_id" => 16,
                 "coach_id" => 18,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Kingsley",
@@ -2188,6 +2341,7 @@ class PlayerSeeder extends Seeder
                 'number' => 19,
                 "team_id" => 16,
                 "coach_id" => 18,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Oumar",
@@ -2202,6 +2356,7 @@ class PlayerSeeder extends Seeder
                 'number' => 28,
                 "team_id" => 16,
                 "coach_id" => 18,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Sandi",
@@ -2216,6 +2371,7 @@ class PlayerSeeder extends Seeder
                 'number' => 8,
                 "team_id" => 16,
                 "coach_id" => 18,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Jurgen",
@@ -2230,6 +2386,7 @@ class PlayerSeeder extends Seeder
                 'number' => 32,
                 "team_id" => 16,
                 "coach_id" => 18,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Lorenzo",
@@ -2244,6 +2401,7 @@ class PlayerSeeder extends Seeder
                 'number' => 17,
                 "team_id" => 16,
                 "coach_id" => 18,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Florian",
@@ -2258,6 +2416,7 @@ class PlayerSeeder extends Seeder
                 'number' => 10,
                 "team_id" => 16,
                 "coach_id" => 18,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Alexis",
@@ -2272,6 +2431,7 @@ class PlayerSeeder extends Seeder
                 'number' => 7,
                 "team_id" => 16,
                 "coach_id" => 18,
+                "shirt_id" => ,
             ],
             // VENEZIA
             [
@@ -2287,6 +2447,7 @@ class PlayerSeeder extends Seeder
                 'number' => 1,
                 "team_id" => 20,
                 "coach_id" => 12,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Jay",
@@ -2301,6 +2462,7 @@ class PlayerSeeder extends Seeder
                 'number' => 4,
                 "team_id" => 20,
                 "coach_id" => 12,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Joel",
@@ -2315,6 +2477,7 @@ class PlayerSeeder extends Seeder
                 'number' => 25,
                 "team_id" => 20,
                 "coach_id" => 12,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Hans",
@@ -2329,6 +2492,7 @@ class PlayerSeeder extends Seeder
                 'number' => 14,
                 "team_id" => 20,
                 "coach_id" => 12,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Mikael",
@@ -2343,6 +2507,7 @@ class PlayerSeeder extends Seeder
                 'number' => 77,
                 "team_id" => 20,
                 "coach_id" => 12,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Alfred",
@@ -2357,6 +2522,7 @@ class PlayerSeeder extends Seeder
                 'number' => 32,
                 "team_id" => 20,
                 "coach_id" => 12,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Christian",
@@ -2371,6 +2537,7 @@ class PlayerSeeder extends Seeder
                 'number' => 9,
                 "team_id" => 20,
                 "coach_id" => 12,
+                "shirt_id" => ,
             ],
             [
                 "first_name" => "Gaetano",
@@ -2385,6 +2552,7 @@ class PlayerSeeder extends Seeder
                 'number' => 11,
                 "team_id" => 20,
                 "coach_id" => 12,
+                "shirt_id" => ,
             ],
         ];
         foreach ($players as $player) {
