@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Shirt;
 use Illuminate\Http\Request;
 use App\Models\Player;
 use App\Models\Team;
@@ -59,8 +60,9 @@ class PlayerController extends Controller
     public function show(string $id)
     {
         $player = Player::findOrFail($id);
+        $shirt = Shirt::all();
 
-        return view('admin.players.show', compact('player'));
+        return view('admin.players.show', compact('player', 'shirt'));
     }
 
     /**

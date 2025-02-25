@@ -31,6 +31,10 @@
                             </a>
                         </div>
                     </div>
+
+                    <div class="retro">
+                        <img src="{{ asset('/storage/' . $player->shirt->img) }}" alt="retro" class="img-fluid">
+                    </div>
                 </div>
             @else
                 <div class="alert alert-danger text-center animate-fade-in">⚠️ Dati non trovati.</div>
@@ -64,17 +68,17 @@
 
         /* Layout orizzontale */
         /* .custom-card {
-                border-radius: 15px;
-                background: rgba(255, 255, 255, 0.2);
-                backdrop-filter: blur(10px);
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-                box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
-                border: 1px solid rgba(255, 255, 255, 0.2);
-                display: flex;
-                align-items: center;
-                padding: 20px;
-                max-width: 700px;
-            } */
+                                                                    border-radius: 15px;
+                                                                    background: rgba(255, 255, 255, 0.2);
+                                                                    backdrop-filter: blur(10px);
+                                                                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                                                                    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+                                                                    border: 1px solid rgba(255, 255, 255, 0.2);
+                                                                    display: flex;
+                                                                    align-items: center;
+                                                                    padding: 20px;
+                                                                    max-width: 700px;
+                                                                } */
         .custom-card {
             border-radius: 15px;
             background: rgb(0 0 0 / 33%);

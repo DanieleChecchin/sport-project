@@ -14,7 +14,7 @@ class ShirtSeeder extends Seeder
     public function run(): void
     {
         $shirts = [
-            ['img' => '1atalanta-retro.png'],
+            ['img' => '1atalantaretro.png'],
             ['img' => 'bologna-retro.png'],
             ['img' => 'cagliari-retro.png'],
             ['img' => '1comoretro.png'],
