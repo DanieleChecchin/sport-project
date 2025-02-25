@@ -23,7 +23,7 @@ class CoachSeeder extends Seeder
                 'date_of_birth' => '1977-12-10',
                 'description' => 'Nato a Karlsruhe il 10 dicembre 1977, ex centrocampista e ora tecnico del Bologna. Ha giocato in squadre come Verona, Genoa e Padova, di cui è stato capitano.',
                 'img' => 'https://media.gettyimages.com/id/2167298128/it/foto/bologna-italy-vincenzo-italiano-head-coach-of-bologna-greets-his-fans-during-the-serie-a-match.jpg?s=612x612&w=0&k=20&c=UmezvBqv7JnX2VNILhENfiLSSwlKt21H2D9KxQ1sKbY=',
-                'team' => 'Bologna',                 
+                'team' => 'Bologna',
                 'team_logo' => 'https://img.legaseriea.it/vimages/62cef3f6/bologna.png?webp&q=70&size=172.5x-'
             ],
             [
@@ -35,7 +35,7 @@ class CoachSeeder extends Seeder
                 'date_of_birth' => '1973-03-05',
                 'description' => 'Nato a Luserna San Giovanni il 5 marzo 1973, ex difensore e ora tecnico del Cagliari. Ha giocato nel Genoa ed esordito in Serie A con il Siena.',
                 'img' => 'https://media.gettyimages.com/id/2147952887/it/foto/empoli-italy-davide-nicola-heand-coach-of-empoli-fc-looks-on-during-the-serie-a-tim-match.jpg?s=612x612&w=0&k=20&c=5Hi2NEZ87oPL0BknBCKiUqXJeG29_0kpC0Zvvsig0C0=',
-                'team' => 'Cagliari',                 
+                'team' => 'Cagliari',
                 'team_logo' => 'https://img.legaseriea.it/vimages/62cfd202/cagliari.png?webp&q=70&size=172.5x-'
             ],
             [
@@ -47,7 +47,7 @@ class CoachSeeder extends Seeder
                 'date_of_birth' => '1987-05-04',
                 'description' => 'Nato ad Arenys de Mar il 4 maggio 1987, ex centrocampista e ora tecnico del Como. Ha vinto una Coppa del Mondo per club col Barcellona e l’Europeo 2008 e 2012 con la Spagna.',
                 'img' => 'https://media.gettyimages.com/id/2152444649/it/foto/como-italy-cesc-fabregas-of-como-calcio-looks-during-the-match-beteween-como-calcio-and.jpg?s=612x612&w=0&k=20&c=PxOLLZ5kueJJctorfGHzqhlK5oaTMuI-6jMk0SuDb0U=',
-                'team' => 'Como',                 
+                'team' => 'Como',
                 'team_logo' => 'https://img.legaseriea.it/vimages/62e28387/como.png?webp&q=70&size=172.5x-'
             ],
             [
@@ -184,12 +184,12 @@ class CoachSeeder extends Seeder
                 'team_logo' => 'https://img.legaseriea.it/vimages/62c6acbd/monza.png?webp&q=70&size=172.5x-'
             ],
             [
-                'first_name' => 'Fabio',
-                'last_name' => 'Pecchia',
-                'nationality' => 'Italiano',
+                'first_name' => 'Cristian',
+                'last_name' => 'Chivu',
+                'nationality' => 'Romania',
                 'nationality_logo' => 'https://img.legaseriea.it/frontend/hwmsg-fcc9c8e2be90813baa484573f7d07fa5f27e3958/public/images/flags/it.svg',
                 'trophies' => 2,
-                'date_of_birth' => '1973-08-24',
+                'date_of_birth' => '1980-10-26',
                 'description' => 'Nato a Cassino il 24 agosto 1973, è un allenatore di calcio ed ex calciatore italiano, di ruolo centrocampista, tecnico del Parma. Centrocampista italiano, Fabio Pecchia ha giocato in diverse squadre di Serie A e B, tra cui Napoli e Juventus, con cui ha vinto una Supercoppa Italiana nel 1997. Da allenatore, ha guidato il Verona alla promozione in Serie A nella stagione 2016-17 e la Cremonese alla promozione nel 2021-22.',
                 'img' => 'https://media.gettyimages.com/id/2194710454/it/foto/parma-italy-fabio-pecchia-head-coach-of-parma-calcio-looks-on-during-the-serie-a-match-between.jpg?s=612x612&w=0&k=20&c=8y5NQp6CIcfOa36CKOQFAGFMATs8wlN73ONvUxbe2-g=',
                 'team' => 'Parma',
