@@ -32,4 +32,9 @@ class Player extends Model
     {
         return $this->belongsTo(Team::class);
     }
+
+    public function shirt()
+    {
+        return $this->belongsTo(Shirt::class);
+    }
 }
