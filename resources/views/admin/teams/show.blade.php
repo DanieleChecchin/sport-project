@@ -9,7 +9,8 @@
                         <div class="flip-box">
                             <div class="flip-box-inner">
                                 <div class="flip-box-front">
-                                    <img src="{{ asset('/storage/' . $team->team_logo) }}" class="img-fluid team-logo"
+                                    
+                                    
                                         alt="{{ $team->name }}">
                                 </div>
                                 <div class="flip-box-back">
