@@ -18,32 +18,46 @@
                         <hr class="custom-hr">
                         <p><strong>🏅 Ruolo:</strong> {{ $player->role }}</p>
                         <p><strong>🛡 Squadra:</strong> {{ $player->team->name }}</p>
-                        <p><strong>👕 Numero di maglia:</strong> {{ $player->number }}</p>
+                        {{-- <p class="fw-bold"> {{ $player->number }}</p> --}}
                         <p><strong>⚽ Piede preferito:</strong> {{ $player->fav_foot }}</p>
                         <p><strong>📏 Altezza:</strong> {{ $player->height }} cm</p>
                         <p><strong>💰 Valore di mercato:</strong>
                             €{{ number_format($player->market_value, 2, ',', '.') }} mln</p>
 
                         <!-- Pulsante di ritorno -->
-                        <div class="mt-3">
-                            <a href="{{ route('admin.players.index') }}" class="btn custom-btn">
-                                🔙 Torna ai giocatori
-                            </a>
-                        </div>
                     </div>
 
-                    <div class="retro">
-                        <img src="{{ asset('/storage/' . $player->shirt->img) }}" alt="retro" class="img-fluid">
+                    <div class="retro position-relative d-flex justify-content-center align-items-center">
+                        <img src="{{ asset('/storage/' . $player->shirt->img) }}" alt="retro"
+                            class="img-fluid retro-shirt">
+                        <p class="fw-bold num-retro position-absolute"> {{ $player->number }}</p>
                     </div>
                 </div>
             @else
                 <div class="alert alert-danger text-center animate-fade-in">⚠️ Dati non trovati.</div>
             @endif
         </div>
+        <div class="mt-4 d-flex justify-content-center">
+            <a href="{{ route('admin.players.index') }}" class="btn custom-btn">
+                🔙 Torna ai giocatori
+            </a>
+        </div>
     </div>
 
     <!-- 🎨 Stili personalizzati -->
     <style>
+        .retro-shirt {
+            max-height: 280px;
+        }
+
+        .num-retro {
+            font-size: 80px;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            top: 30%;
+            left: 50%;
+        }
+
         /* Sfondo con sfumature */
         body {
             background: url('https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/dev/v9q9wjyz2fazuf8dlegf.jpg') no-repeat center center fixed;
@@ -63,22 +77,11 @@
         }
 
         .ciao {
-            height: 100vh;
+            margin-top: 160px;
         }
 
         /* Layout orizzontale */
-        /* .custom-card {
-                                                                    border-radius: 15px;
-                                                                    background: rgba(255, 255, 255, 0.2);
-                                                                    backdrop-filter: blur(10px);
-                                                                    transition: transform 0.3s ease, box-shadow 0.3s ease;
-                                                                    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
-                                                                    border: 1px solid rgba(255, 255, 255, 0.2);
-                                                                    display: flex;
-                                                                    align-items: center;
-                                                                    padding: 20px;
-                                                                    max-width: 700px;
-                                                                } */
+
         .custom-card {
             border-radius: 15px;
             background: rgb(0 0 0 / 33%);
@@ -90,7 +93,7 @@
             height: 500px;
             display: flex;
             align-items: center;
-            padding: 20px;
+            padding: 0 20px;
             overflow: hidden;
         }
 

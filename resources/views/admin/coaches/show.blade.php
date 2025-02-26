@@ -24,7 +24,7 @@
     </div>
 
     <!-- Pulsante di ritorno -->
-    <div class="mt-3 d-flex justify-content-center">
+    <div class="mt-4 d-flex justify-content-center">
         <a href="{{ route('admin.coaches.index') }}" class="btn custom-btn">
             🔙 Torna agli allenatori
         </a>
@@ -62,6 +62,7 @@
             height: 500px;
             padding: 20px;
             overflow: hidden;
+            margin-top: 140px;
         }
 
         .custom-card:hover {
