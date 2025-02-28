@@ -99,7 +99,7 @@ class TeamSeeder extends Seeder
                 'url_logo' => 'https://img.legaseriea.it/vimages/62cfd69d/atalanta.png?webp&q=70&size=-x39',
                 'stadium_url' => 'https://img.legaseriea.it/vimages/6720e7c4/GewissStadium_0009.JPG',
                 'home_kit' => '1atalanta.png',
-                'away_kit' => ' 2atalanta.png',
+                'away_kit' => '2atalanta.png',
                 'third_kit' => '3atalanta.png',
                 'gk_home_kit' => '',
                 'gk_away_kit' => ''
