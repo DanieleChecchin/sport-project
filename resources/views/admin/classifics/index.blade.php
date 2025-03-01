@@ -88,7 +88,7 @@
         }
 
         .table thead th {
-            background: #007bff;
+            background: #14162E;
             color: white;
             cursor: pointer;
             transition: background 0.3s ease;

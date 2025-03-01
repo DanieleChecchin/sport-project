@@ -38,7 +38,7 @@
             @endif
         </div>
         <div class="mt-4 d-flex justify-content-center">
-            <a href="{{ route('admin.players.index') }}" class="btn custom-btn">
+            <a href="{{ route('admin.players.index') }}" class="btn custom-btn text-white">
                 🔙 Torna ai giocatori
             </a>
         </div>
@@ -137,7 +137,6 @@
         /* Pulsante con effetto hover */
         .custom-btn {
             background: #28a745;
-            color: white;
             padding: 10px 20px;
             border-radius: 30px;
             font-size: 16px;

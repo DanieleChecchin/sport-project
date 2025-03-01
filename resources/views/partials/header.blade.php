@@ -35,7 +35,7 @@
                 </ul>
 
                 <!-- Login/Register/Logout -->
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto d-none">
                     @guest
                         @if (Route::has('login'))
                             <li class="nav-item">
