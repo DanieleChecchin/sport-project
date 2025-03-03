@@ -108,7 +108,7 @@ class CoachSeeder extends Seeder
                 'description' => 'Nato a São Bernardo do Campo il 28 agosto 1982, ex centrocampista e ora tecnico della Juventus. Ha riportato il Bologna in Champions dopo 60 anni.',
                 'img' => 'https://media.gettyimages.com/id/2187742381/it/foto/lecce-italy-head-coach-of-juventus-thiago-motta-looks-on-during-the-serie-a-match-between.jpg?s=612x612&w=0&k=20&c=mBqF9hH71jBM-Ep2QCZ4FFz19QZgwbD4O_CNXAIHUbU=',
                 'team' => 'Juventus',
-                'team_logo' => 'https://img.legaseriea.it/vimages/62cfda28/colore=BLACK.png?webp&q=70&size=172.5x-'
+                'team_logo' => 'https://content-s3.tuttocampo.it/Teams/Original/1009564.png?v=1'
             ],
             [
                 'first_name' => 'Marco',

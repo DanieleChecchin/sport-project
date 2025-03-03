@@ -6,16 +6,17 @@
 
             @if (isset($player))
                 <!-- Card Giocatore Orizzontale -->
-                <div class="card shadow-lg p-6 custom-card animate-slide-in d-flex flex-row align-items-center text-white">
+                <div
+                    class="card shadow-lg p-6 custom-card animate-slide-in d-flex flex-row align-items-center text-white overflow-hidden">
                     <!-- Immagine del giocatore -->
                     <div class="player-img-container me-4">
-                        <img src="{{ $player->img }}" alt="{{ $player->first_name }}" class="player-image">
+                        <img src="{{ $player->img }}" alt="{{ $player->first_name }}" class="player-image object-fit-cover">
                     </div>
 
                     <!-- Dettagli del giocatore -->
                     <div class="player-details">
                         <h2 class=" fw-bold">{{ $player->first_name }} {{ $player->last_name }}</h2>
-                        <hr class="custom-hr">
+                        <hr class="custom-hr w-50">
                         <p><strong>🏅 Ruolo:</strong> {{ $player->role }}</p>
                         <p><strong>🛡 Squadra:</strong> {{ $player->team->name }}</p>
                         {{-- <p class="fw-bold"> {{ $player->number }}</p> --}}
@@ -38,7 +39,7 @@
             @endif
         </div>
         <div class="mt-4 d-flex justify-content-center">
-            <a href="{{ route('admin.players.index') }}" class="btn custom-btn text-white">
+            <a href="{{ route('admin.players.index') }}" class="btn custom-btn text-white d-inline fw-bold">
                 🔙 Torna ai giocatori
             </a>
         </div>
@@ -52,7 +53,6 @@
 
         .num-retro {
             font-size: 80px;
-            position: absolute;
             transform: translate(-50%, -50%);
             top: 30%;
             left: 50%;
@@ -91,10 +91,7 @@
             border: 1px solid rgba(255, 255, 255, 0.2);
             width: 70%;
             height: 500px;
-            display: flex;
-            align-items: center;
             padding: 0 20px;
-            overflow: hidden;
         }
 
         .custom-card:hover {
@@ -111,7 +108,6 @@
         .player-image {
             width: 300px;
             height: 300px;
-            object-fit: cover;
             border-radius: 50%;
             border: 4px solid #28a745;
             box-shadow: 0px 0px 15px rgba(40, 167, 69, 0.7);
@@ -129,7 +125,6 @@
 
         /* Separatore personalizzato */
         .custom-hr {
-            width: 50%;
             border: 2px solid #28a745;
             opacity: 0.7;
         }
@@ -140,10 +135,8 @@
             padding: 10px 20px;
             border-radius: 30px;
             font-size: 16px;
-            font-weight: bold;
             text-decoration: none;
             transition: all 0.3s ease;
-            display: inline-block;
         }
 
         .custom-btn:hover {
