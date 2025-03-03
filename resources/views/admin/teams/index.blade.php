@@ -9,14 +9,14 @@
                         <div class="m-5 border-0 rounded-3 overflow-hidden fade-in py-3">
                             <a href="{{ route('admin.teams.show', $team->id) }}">
                                 <img src="{{ asset('/storage/' . $team->team_logo) }}"
-                                    class="card-img-top img-fluid team-logo" alt="{{ $team->name }}">
+                                    class="card-img-top img-fluid team-logo object-fit-contain" alt="{{ $team->name }}">
                             </a>
                         </div>
                     </div>
                 @endforeach
             </div>
-            <div class="video-background">
-                <div id="player"></div>
+            <div class="video-background overflow-hidden">
+                <div id="player" class="position-absolute"></div>
             </div>
         </section>
     </div>
@@ -33,14 +33,12 @@
 
         .team-logo {
             height: 100px;
-            object-fit: contain;
             transition: transform 0.3s ease-in-out;
         }
 
         .team-logo:hover {
             transform: scale(1.1);
         }
-
 
         .fade-in {
             opacity: 0;
@@ -55,13 +53,11 @@
             left: 0;
             width: 100vw;
             height: 100vh;
-            overflow: hidden;
             z-index: -1;
         }
 
         /* Impostazioni per il video */
         #player {
-            position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
