@@ -55,6 +55,7 @@
     </div>
 
     <style>
+    
         .custom-btn {
             background: #0F1027;
             padding: 10px 20px;
@@ -83,10 +84,20 @@
             background-size: cover;
             background-position: center;
             min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 55px;
+        }
+
+/* Contenitore principale */
+        .container {
+            width: 100%;
+            max-width: 1200px;
         }
 
         .team-logo {
-            width: 220px;
+            width: 120px;
             border-radius: 10px;
             transition: transform 0.3s ease-in-out;
         }
@@ -97,7 +108,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
+            height: 114%;
             background: rgba(0, 0, 0, 0.5);
             z-index: 0;
         }
@@ -118,5 +129,67 @@
             height: auto;
             border-radius: 10px;
         }
+
+
+    @media (max-width: 992px) {
+    .d-flex.align-items-center {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-logo {
+        margin-bottom: 20px;
+    }
+
+    .team-info {
+        text-align: center;
+    }
+
+    .d-flex.justify-content-center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kit-img {
+        max-width: 140px;
+    }
+}
+
+    .team-card {        
+        position: relative;
+        top: 40px;
+        left: 0;
+    }
+
+    
+
+    @media (max-width: 576px) {
+        body::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 251%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 0;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+        }
+
+        ul.ciao li {
+            font-size: 0.9rem;
+        }
+
+        .kit-img {
+            max-width: 120px;
+        }
+    }
     </style>
 @endsection

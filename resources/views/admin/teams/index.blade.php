@@ -5,8 +5,8 @@
         <section class="mb-5">
             <div class="row">
                 @foreach ($teams as $team)
-                    <div class="col-md-3">
-                        <div class="m-5 border-0 rounded-3 overflow-hidden fade-in py-3">
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="m-3 border-0 rounded-3 overflow-hidden fade-in py-3">
                             <a href="{{ route('admin.teams.show', $team->id) }}">
                                 <img src="{{ asset('/storage/' . $team->team_logo) }}"
                                     class="card-img-top img-fluid team-logo object-fit-contain" alt="{{ $team->name }}">
@@ -46,7 +46,7 @@
             transition: opacity 0.6s ease-out, transform 0.6s ease-out;
         }
 
-        /* Contenitore del video  */
+        /* Contenitore del video */
         .video-background {
             position: fixed;
             top: 0;
@@ -61,14 +61,31 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 177.78vh;
-            /* Altezza adattata per il formato 16:9 */
-            height: 100vh;
+            width: 100%;
+            height: 100%;
             min-width: 100vw;
-            min-height: 56.25vw;
-            /* Larghezza adattata per il formato 16:9 */
+            min-height: 56.25vw; 
             pointer-events: none;
-            /* Evita interazioni col video */
+        }
+
+        @media (max-width: 768px) {
+            #player {
+            width: 410vw; 
+            height: 450.5vw; 
+            }
+        }
+    
+
+        @media (max-width: 768px) {
+            .team-logo {
+                height: 100px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .team-logo {
+                height: 80px;
+            }
         }
     </style>
 
@@ -85,8 +102,6 @@
             });
         });
 
-        // ------------------------------------------
-
         let tag = document.createElement('script');
         tag.src = "https://www.youtube.com/iframe_api";
         let firstScriptTag = document.getElementsByTagName('script')[0];
@@ -96,31 +111,29 @@
 
         function onYouTubeIframeAPIReady() {
             player = new YT.Player('player', {
-                videoId: 'LqPnNSIQfLQ', // ID del video YouTube
+                videoId: 'LqPnNSIQfLQ',
                 playerVars: {
-                    autoplay: 1, // Auto avvia
-                    loop: 1, // Loop infinito
-                    playlist: 'LqPnNSIQfLQ', // Necessario per il loop
-                    mute: 1, // Muto
-                    controls: 0, // Nasconde i controlli
-                    showinfo: 0, // Nasconde info video
-                    modestbranding: 1, // Rimuove il logo YouTube
-                    fs: 0, // Disabilita fullscreen
-                    rel: 0, // Non mostra video correlati
-                    disablekb: 1, // Disabilita controlli da tastiera
-                    vq: 'hd1080', // Forza la qualità in Full HD
-                    cc_load_policy: 0, // Disabilita i sottotitoli
-                    iv_load_policy: 3 // Disabilita le annotazioni
+                    autoplay: 1,
+                    loop: 1,
+                    playlist: 'LqPnNSIQfLQ',
+                    mute: 1,
+                    controls: 0,
+                    showinfo: 0,
+                    modestbranding: 1,
+                    fs: 0,
+                    rel: 0,
+                    disablekb: 1,
+                    vq: 'hd1080',
+                    cc_load_policy: 0,
+                    iv_load_policy: 3
                 },
                 events: {
                     onReady: function(event) {
                         event.target.playVideo();
-                        event.target.unloadModule("captions"); // Tenta di disattivare manualmente i sottotitoli
-                        event.target.setOption("captions", "track", {}); // Forza la rimozione dei sottotitoli
                     },
                     onStateChange: function(event) {
                         if (event.data === YT.PlayerState.ENDED) {
-                            event.target.seekTo(0); // Riavvia il video dall'inizio senza interruzioni
+                            event.target.seekTo(0);
                         }
                     }
                 }
