@@ -3,16 +3,16 @@
 @section('content')
     <div class="container mt-5 d-flex justify-content-center align-items-center">
         <!-- Card Allenatore in stile moderno -->
-        <div class="card shadow-lg p-4 custom-card d-flex align-items-center flex-row animate-flip-in">
+        <div class="card shadow-lg p-4 custom-card d-flex align-items-center flex-row animate-flip-in overflow-hidden">
             <!-- Immagine dell'allenatore -->
             <div class="image-container">
-                <img src="{{ asset($coach->img) }}" alt="{{ $coach->first_name }}" class="coach-image">
+                <img src="{{ asset($coach->img) }}" alt="{{ $coach->first_name }}" class="coach-image object-fit-cover">
             </div>
 
             <!-- Informazioni Allenatore -->
-            <div class="coach-details ms-4 text-w">
+            <div class="coach-details ms-4 flex-grow-1">
                 <h2 class="text-warning fw-bold">{{ $coach->first_name }} {{ $coach->last_name }}</h2>
-                <hr class="custom-hr">
+                <hr class="custom-hr w-50">
                 <p class="text-white"><strong>🌍 Nazionalità:</strong> {{ $coach->nationality }}</p>
                 <p class="text-white"><strong>🏆 Trofei vinti:</strong> {{ $coach->trophies }}</p>
                 <p class="text-white"><strong>📜 Descrizione:</strong></p>
@@ -25,7 +25,8 @@
 
     <!-- Pulsante di ritorno -->
     <div class="mt-4 d-flex justify-content-center">
-        <a href="{{ route('admin.coaches.index') }}" class="btn custom-btn">
+        <a href="{{ route('admin.coaches.index') }}"
+            class="btn custom-btn color-black fw-bold position-relative overflow-hidden d-inline">
             🔙 Torna agli allenatori
         </a>
     </div>
@@ -61,7 +62,6 @@
             width: 70%;
             height: 500px;
             padding: 20px;
-            overflow: hidden;
             margin-top: 140px;
         }
 
@@ -74,7 +74,6 @@
         .coach-image {
             width: 250px;
             height: 250px;
-            object-fit: cover;
             border-radius: 50%;
             border: 4px solid #ffc107;
             box-shadow: 0px 0px 15px rgba(255, 193, 7, 0.7);
@@ -86,15 +85,8 @@
             transform: rotateY(10deg) scale(1.05);
         }
 
-        /* Dettagli allenatore */
-        .coach-details {
-            flex-grow: 1;
-            text-align: left;
-        }
-
         /* Separatore */
         .custom-hr {
-            width: 50%;
             border: 2px solid #ffc107;
             opacity: 0.8;
         }
@@ -106,23 +98,17 @@
             border-left: 5px solid #ffc107;
             font-style: italic;
             border-radius: 5px;
-            text-align: justify;
             font-size: 1.1em;
         }
 
         /* Pulsante moderno */
         .custom-btn {
             background: linear-gradient(135deg, #ffc107 0%, #ff9800 100%);
-            color: black;
             padding: 12px 25px;
             border-radius: 30px;
             font-size: 18px;
-            font-weight: bold;
             text-decoration: none;
             transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-            display: inline-block;
             box-shadow: 0px 5px 10px rgba(255, 193, 7, 0.5);
         }
 
