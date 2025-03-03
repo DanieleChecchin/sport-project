@@ -1,26 +1,33 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="container mt-5 d-flex justify-content-center align-items-center">
+    <div class="container mt-5">
         <!-- Card Allenatore in stile moderno -->
-        <div class="card shadow-lg p-4 custom-card d-flex align-items-center flex-row animate-flip-in overflow-hidden">
-            <!-- Immagine dell'allenatore -->
-            <div class="image-container">
-                <img src="{{ asset($coach->img) }}" alt="{{ $coach->first_name }}" class="coach-image object-fit-cover">
-            </div>
+        <div class="row justify-content-center">
+            {{-- <div class="col-12 col-md-12 d-flex justify-content-center align-items-center"> --}}
+            <div
+                class="card shadow-lg p-4 custom-card d-flex align-items-center flex-row animate-flip-in overflow-hidden justify-content-center col-12 col-md-8">
+                <!-- Immagine dell'allenatore -->
+                <div class="image-container">
+                    <img src="{{ asset($coach->img) }}" alt="{{ $coach->first_name }}" class="coach-image object-fit-cover">
+                </div>
 
-            <!-- Informazioni Allenatore -->
-            <div class="coach-details ms-4 flex-grow-1">
-                <h2 class="text-warning fw-bold">{{ $coach->first_name }} {{ $coach->last_name }}</h2>
-                <hr class="custom-hr w-50">
-                <p class="text-white"><strong>🌍 Nazionalità:</strong> {{ $coach->nationality }}</p>
-                <p class="text-white"><strong>🏆 Trofei vinti:</strong> {{ $coach->trophies }}</p>
-                <p class="text-white"><strong>📜 Descrizione:</strong></p>
-                <p class="coach-description typing-effect">{{ $coach->description }}</p>
+                <!-- Informazioni Allenatore -->
+                <div class="coach-details ms-4 flex-grow-1">
+                    <h2 class="text-warning fw-bold">{{ $coach->first_name }} {{ $coach->last_name }}</h2>
+                    <hr class="custom-hr w-50">
+                    <p class="text-white"><strong>🌍 Nazionalità:</strong> {{ $coach->nationality }}</p>
+                    <p class="text-white"><strong>🏆 Trofei vinti:</strong> {{ $coach->trophies }}</p>
+                    <p class="text-white"><strong>📜 Descrizione:</strong></p>
+                    <p class="coach-description typing-effect">{{ $coach->description }}</p>
 
 
+                </div>
             </div>
         </div>
+
+    </div>
+
     </div>
 
     <!-- Pulsante di ritorno -->

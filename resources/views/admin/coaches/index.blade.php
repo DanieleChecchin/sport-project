@@ -14,9 +14,9 @@
 
         <!-- Sezione Allenatori -->
         <section class="mb-5">
-            <div class="row d-flex justify-content-center" id="coachesList">
+            <div class="row" id="coachesList">
                 @foreach ($coaches as $coach)
-                    <div class="col-md-6 col-lg-4 col-xl-3 col-sm-6 col-12 d-flex justify-content-center"
+                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 d-flex justify-content-center"
                         data-name="{{ strtolower($coach->first_name . ' ' . $coach->last_name) }}">
                         <div class="card mb-5 shadow-lg  animate-card d-flex align-items-center overflow-hidden">
                             <div class="card-img-top coach-image-container overflow-hidden m-auto">
