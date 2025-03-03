@@ -11,7 +11,7 @@ class ClassificSeeder extends Seeder
     public function run()
     {
         $classifics = [
-            ['team_name' => 'Napoli', 'image' => 'napoli.png', 'points' => 56, 'played' => 25, 'wins' => 17, 'draws' => 5, 'losses' => 3, 'goals_for' => 50, 'goals_against' => 20, 'goal_difference' => 30],
+            ['team_name' => 'Napoli', 'image' => 'napoli-logo.png', 'points' => 56, 'played' => 25, 'wins' => 17, 'draws' => 5, 'losses' => 3, 'goals_for' => 50, 'goals_against' => 20, 'goal_difference' => 30],
             ['team_name' => 'Inter', 'image' => 'inter.webp', 'points' => 57, 'played' => 25, 'wins' => 17, 'draws' => 3, 'losses' => 5, 'goals_for' => 48, 'goals_against' => 22, 'goal_difference' => 26],
             ['team_name' => 'Atalanta', 'image' => 'atalanta.webp', 'points' => 54, 'played' => 25, 'wins' => 15, 'draws' => 5, 'losses' => 5, 'goals_for' => 45, 'goals_against' => 25, 'goal_difference' => 20],
             ['team_name' => 'Juventus', 'image' => 'juve.png', 'points' => 49, 'played' => 25, 'wins' => 14, 'draws' => 6, 'losses' => 5, 'goals_for' => 40, 'goals_against' => 22, 'goal_difference' => 18],

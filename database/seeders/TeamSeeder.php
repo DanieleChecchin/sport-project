@@ -12,6 +12,8 @@ class TeamSeeder extends Seeder
      * Run the database seeds.
      */
     public function run(): void
+
+    // 'https://img.legaseriea.it/vimages/62cfda28/colore=BLACK.png?webp&q=70&size=-x180',
     {
         $teams = [
             [
@@ -24,7 +26,7 @@ class TeamSeeder extends Seeder
                 'city' => 'Torino',
                 'main_sponsor' => 'Save the Children',
                 'team_logo' => 'juve.png',
-                'url_logo' => 'https://img.legaseriea.it/vimages/62cfda28/colore=BLACK.png?webp&q=70&size=-x180',
+                'url_logo' => 'https://content-s3.tuttocampo.it/Teams/Original/1009564.png?v=1S',
                 'stadium_url' => 'https://www.seatsza.com/wp-content/uploads/2023/07/allianz-stadium-scaled.jpeg',
                 'home_kit' => '1juve.png',
                 'away_kit' => '2juve.png',
@@ -77,8 +79,8 @@ class TeamSeeder extends Seeder
                 'palmares' => 14,
                 'city' => 'Napoli',
                 'main_sponsor' => 'MSC Crociere',
-                'team_logo' => 'napoli.png',
-                'url_logo' => 'https://img.legaseriea.it/vimages/6681d23a/Napoli.png?webp&q=70&size=-x180',
+                'team_logo' => 'napoli-logo.png',
+                'url_logo' => 'https://images.seeklogo.com/logo-png/55/2/ssc-napoli-logo-png_seeklogo-550076.png',
                 'stadium_url' => 'https://upload.wikimedia.org/wikipedia/commons/7/71/Stadio_Maradona_Serie_A.jpg',
                 'home_kit' => '1napoli.png',
                 'away_kit' => '2napoli.png',
