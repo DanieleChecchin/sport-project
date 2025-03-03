@@ -43,11 +43,12 @@
                 </tbody>
             </table>
             <!-- Legenda colori -->
-            <div class="legend mt-4 text-white fw-fold text-center table table-dark table-hover shadow-lg text-center">
+            <div
+                class="legend mt-4 text-white fw-fold text-center table table-dark table-hover shadow-lg text-center d-flex justify-content-center pb-0 flex-wrap">
                 <p><span class="legend-box champions"></span> Champions League</p>
                 <p><span class="legend-box europa"></span> Europa League</p>
                 <p><span class="legend-box conference"></span> Conference League</p>
-                <p><span class="legend-box retrocesse"></span> Retrocessione in Serie B</p>
+                <p><span class="legend-box retrocesse bg-danger"></span> Retrocessione in Serie B</p>
             </div>
         </div>
 
@@ -71,12 +72,6 @@
             z-index: -1;
         }
 
-        h2 {
-            font-size: 2rem;
-            font-weight: bold;
-            text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.2);
-        }
-
         .table {
             border-radius: 12px;
             overflow: hidden;
@@ -89,7 +84,6 @@
 
         .table thead th {
             background: #14162E;
-            color: white;
             cursor: pointer;
             transition: background 0.3s ease;
         }
@@ -140,19 +134,10 @@
             background-color: rgba(0, 255, 170, 0.3);
         }
 
-        .retrocesse {
-            background-color: red;
-        }
-
-
         .legend {
-            display: flex;
-            justify-content: center;
             gap: 50px;
             padding: 7px;
-            padding-bottom: 0px;
             padding-top: 15px;
-            flex-wrap: wrap;
             font-size: 1rem;
             background-color: #212529;
         }
