@@ -68,7 +68,7 @@
         }
 
         body {
-            background: url('https://www.juventus.com/images/image/private/t_editorial_landscape_12_desktop/dev/v9q9wjyz2fazuf8dlegf.jpg') no-repeat center center fixed;
+            background: url('https://wips.plug.it/cips/sport.virgilio.it/cms/2022/12/gettyimages-1446742528.jpg') no-repeat center center fixed;
             background-size: cover;
             position: relative;
         }
@@ -100,13 +100,13 @@
 
         /* 👕 Card Giocatori */
         /* .player-card {
-                        border: 1px solid black;
-                        border-radius: 15px;
-                        background: white;
-                        transition: all 0.3s ease-in-out;
-                        position: relative;
-                        overflow: hidden;
-                    } */
+                            border: 1px solid black;
+                            border-radius: 15px;
+                            background: white;
+                            transition: all 0.3s ease-in-out;
+                            position: relative;
+                            overflow: hidden;
+                        } */
 
         .nome-fig {
             width: 100%;
