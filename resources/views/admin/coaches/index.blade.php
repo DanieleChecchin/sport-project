@@ -5,7 +5,7 @@
 
         <!-- SearchBar con live search -->
         <div class="d-flex justify-content-center nav-bar-mt ">
-            <form action="{{ route('admin.coaches.index') }}" method="GET" class="d-flex search-bar" id="searchForm">
+            <form action="{{ route('admin.coaches.index') }}" method="GET" class="d-flex search-bar w-100" id="searchForm">
                 <input type="text" name="search" id="searchInput" class="form-control me-2 rounded-pill shadow-sm"
                     placeholder="Cerca allenatore" aria-label="Search">
                 <button type="submit" class="btn btn-primary rounded-pill px-4">🔍 Cerca</button>
@@ -18,9 +18,10 @@
                 @foreach ($coaches as $coach)
                     <div class="col-md-4 col-lg-3"
                         data-name="{{ strtolower($coach->first_name . ' ' . $coach->last_name) }}">
-                        <div class="card mb-5 shadow-lg  animate-card">
-                            <div class="card-img-top coach-image-container">
-                                <img src="{{ $coach->img }}" class="img-fluid coach-img" alt="{{ $coach->first_name }}">
+                        <div class="card mb-5 shadow-lg  animate-card d-flex align-items-center overflow-hidden">
+                            <div class="card-img-top coach-image-container overflow-hidden m-auto">
+                                <img src="{{ $coach->img }}" class="img-fluid coach-img w-100 h-100 object-fit-cover"
+                                    alt="{{ $coach->first_name }}">
                             </div>
                             <div class="card-body text-center pb-0">
                                 <h5 class="card-title fw-bold text-white mb-3">{{ $coach->first_name }}
@@ -36,7 +37,8 @@
                                     class="img-fluid nation-logo border-nat-logo" alt="{{ $coach->nationality }}"
                                     style="width: 35px; height: auto;">
                                 <a href="{{ route('admin.coaches.show', $coach->id) }}"
-                                    class="btn btn-outline-warning rounded-pill px-4 mt-3">📖 Scopri di più</a>
+                                    class="btn btn-outline-warning rounded-pill px-4 mt-3 position-relative overflow-hidden">📖
+                                    Scopri di più</a>
                             </div>
                         </div>
                     </div>
@@ -83,12 +85,8 @@
             background: rgba(0, 0, 0, 0.6);
         }
 
-
-
-
         .search-bar {
             max-width: 600px;
-            width: 100%;
         }
 
         .search-bar input {
@@ -121,10 +119,7 @@
             border: 1px solid rgba(255, 255, 255, 0.2);
             width: 280px;
             height: 350px;
-            display: flex;
-            align-items: center;
             padding: 20px;
-            overflow: hidden;
             backdrop-filter: blur(4px);
         }
 
@@ -138,24 +133,13 @@
         .coach-image-container {
             width: 140px;
             height: 140px;
-            margin: auto;
-            overflow: hidden;
             border-radius: 50%;
             border: 3px solid #ffc107;
-
-        }
-
-        .coach-img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
         }
 
         /* Bottone Scopri di più */
         .btn-outline-warning {
             transition: all 0.3s ease-in-out;
-            position: relative;
-            overflow: hidden;
         }
 
         .btn-outline-warning:hover {
