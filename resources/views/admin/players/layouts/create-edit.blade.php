@@ -116,8 +116,8 @@
                         @endforeach
                     </div>
 
-                    <button type="submit" class="btn btn-lg btn-primary">@yield('form-title')</button>
-                    <button type="reset" class="btn btn-lg btn-warning">Reset fields</button>
+                    <button type="submit" class="btn btn-lg btn-primary mb-5">@yield('form-title')</button>
+                    <button type="reset" class="btn btn-lg btn-warning mb-5">Reset fields</button>
                 </form>
             </div>
         </div>
