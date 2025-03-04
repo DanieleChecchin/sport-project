@@ -165,6 +165,43 @@
         .retrocesse .legend-box {
             background-color: rgba(255, 0, 0, 1);
         }
+
+         
+         @media (max-width: 768px) {
+            .table th, .table td {
+                font-size: 0.8rem;
+                padding: 8px;
+            }
+
+            .table th:nth-child(2), .table td:nth-child(2) {
+                white-space: nowrap;
+                max-width: 100px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .team-logo {
+                width: 15px;
+                height: 15px;
+            }
+
+            .legend {
+                font-size: 0.8rem;
+                gap: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .table th, .table td {
+                font-size: 0.7rem;
+                padding: 5px;
+            }
+
+            .team-logo {
+                width: 12px;
+                height: 12px;
+            }
+        }
     </style>
 
     <script>

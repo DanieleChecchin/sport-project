@@ -7,6 +7,7 @@ use App\Models\Shirt;
 use Illuminate\Http\Request;
 use App\Models\Player;
 use App\Models\Team;
+use App\Models\Coach;
 
 class PlayerController extends Controller
 {
@@ -41,7 +42,10 @@ class PlayerController extends Controller
     public function create()
     {
         $player = new Player();
-        return view("admin.players.create", compact("player"));
+        $coaches = Coach::all();
+        $teams = Team::all();
+        $shirts = Shirt::all();
+        return view("admin.players.create", compact("player", 'coaches', 'teams', 'shirts'));
     }
 
     /**
@@ -90,8 +94,9 @@ class PlayerController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(Player $player)
     {
-        //
+        $player->delete();
+        return redirect()->route("admin.players.index");
     }
 }

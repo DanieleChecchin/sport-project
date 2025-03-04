@@ -10,8 +10,12 @@
                 <input type="text" name="search" class="form-control me-2 rounded-pill shadow-sm"
                     placeholder="Cerca squadra o giocatore..." aria-label="Search">
                 <button type="submit" class="btn btn-primary rounded-pill px-4">🔍 Cerca</button>
+                {{-- <a href=" {{ route('admin.players.create') }} " class="btn btn-primary rounded-pill px-4">Aggiungi un
+                    giocatore</a> --}}
             </form>
         </div>
+
+
 
         <!-- 🏆 Sezione Giocatori -->
         <section class="mb-5">
