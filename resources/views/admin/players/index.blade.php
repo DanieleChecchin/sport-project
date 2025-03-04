@@ -19,14 +19,12 @@
 
         <!-- 🏆 Sezione Giocatori -->
         <section class="mb-5">
-            {{-- <h2 class="text-success mb-4 text-center">👕 Giocatori di Serie A</h2> --}}
             <div class="row">
                 @foreach ($players as $player)
                     <div class="col-md-4 col-lg-3">
                         <a href="{{ route('admin.players.show', $player->id) }}">
                             <div
                                 class=" custom-card mb-4 player-card shadow-sm position-relative text-center d-flex align-items-center overflow-hidden">
-                                {{-- <div class=" position-relative text-center"> --}}
 
                                 <img class="img-fluid player-img object-fit-cover w-100" src="{{ $player->img }}"
                                     alt="{{ $player->first_name }}">
@@ -40,7 +38,6 @@
                                 <img src="{{ $player->team->url_logo }}"
                                     class="card-img-top icona-logo img-fluid team-logo position-absolute object-fit-contain"
                                     alt="{{ $player->team->name }}">
-                                {{-- </div> --}}
                             </div>
                         </a>
                     </div>
