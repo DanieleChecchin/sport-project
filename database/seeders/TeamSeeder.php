@@ -79,7 +79,7 @@ class TeamSeeder extends Seeder
                 'palmares' => 14,
                 'city' => 'Napoli',
                 'main_sponsor' => 'MSC Crociere',
-                'team_logo' => 'napoli-logo.png',
+                'team_logo' => 'napoli.png',
                 'url_logo' => 'https://images.seeklogo.com/logo-png/55/2/ssc-napoli-logo-png_seeklogo-550076.png',
                 'stadium_url' => 'https://upload.wikimedia.org/wikipedia/commons/7/71/Stadio_Maradona_Serie_A.jpg',
                 'home_kit' => '1napoli.png',
